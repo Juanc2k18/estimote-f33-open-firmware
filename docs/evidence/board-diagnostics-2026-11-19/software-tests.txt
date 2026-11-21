@@ -1,0 +1,53 @@
+test_active_cleanup_after_failure_keeps_irq_input (test_board_diagnostics.BoardTests) ... ok
+test_baseline_reads_gpio_without_writing_or_halting (test_board_diagnostics.BoardTests) ... ok
+test_cleanup_also_runs_when_preparation_fails (test_board_diagnostics.BoardTests) ... ok
+test_deadline_expires_as_incomplete (test_board_diagnostics.BoardTests) ... ok
+test_pin_selection_rejects_reserved_and_duplicates (test_board_diagnostics.BoardTests) ... ok
+test_uart_audit_detects_false_positive (test_board_diagnostics.BoardTests) ... ok
+test_rtc_bcd_and_rollover (test_board_diagnostics.ClassificationTests) ... ok
+test_rtc_stopped_and_invalid_not_identified (test_board_diagnostics.ClassificationTests) ... ok
+test_sensor_ids_require_repeated_matching_reads (test_board_diagnostics.ClassificationTests) ... ok
+test_failed_reset_leaves_ram_core_halted (test_board_diagnostics.FinalBoundaryTests) ... ok
+test_register_bus_fault_propagates_incomplete (test_board_diagnostics.FinalBoundaryTests) ... ok
+test_nack_at_each_stage_returns_no_data (test_board_diagnostics.RegisterTests) ... ok
+test_register_repeated_start_and_final_nack (test_board_diagnostics.RegisterTests) ... ok
+test_stuck_bus_not_reported_as_nack (test_board_diagnostics.RegisterTests) ... ok
+test_adjacent_devices_can_reach_identification (test_board_diagnostics.ReviewRegressions) ... I2C 1/1 SDA2/SCL8: ACK ['0x18', '0x19']
+ok
+test_audit_rejects_empty_bad_tx_bad_ack_field_and_sequence_jump (test_board_diagnostics.ReviewRegressions) ... ok
+test_baseline_disconnect_does_not_force_resume (test_board_diagnostics.ReviewRegressions) ... ok
+test_cleanup_reset_attempted_even_if_hash_read_fails (test_board_diagnostics.ReviewRegressions) ... ok
+test_disconnected_input_is_not_a_physical_low (test_board_diagnostics.ReviewRegressions) ... ok
+test_gpio_records_neighbor_changes_during_od (test_board_diagnostics.ReviewRegressions) ... ok
+test_i2c_fault_is_not_a_complete_pair (test_board_diagnostics.ReviewRegressions) ... ok
+test_rtc_control_bits_are_not_bcd_or_reserved (test_board_diagnostics.ReviewRegressions) ... ok
+test_slow_rtc_transactions_use_observation_window (test_board_diagnostics.ReviewRegressions) ... ok
+test_spi_checks_mosi_before_command_clock (test_board_diagnostics.ReviewRegressions) ... ok
+test_spi_reads_id_in_both_modes (test_board_diagnostics.SPITests) ... ok
+test_stuck_clock_is_electrical_failure_not_zero_id (test_board_diagnostics.SPITests) ... ok
+test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok
+test_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok
+test_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok
+test_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok
+test_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok
+test_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok
+test_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok
+test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) ... ok
+test_echo_is_not_ack (test_dfu_ping.CLITests) ... ok
+test_echo_then_ack (test_dfu_ping.CLITests) ... ok
+test_fragmented_ack (test_dfu_ping.CLITests) ... ok
+test_r15_ack_and_request (test_dfu_ping.CLITests) ... ok
+test_fragment_escape_and_bounded_overflow (test_dfu_ping.DecoderTests) ... ok
+test_ack_remains_confirmed_when_peer_disconnects (test_dfu_ping.ReviewRegressionTests) ... ok
+test_zero_baud_rejected_before_port_open (test_dfu_ping.ReviewRegressionTests) ... ok
+test_ctrl_c_flushes_inflight_attempt (test_dfu_ping.WatchTests) ... ok
+test_disconnect_and_reappearance_selected_path (test_dfu_ping.WatchTests) ... ok
+test_lost_ack_retries_same_sequence (test_dfu_ping.WatchTests) ... ok
+test_missing_port_and_bad_arguments (test_dfu_ping.WatchTests) ... ok
+test_previous_session_resynchronizes_without_counting_ack (test_dfu_ping.WatchTests) ... ok
+test_wrap_duplicates_and_log_summary (test_dfu_ping.WatchTests) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 12.286s
+
+OK

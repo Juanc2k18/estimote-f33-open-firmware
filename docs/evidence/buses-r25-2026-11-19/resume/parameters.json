@@ -1,0 +1,26 @@
+{
+  "python": "3.10.14",
+  "pyocd": "0.46.1",
+  "swd_hz": 100000,
+  "matrix_pins": 29,
+  "excluded": [
+    0,
+    1,
+    21
+  ],
+  "UART": "E1/E2 removed, owner report",
+  "supply": "last reported setting 6 V H/F, C unpowered, G free; supply unchanged",
+  "i2c_targets": [
+    "0x18",
+    "0x19",
+    "0x76",
+    "0x77"
+  ],
+  "i2c_pullup_internal": true,
+  "i2c_other_gpio": "input without pull",
+  "radio": "deshabilitada",
+  "known_positive_control": false,
+  "code_version": "source/ copies and SHA256SUMS, repository without commits",
+  "adc_swd_hz": 4000000,
+  "recovery_swd_hz": 10000
+}

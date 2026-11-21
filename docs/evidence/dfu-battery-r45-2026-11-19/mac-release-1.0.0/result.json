@@ -1,0 +1,59 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "release 1.0.0 uploaded over BLE OTA",
+  "found": true,
+  "samples": 3,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 7,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.02,
+        0.024,
+        1.04
+      ],
+      "norm_g": 1.04
+    },
+    "magnet": {
+      "gauss": [
+        0.913,
+        0.632,
+        0.34
+      ],
+      "norm_gauss": 1.161
+    },
+    "baro": {
+      "temp_c": 27.51,
+      "pressure_hpa": 1005.62
+    },
+    "light": {
+      "lux": 101.52
+    },
+    "rtc_seconds": 16,
+    "adc": {
+      "vdd_v": 2.01,
+      "ain3_v": 1.005,
+      "battery_v_estimate": 5.976,
+      "battery_percent": 97
+    }
+  },
+  "firmware_revision": "1.0.0",
+  "battery_level": 97
+}

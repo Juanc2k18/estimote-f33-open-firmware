@@ -1,0 +1,17 @@
+test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) ... ok
+test_echo_is_not_ack (test_dfu_ping.CLITests) ... ok
+test_echo_then_ack (test_dfu_ping.CLITests) ... ok
+test_fragmented_ack (test_dfu_ping.CLITests) ... ok
+test_r15_ack_and_request (test_dfu_ping.CLITests) ... ok
+test_fragment_escape_and_bounded_overflow (test_dfu_ping.DecoderTests) ... ok
+test_ctrl_c_flushes_inflight_attempt (test_dfu_ping.WatchTests) ... ok
+test_disconnect_and_reappearance_selected_path (test_dfu_ping.WatchTests) ... ok
+test_lost_ack_retries_same_sequence (test_dfu_ping.WatchTests) ... ok
+test_missing_port_and_bad_arguments (test_dfu_ping.WatchTests) ... ok
+test_previous_session_resynchronizes_without_counting_ack (test_dfu_ping.WatchTests) ... ok
+test_wrap_duplicates_and_log_summary (test_dfu_ping.WatchTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 17.322s
+
+OK

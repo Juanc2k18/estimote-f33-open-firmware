@@ -1,0 +1,14 @@
+b24f9d9e1c35c5530f8bff3bdf16b0fc25431fe550415da095fa85fbe6e6a42c  ./README.md
+8cbfb99763f751bb2c1e431ebe1a6b02e2945087c83947d25ee1298e08eee269  ./flash.log
+da6ed3a1add9179d84f9a01d4eb4076cc350766cdcaf46d1580dddb5c4702411  ./mac-dfu-adadfu/advertisements.jsonl
+c327ca4d595dd898e8a6a057a9be28b2497481d9bf14b4e414e792292779745c  ./mac-dfu-adadfu/result.json
+61eab4f9c45e7e402c32568b51cda397788ab84dc780258cce206b24d17814db  ./mac-hairdryer/result.json
+45b7ee3d570fd0153a31570102332c3420b12ba4f53d43332a6dfd2ad1485a3d  ./mac-hairdryer/samples.jsonl
+7d7374a7b4355c98aead5390d753b09a875768780feba56c429bc8a5effb0b2e  ./mac-rest-b/result.json
+51bb701991a7d6a5d645a45d02661fae472dbd8e39074d9a3100f31ecfaa632e  ./mac-rest-b/samples.jsonl
+e01e4f5f294c14b8299ee04adc23d2c5d0f33e6b07963695bb40a178a6743f06  ./mac-rest/result.json
+b0d2f61420c877047511e9b4cff8290bf1fad68bb4b9945057ebe0a8dd2a98eb  ./mac-rest/samples.jsonl
+1b5e9f0c81105b80357ee7ea81c720efb0ac2770b613391fee83469d1908ba65  ./mac-stimuli/result.json
+df94a3fdf5f7be11186b491d09a7106593d25aa06b075c3de616825fa0a0071f  ./mac-stimuli/samples.jsonl
+b9b018667d9ecba01dc9a4a0d6c662e37d2dc01709134e11ad77af88e5b1efcc  ./swd-check-final.json
+5f3a3cdba896da8f746ae481706ea7538e51e2cc13ceb9b485482990f67e9e22  ./swd-check-r44a.json

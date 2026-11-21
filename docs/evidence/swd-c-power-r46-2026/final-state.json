@@ -1,0 +1,9 @@
+{
+  "operation": "SYSRESETREQ return to application after BLE DIS read",
+  "cpu_state": "State.RUNNING",
+  "count_before": 1,
+  "count_after": 2,
+  "valid_flags": "0x3f",
+  "packet_hex": "013f0200400088000c04ce03a4017701630bf5698901208401009e0cf00139",
+  "app_running": true
+}

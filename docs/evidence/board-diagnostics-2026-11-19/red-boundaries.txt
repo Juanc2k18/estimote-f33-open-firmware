@@ -1,0 +1,18 @@
+test_failed_reset_leaves_ram_core_halted (test_board_diagnostics.FinalBoundaryTests) ... ok
+test_register_bus_fault_propagates_incomplete (test_board_diagnostics.FinalBoundaryTests) ... FAIL
+
+======================================================================
+FAIL: test_register_bus_fault_propagates_incomplete (test_board_diagnostics.FinalBoundaryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 302, in test_register_bus_fault_propagates_incomplete
+    self.assertEqual(events[-1]['status'],'incomplete')
+AssertionError: 'unidentified' != 'incomplete'
+- unidentified
++ incomplete
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)

@@ -1,0 +1,19 @@
+{
+ "zip": "docs/evidence/dfu-battery-r45-2026-11-19/hex/r45-ota.zip",
+ "bin_len": 6856,
+ "bin_sha256": "4e8a64cc9bae75662e2a1168487c967d36102311babf4ab48db0539bc7f35823",
+ "flash_sha256": "4e8a64cc9bae75662e2a1168487c967d36102311babf4ab48db0539bc7f35823",
+ "match": true,
+ "first_diff": null,
+ "after_image_erased": true,
+ "settings_words": [
+  "0x00000001",
+  "0x000000ff",
+  "0x00001ac8",
+  "0x00000000",
+  "0x00000000",
+  "0x00000000",
+  "0x00000000",
+  "0xffffffff"
+ ]
+}

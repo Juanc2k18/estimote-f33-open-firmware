@@ -1,0 +1,64 @@
+{
+  "tool": "uart_sensores",
+  "port": "/dev/cu.usbmodem21102",
+  "samples": 37,
+  "events": [
+    {
+      "kind": "not_json",
+      "line": "{\"seq\":35,\"acc_mg\":[-4,336,980],{\"seq\":57,\"acc_mg\":[0,336,976],\"mag_mg\":[798,369,435],\"temp_cc\":3106,\"press_pa\":100596,\""
+    },
+    {
+      "kind": "sent",
+      "command": "ver"
+    },
+    {
+      "kind": "reply",
+      "reply": {
+        "ok": "ver",
+        "fw": "1.0.0"
+      }
+    },
+    {
+      "kind": "sent",
+      "command": "read"
+    },
+    {
+      "kind": "reply",
+      "reply": {
+        "ok": "read"
+      }
+    },
+    {
+      "kind": "sent",
+      "command": "int 0"
+    },
+    {
+      "kind": "reply",
+      "reply": {
+        "err": "range"
+      }
+    },
+    {
+      "kind": "sent",
+      "command": "int 5"
+    },
+    {
+      "kind": "reply",
+      "reply": {
+        "ok": "int",
+        "s": 5
+      }
+    },
+    {
+      "kind": "sent",
+      "command": "int 1"
+    },
+    {
+      "kind": "reply",
+      "reply": {
+        "ok": "int",
+        "s": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Originally planned commands; subsequently executed in this session. See flash-result.json.
+# Existing setup: C/F at 3.3 V, H/E3 disconnected; Pico GP2=A, GP3=B, GND=F.
+# Full chip erase and bootloader + SoftDevice + UICR installation; then restore app.
+pyocd flash -t nrf52832 -u E660C0D1C75C942F -f 1000000 -O auto_unlock=false -e chip firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r46.hex
+pyocd flash -t nrf52832 -u E660C0D1C75C942F -f 1000000 -O auto_unlock=false -e sector firmware/ble-sensors/release/f33-ble-sensors-1.0.0.hex

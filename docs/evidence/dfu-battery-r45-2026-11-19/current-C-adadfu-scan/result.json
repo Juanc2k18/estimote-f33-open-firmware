@@ -1,0 +1,22 @@
+{
+  "tool": "ble_scan_read",
+  "name": "AdaDFU",
+  "seconds": 10.0,
+  "note": "current C: AdaDFU advertising",
+  "found": true,
+  "mac_os_identifier": "077FA4B4-D2D4-8BA5-73A0-3F586AB9AD7E",
+  "advertisements": 67,
+  "rssi": {
+    "min": -69,
+    "median": -61,
+    "max": -58
+  },
+  "first_advertisement": {
+    "rssi": -68,
+    "tx_power": null,
+    "service_uuids": [
+      "00001530-1212-efde-1523-785feabcd123"
+    ],
+    "manufacturer_data": {}
+  }
+}

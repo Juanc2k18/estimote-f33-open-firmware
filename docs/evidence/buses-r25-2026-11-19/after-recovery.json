@@ -1,0 +1,17 @@
+{
+  "pc": "0x779fc",
+  "resetreas": "0x4",
+  "pselreset": [
+    21,
+    21
+  ],
+  "dir": "0xa2000",
+  "p11_cnf": "0x2",
+  "radio_state": 0,
+  "hashes": [
+    "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+    "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+  ],
+  "unchanged": true,
+  "bootloader": true
+}

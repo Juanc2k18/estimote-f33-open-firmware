@@ -1,0 +1,34 @@
+{
+  "points": [
+    {
+      "source_setpoint_v": 3,
+      "p05_v": 0.49416503906250003,
+      "vdd_v": 1.995556640625,
+      "log": "adc-H30.log"
+    },
+    {
+      "source_setpoint_v": 4,
+      "p05_v": 0.6681884765625,
+      "vdd_v": 2.0021484375000003,
+      "log": "adc-H40.log"
+    },
+    {
+      "source_setpoint_v": 5,
+      "p05_v": 0.8382568359375,
+      "vdd_v": 2.00302734375,
+      "log": "adc-H50.log"
+    },
+    {
+      "source_setpoint_v": 6,
+      "p05_v": 1.0087646484375001,
+      "vdd_v": 1.998193359375,
+      "log": "adc-H60-r20.log"
+    }
+  ],
+  "fit_p05_equals_slope_times_source_plus_offset": {
+    "slope": 0.17138671875000006,
+    "offset_v": -0.018896484375000133,
+    "r_squared": 0.9999723873502507
+  },
+  "limitations": "Source setpoints reported by owner, not independent H/F measurements; four samples per point; internal ADC reference; no resistor/continuity identification."
+}

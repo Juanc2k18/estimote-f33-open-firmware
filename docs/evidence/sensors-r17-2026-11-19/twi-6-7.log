@@ -1,0 +1,4 @@
+{"mode": "twi", "power": [[14, "H"], [15, "H"]], "ficr": "0x52832", "nfcpins": "0xfffffffe", "resetpins": ["0x15", "0x15"]}
+idle 0x2000c0
+{"sda": 6, "scl": 7, "stats": {"rx=0,err=0": 112}, "found": []}
+RESET: bootloader restored

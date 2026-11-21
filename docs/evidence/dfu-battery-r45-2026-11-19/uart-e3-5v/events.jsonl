@@ -1,0 +1,4 @@
+{"t": "+0.000s", "kind": "waiting", "port": "/dev/cu.usbmodem1131202", "wait_s": 900.0, "zip": "docs/evidence/dfu-battery-r45-2026-11-19/hex/r45c-uart3.zip"}
+{"t": "+37.714s", "kind": "caught", "attempts": 1114, "after_s": 37.69}
+{"t": "+37.742s", "kind": "sequence_wrapped"}
+{"t": "+40.348s", "kind": "nrfutil_done", "returncode": 0, "seconds": 2.6, "stdout_tail": "Upgrading target on /dev/cu.usbmodem1131202 with DFU package docs/evidence/dfu-battery-r45-2026-11-19/hex/r45c-uart3.zip. Flow control is disabled, Dual bank, Touch disabled\n##############\nActivating new firmware\nDevice programmed.\n", "stderr_tail": "Opened serial port /dev/cu.usbmodem1131202\nStarting DFU upgrade of type 4, SoftDevice size: 0, bootloader size: 0, application size: 6920\nSending DFU start packet\nSending DFU init packet\nSending firmware file\n\nDFU upgrade took 2.2187001705169678s\n"}

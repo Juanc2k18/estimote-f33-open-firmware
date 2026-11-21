@@ -1,0 +1,70 @@
+{
+  "probe": "E660C0D1C75C942F",
+  "operation": "read-only post-flash verification",
+  "images": [
+    {
+      "file": "firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r46.hex",
+      "all_segments_match": true,
+      "segments": [
+        {
+          "start": "0x0",
+          "end_exclusive": "0xb00",
+          "bytes": 2816,
+          "match": true,
+          "expected_sha256": "1bc875feba5eb16d68022068cb252598f9bf0f9835e93a632bc2e72828a4aa9e",
+          "actual_sha256": "1bc875feba5eb16d68022068cb252598f9bf0f9835e93a632bc2e72828a4aa9e"
+        },
+        {
+          "start": "0x1000",
+          "end_exclusive": "0x25150",
+          "bytes": 147792,
+          "match": true,
+          "expected_sha256": "6f4942f71aed2e097d2042c94d3100aa1fe3f274ba35798fddb622c9b5b900af",
+          "actual_sha256": "6f4942f71aed2e097d2042c94d3100aa1fe3f274ba35798fddb622c9b5b900af"
+        },
+        {
+          "start": "0x74000",
+          "end_exclusive": "0x79230",
+          "bytes": 21040,
+          "match": true,
+          "expected_sha256": "d4697eaed3410c13c8cdf03520346a2c5919e1427459836150ef52748d81f6d5",
+          "actual_sha256": "d4697eaed3410c13c8cdf03520346a2c5919e1427459836150ef52748d81f6d5"
+        },
+        {
+          "start": "0x10001014",
+          "end_exclusive": "0x1000101c",
+          "bytes": 8,
+          "match": true,
+          "expected_sha256": "de83a8312f32d2acc0993c88c539a5ff59dfdb4e448d1a110eed6970e3e38ac5",
+          "actual_sha256": "de83a8312f32d2acc0993c88c539a5ff59dfdb4e448d1a110eed6970e3e38ac5"
+        }
+      ]
+    },
+    {
+      "file": "firmware/ble-sensors/release/f33-ble-sensors-1.0.0.hex",
+      "all_segments_match": true,
+      "segments": [
+        {
+          "start": "0x26000",
+          "end_exclusive": "0x2841c",
+          "bytes": 9244,
+          "match": true,
+          "expected_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae",
+          "actual_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae"
+        }
+      ]
+    }
+  ],
+  "cpu_state": "State.SLEEPING",
+  "application_runtime": {
+    "status_address": "0x200023e4",
+    "count_before": 0,
+    "count_after": 0,
+    "packet_hex": "00000000000000000000000000000000000000000000000000000000000000",
+    "packet_version": 0,
+    "valid_flags": "0x0",
+    "seq": 0
+  },
+  "r46_model_string_present": true,
+  "settings_erased": true
+}

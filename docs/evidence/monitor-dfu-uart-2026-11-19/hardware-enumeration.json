@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "IORegistryEntryName": "Debugprobe on Pico (CMSIS-DAP)",
+      "USB Product Name": "Debugprobe on Pico _CMSIS_DAP_",
+      "USB Serial Number": "E660C0D1C75C942F",
+      "idVendor": 11914,
+      "idProduct": 12,
+      "locationID": 34668544
+    }
+  ],
+  "serial_paths": [
+    "/dev/cu.usbmodem21102"
+  ],
+  "hardware_port_opened": false,
+  "beacon_transmission": false,
+  "setup_confirmation": "pending"
+}

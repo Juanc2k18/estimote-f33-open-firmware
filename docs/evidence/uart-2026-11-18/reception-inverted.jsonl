@@ -1,0 +1,14 @@
+{"time": "+0.000000s", "event": "opened", "port": "/dev/cu.usbserial-113120", "framing": "8N1", "transmitted_bytes": 0, "wiring": "Owner reports swap; physical TX disconnection unconfirmed"}
+{"time": "+0.000200s", "event": "listen_start", "baud": 115200, "seconds": 8}
+{"time": "+8.160556s", "event": "listen_end", "baud": 115200, "received_bytes": 0}
+{"time": "+8.163474s", "event": "listen_start", "baud": 9600, "seconds": 8}
+{"time": "+16.322344s", "event": "listen_end", "baud": 9600, "received_bytes": 0}
+{"time": "+16.326372s", "event": "listen_start", "baud": 57600, "seconds": 6}
+{"time": "+22.429085s", "event": "listen_end", "baud": 57600, "received_bytes": 0}
+{"time": "+22.432651s", "event": "listen_start", "baud": 38400, "seconds": 6}
+{"time": "+28.539236s", "event": "listen_end", "baud": 38400, "received_bytes": 0}
+{"time": "+28.541209s", "event": "listen_start", "baud": 19200, "seconds": 6}
+{"time": "+34.662725s", "event": "listen_end", "baud": 19200, "received_bytes": 0}
+{"time": "+34.666307s", "event": "listen_start", "baud": 230400, "seconds": 6}
+{"time": "+40.773076s", "event": "listen_end", "baud": 230400, "received_bytes": 0}
+{"time": "+40.775247s", "event": "closed", "transmitted_bytes": 0}

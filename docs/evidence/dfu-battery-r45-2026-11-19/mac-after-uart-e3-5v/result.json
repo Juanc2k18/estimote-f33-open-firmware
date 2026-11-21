@@ -1,0 +1,59 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "after UART DFU with E3 at 3.6 V (VDD ~3.3 V), r45c-uart3",
+  "found": true,
+  "samples": 3,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 19,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.064,
+        0.032,
+        1.048
+      ],
+      "norm_g": 1.05
+    },
+    "magnet": {
+      "gauss": [
+        1.067,
+        0.548,
+        0.209
+      ],
+      "norm_gauss": 1.218
+    },
+    "baro": {
+      "temp_c": 28.56,
+      "pressure_hpa": 1006.24
+    },
+    "light": {
+      "lux": 148.32
+    },
+    "rtc_seconds": 31,
+    "adc": {
+      "vdd_v": 3.599,
+      "ain3_v": 0.308,
+      "battery_v_estimate": 1.916,
+      "battery_percent": 0
+    }
+  },
+  "firmware_revision": "r45c-uart3",
+  "battery_level": 0
+}

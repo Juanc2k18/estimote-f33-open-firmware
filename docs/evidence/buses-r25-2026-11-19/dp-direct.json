@@ -1,0 +1,14 @@
+[
+  {
+    "unix": 1795074020.499477,
+    "frequency": 100000,
+    "probe": "E660C0D1C75C942F",
+    "error": "SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock"
+  },
+  {
+    "unix": 1795074020.513868,
+    "frequency": 10000,
+    "probe": "E660C0D1C75C942F",
+    "error": "SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock"
+  }
+]

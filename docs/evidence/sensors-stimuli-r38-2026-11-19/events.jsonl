@@ -1,0 +1,183 @@
+{"time": "+0.000000s", "kind": "parameters", "tool": "sensor_readout", "supply": "3,3 V C/F", "sda": 14, "scl": 15, "rail": [6, 7], "settle": 1.0, "rounds": 6, "interval": 8.0, "guided": ["still, horizontal (baseline)", "rotate 90° on table, without lifting", "rotate another 90° (180° total)", "rotate another 90° (270° total)", "return to initial position", "rest on edge (one long side down)", "face down", "horizontal, cover light sensor with hand", "horizontal, phone flashlight above", "still, uncovered (final baseline)"], "writes": {"0x19": [["0x20", "0x57"], ["0x23", "0x80"]], "0x1e": [["0x20", "0x90"], ["0x21", "0x0"], ["0x22", "0x0"]], "0x77": [["0xf4", "0x25"]]}, "restore": "original control registers restored on completion"}
+{"time": "+0.602775s", "kind": "baseline", "part": 337970, "gpio": [{"pin": 0, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 1, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 2, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 3, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 4, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 5, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 6, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 7, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 8, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 9, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 10, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 11, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 12, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 0, "reserved": true}, {"pin": 13, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 3, "reserved": true}, {"pin": 14, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 15, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 16, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 17, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 3, "reserved": false}, {"pin": 18, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 19, "level": 0, "raw_in_bit": 0, "input_connected": true, "cnf": 0, "reserved": true}, {"pin": 20, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 196620, "reserved": false}, {"pin": 21, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 22, "level": 0, "raw_in_bit": 0, "input_connected": true, "cnf": 196620, "reserved": true}, {"pin": 23, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 24, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 25, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 26, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 27, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 28, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 29, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 30, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 31, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}], "dir": 139264, "out": 8192, "resetpins": [21, 21], "uart": {"enable": 8, "tx": 13, "rx": 12}, "radio": 0}
+{"time": "+8.069167s", "kind": "active_start", "hashes": {"bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc", "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"}, "radio": 0, "irq19": "input without pull"}
+{"time": "+8.430103s", "kind": "rail_on", "levels": {"6": 1, "7": 1, "14": 1, "15": 0}}
+{"time": "+8.460031s", "kind": "i2c_electrical", "idle": {"14": 1, "15": 1}, "lines": [{"driven": 14, "initial_low": {"14": 0, "15": 1}, "low": {"14": 0, "15": 1}, "low_ok": true, "released": {"14": 1, "15": 1}, "recovered": true, "valid": true}, {"driven": 15, "initial_low": {"14": 1, "15": 0}, "low": {"14": 1, "15": 0}, "low_ok": true, "released": {"14": 1, "15": 1}, "recovered": true, "valid": true}], "valid": true}
+{"time": "+9.541381s", "kind": "presence", "attempt": 1, "address": 25, "rw": "W", "byte": 50, "ack_sample": {"14": 1, "15": 1}, "status": "nack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.719810s", "kind": "presence", "attempt": 2, "address": 25, "rw": "W", "byte": 50, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.800522s", "kind": "presence", "attempt": 1, "address": 30, "rw": "W", "byte": 60, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.877179s", "kind": "presence", "attempt": 1, "address": 74, "rw": "W", "byte": 148, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.953875s", "kind": "presence", "attempt": 1, "address": 104, "rw": "W", "byte": 208, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+10.031343s", "kind": "presence", "attempt": 1, "address": 119, "rw": "W", "byte": 238, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+10.282309s", "kind": "register_read", "address": 25, "register": 32, "data": [7], "status": "ok", "stage": "data"}
+{"time": "+10.537603s", "kind": "register_read", "address": 25, "register": 35, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+10.537960s", "kind": "saved_control", "address": 25, "registers": [[32, 7], [35, 0]]}
+{"time": "+10.733315s", "kind": "register_write", "address": 25, "register": 32, "written": [87], "status": "ok"}
+{"time": "+10.985401s", "kind": "register_read", "address": 25, "register": 32, "data": [87], "status": "ok", "stage": "data"}
+{"time": "+11.179915s", "kind": "register_write", "address": 25, "register": 35, "written": [128], "status": "ok"}
+{"time": "+11.439781s", "kind": "register_read", "address": 25, "register": 35, "data": [128], "status": "ok", "stage": "data"}
+{"time": "+11.699350s", "kind": "register_read", "address": 30, "register": 32, "data": [24], "status": "ok", "stage": "data"}
+{"time": "+11.958025s", "kind": "register_read", "address": 30, "register": 33, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+12.213444s", "kind": "register_read", "address": 30, "register": 34, "data": [3], "status": "ok", "stage": "data"}
+{"time": "+12.213706s", "kind": "saved_control", "address": 30, "registers": [[32, 24], [33, 0], [34, 3]]}
+{"time": "+12.413586s", "kind": "register_write", "address": 30, "register": 32, "written": [144], "status": "ok"}
+{"time": "+12.669732s", "kind": "register_read", "address": 30, "register": 32, "data": [144], "status": "ok", "stage": "data"}
+{"time": "+12.866063s", "kind": "register_write", "address": 30, "register": 33, "written": [0], "status": "ok"}
+{"time": "+13.117937s", "kind": "register_read", "address": 30, "register": 33, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+13.317404s", "kind": "register_write", "address": 30, "register": 34, "written": [0], "status": "ok"}
+{"time": "+13.574368s", "kind": "register_read", "address": 30, "register": 34, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+14.990152s", "kind": "register_read", "address": 119, "register": 136, "data": [89, 107, 183, 100, 50, 0, 118, 150, 144, 214, 208, 11, 135, 31, 196, 254, 249, 255, 140, 60, 248, 198, 112, 23], "status": "ok", "stage": "data"}
+{"time": "+14.990497s", "kind": "bmp280_calibration", "values": [27481, 25783, 50, 38518, -10608, 3024, 8071, -316, -7, 15500, -14600, 6000]}
+{"time": "+15.195399s", "kind": "stimulus", "round": 1, "instruction": "still, horizontal (baseline)"}
+{"time": "+23.456475s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+23.959894s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 4, 64, 251, 64, 70], "status": "ok", "stage": "data"}
+{"time": "+24.215196s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+24.725206s", "kind": "register_read", "address": 30, "register": 168, "data": [216, 34, 14, 23, 37, 5], "status": "ok", "stage": "data"}
+{"time": "+25.026964s", "kind": "register_read", "address": 30, "register": 174, "data": [21, 0], "status": "ok", "stage": "data"}
+{"time": "+25.223142s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+25.492077s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+26.002142s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 4, 0, 130, 134, 0], "status": "ok", "stage": "data"}
+{"time": "+26.256476s", "kind": "register_read", "address": 74, "register": 3, "data": [53], "status": "ok", "stage": "data"}
+{"time": "+26.511764s", "kind": "register_read", "address": 74, "register": 4, "data": [11], "status": "ok", "stage": "data"}
+{"time": "+26.774820s", "kind": "register_read", "address": 74, "register": 2, "data": [2], "status": "ok", "stage": "data"}
+{"time": "+27.029814s", "kind": "register_read", "address": 104, "register": 1, "data": [81], "status": "ok", "stage": "data"}
+{"time": "+27.030070s", "kind": "round", "round": 1, "stimulus": "still, horizontal (baseline)", "local_time": "+23s", "accel": {"ready": true, "raw": [1152, -1216, 17984], "g": [0.072, -0.076, 1.124], "norm_g": 1.129}, "magnet": {"ready": true, "raw": [8920, 5902, 1317], "gauss": [1.3037, 0.8626, 0.1925], "norm_gauss": 1.5751, "temp_c_rel": 27.6}, "baro": {"adc_t": 534624, "adc_p": 303168, "temp_c": 29.18, "pressure_hpa": 1006.62}, "light": {"raw": [53, 11], "lux": 32.76, "config": 2}, "rtc_seconds": {"raw": 81, "seconds": 51}}
+{"time": "+27.030324s", "kind": "stimulus", "round": 2, "instruction": "rotate 90° on table, without lifting"}
+{"time": "+35.293342s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+35.797384s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 14, 192, 3, 192, 64], "status": "ok", "stage": "data"}
+{"time": "+36.055728s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+36.558313s", "kind": "register_read", "address": 30, "register": 168, "data": [232, 34, 95, 24, 63, 6], "status": "ok", "stage": "data"}
+{"time": "+36.861750s", "kind": "register_read", "address": 30, "register": 174, "data": [22, 0], "status": "ok", "stage": "data"}
+{"time": "+37.058857s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+37.325433s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+37.829262s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 15, 0, 130, 171, 0], "status": "ok", "stage": "data"}
+{"time": "+38.085974s", "kind": "register_read", "address": 74, "register": 3, "data": [53], "status": "ok", "stage": "data"}
+{"time": "+38.339629s", "kind": "register_read", "address": 74, "register": 4, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+38.595587s", "kind": "register_read", "address": 74, "register": 2, "data": [2], "status": "ok", "stage": "data"}
+{"time": "+38.853100s", "kind": "register_read", "address": 104, "register": 1, "data": [3], "status": "ok", "stage": "data"}
+{"time": "+38.853484s", "kind": "round", "round": 2, "stimulus": "rotate 90° on table, without lifting", "local_time": "+35s", "accel": {"ready": true, "raw": [3712, 960, 16576], "g": [0.232, 0.06, 1.036], "norm_g": 1.063}, "magnet": {"ready": true, "raw": [8936, 6239, 1599], "gauss": [1.3061, 0.9119, 0.2337], "norm_gauss": 1.6099, "temp_c_rel": 27.8}, "baro": {"adc_t": 535216, "adc_p": 303344, "temp_c": 29.36, "pressure_hpa": 1006.65}, "light": {"raw": [53, 0], "lux": 28.8, "config": 2}, "rtc_seconds": {"raw": 3, "seconds": 3}}
+{"time": "+38.853822s", "kind": "stimulus", "round": 3, "instruction": "rotate another 90° (180° total)"}
+{"time": "+47.109059s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+47.621290s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 9, 192, 2, 192, 67], "status": "ok", "stage": "data"}
+{"time": "+47.876941s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+48.372775s", "kind": "register_read", "address": 30, "register": 168, "data": [154, 34, 73, 24, 71, 5], "status": "ok", "stage": "data"}
+{"time": "+48.661390s", "kind": "register_read", "address": 30, "register": 174, "data": [25, 0], "status": "ok", "stage": "data"}
+{"time": "+48.860457s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+49.130813s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+49.636035s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 28, 0, 130, 208, 0], "status": "ok", "stage": "data"}
+{"time": "+49.887063s", "kind": "register_read", "address": 74, "register": 3, "data": [123], "status": "ok", "stage": "data"}
+{"time": "+50.136303s", "kind": "register_read", "address": 74, "register": 4, "data": [8], "status": "ok", "stage": "data"}
+{"time": "+50.387889s", "kind": "register_read", "address": 74, "register": 2, "data": [11], "status": "ok", "stage": "data"}
+{"time": "+50.638759s", "kind": "register_read", "address": 104, "register": 1, "data": [21], "status": "ok", "stage": "data"}
+{"time": "+50.639021s", "kind": "round", "round": 3, "stimulus": "rotate another 90° (180° total)", "local_time": "+47s", "accel": {"ready": true, "raw": [2304, 704, 17344], "g": [0.144, 0.044, 1.084], "norm_g": 1.094}, "magnet": {"ready": true, "raw": [8858, 6217, 1351], "gauss": [1.2947, 0.9087, 0.1975], "norm_gauss": 1.594, "temp_c_rel": 28.1}, "baro": {"adc_t": 535808, "adc_p": 303552, "temp_c": 29.55, "pressure_hpa": 1006.63}, "light": {"raw": [123, 8], "lux": 1059.84, "config": 11}, "rtc_seconds": {"raw": 21, "seconds": 15}}
+{"time": "+50.640762s", "kind": "stimulus", "round": 4, "instruction": "rotate another 90° (270° total)"}
+{"time": "+58.886171s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+59.390419s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 9, 192, 255, 64, 67], "status": "ok", "stage": "data"}
+{"time": "+59.647796s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+60.152730s", "kind": "register_read", "address": 30, "register": 168, "data": [29, 35, 63, 24, 5, 5], "status": "ok", "stage": "data"}
+{"time": "+60.460834s", "kind": "register_read", "address": 30, "register": 174, "data": [24, 0], "status": "ok", "stage": "data"}
+{"time": "+60.655785s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+60.928396s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+61.428429s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 28, 0, 130, 208, 0], "status": "ok", "stage": "data"}
+{"time": "+61.681948s", "kind": "register_read", "address": 74, "register": 3, "data": [123], "status": "ok", "stage": "data"}
+{"time": "+61.935627s", "kind": "register_read", "address": 74, "register": 4, "data": [3], "status": "ok", "stage": "data"}
+{"time": "+62.190838s", "kind": "register_read", "address": 74, "register": 2, "data": [11], "status": "ok", "stage": "data"}
+{"time": "+62.444618s", "kind": "register_read", "address": 104, "register": 1, "data": [38], "status": "ok", "stage": "data"}
+{"time": "+62.444863s", "kind": "round", "round": 4, "stimulus": "rotate another 90° (270° total)", "local_time": "+58s", "accel": {"ready": true, "raw": [2432, -64, 17216], "g": [0.152, -0.004, 1.076], "norm_g": 1.087}, "magnet": {"ready": true, "raw": [8989, 6207, 1285], "gauss": [1.3138, 0.9072, 0.1878], "norm_gauss": 1.6076, "temp_c_rel": 28.0}, "baro": {"adc_t": 535808, "adc_p": 303552, "temp_c": 29.55, "pressure_hpa": 1006.63}, "light": {"raw": [123, 3], "lux": 1031.04, "config": 11}, "rtc_seconds": {"raw": 38, "seconds": 26}}
+{"time": "+62.445080s", "kind": "stimulus", "round": 5, "instruction": "return to initial position"}
+{"time": "+70.711462s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+71.208309s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 13, 64, 254, 192, 65], "status": "ok", "stage": "data"}
+{"time": "+71.460732s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+71.970882s", "kind": "register_read", "address": 30, "register": 168, "data": [34, 35, 9, 24, 178, 5], "status": "ok", "stage": "data"}
+{"time": "+72.271452s", "kind": "register_read", "address": 30, "register": 174, "data": [22, 0], "status": "ok", "stage": "data"}
+{"time": "+72.468974s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+72.737769s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+73.232147s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 17, 0, 130, 169, 0], "status": "ok", "stage": "data"}
+{"time": "+73.489262s", "kind": "register_read", "address": 74, "register": 3, "data": [61], "status": "ok", "stage": "data"}
+{"time": "+73.743485s", "kind": "register_read", "address": 74, "register": 4, "data": [10], "status": "ok", "stage": "data"}
+{"time": "+73.985265s", "kind": "register_read", "address": 74, "register": 2, "data": [2], "status": "ok", "stage": "data"}
+{"time": "+74.229504s", "kind": "register_read", "address": 104, "register": 1, "data": [56], "status": "ok", "stage": "data"}
+{"time": "+74.229745s", "kind": "round", "round": 5, "stimulus": "return to initial position", "local_time": "+70s", "accel": {"ready": true, "raw": [3392, -448, 16832], "g": [0.212, -0.028, 1.052], "norm_g": 1.074}, "magnet": {"ready": true, "raw": [8994, 6153, 1458], "gauss": [1.3145, 0.8993, 0.2131], "norm_gauss": 1.6069, "temp_c_rel": 27.8}, "baro": {"adc_t": 535184, "adc_p": 303376, "temp_c": 29.35, "pressure_hpa": 1006.58}, "light": {"raw": [61, 10], "lux": 78.48, "config": 2}, "rtc_seconds": {"raw": 56, "seconds": 38}}
+{"time": "+74.229978s", "kind": "stimulus", "round": 6, "instruction": "rest on edge (one long side down)"}
+{"time": "+82.485507s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+82.980254s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 10, 192, 3, 192, 64], "status": "ok", "stage": "data"}
+{"time": "+83.237716s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+83.741823s", "kind": "register_read", "address": 30, "register": 168, "data": [20, 34, 211, 23, 26, 5], "status": "ok", "stage": "data"}
+{"time": "+84.050097s", "kind": "register_read", "address": 30, "register": 174, "data": [23, 0], "status": "ok", "stage": "data"}
+{"time": "+84.232009s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+84.489835s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+84.991317s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 7, 0, 130, 146, 0], "status": "ok", "stage": "data"}
+{"time": "+85.242301s", "kind": "register_read", "address": 74, "register": 3, "data": [40], "status": "ok", "stage": "data"}
+{"time": "+85.493947s", "kind": "register_read", "address": 74, "register": 4, "data": [9], "status": "ok", "stage": "data"}
+{"time": "+85.749601s", "kind": "register_read", "address": 74, "register": 2, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+86.001900s", "kind": "register_read", "address": 104, "register": 1, "data": [80], "status": "ok", "stage": "data"}
+{"time": "+86.002098s", "kind": "round", "round": 6, "stimulus": "rest on edge (one long side down)", "local_time": "+82s", "accel": {"ready": true, "raw": [2560, 960, 16576], "g": [0.16, 0.06, 1.036], "norm_g": 1.05}, "magnet": {"ready": true, "raw": [8724, 6099, 1306], "gauss": [1.2751, 0.8914, 0.1909], "norm_gauss": 1.5674, "temp_c_rel": 27.9}, "baro": {"adc_t": 534816, "adc_p": 303216, "temp_c": 29.24, "pressure_hpa": 1006.65}, "light": {"raw": [40, 9], "lux": 24.66, "config": 0}, "rtc_seconds": {"raw": 80, "seconds": 50}}
+{"time": "+86.002311s", "kind": "stimulus", "round": 7, "instruction": "face down"}
+{"time": "+94.263831s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+94.748563s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 2, 64, 3, 128, 65], "status": "ok", "stage": "data"}
+{"time": "+95.002249s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+95.506224s", "kind": "register_read", "address": 30, "register": 168, "data": [94, 35, 35, 24, 107, 5], "status": "ok", "stage": "data"}
+{"time": "+95.811995s", "kind": "register_read", "address": 30, "register": 174, "data": [21, 0], "status": "ok", "stage": "data"}
+{"time": "+96.006461s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+96.269562s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+96.772958s", "kind": "register_read", "address": 119, "register": 247, "data": [74, 2, 0, 130, 121, 0], "status": "ok", "stage": "data"}
+{"time": "+97.025849s", "kind": "register_read", "address": 74, "register": 3, "data": [40], "status": "ok", "stage": "data"}
+{"time": "+97.274756s", "kind": "register_read", "address": 74, "register": 4, "data": [1], "status": "ok", "stage": "data"}
+{"time": "+97.531293s", "kind": "register_read", "address": 74, "register": 2, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+97.781669s", "kind": "register_read", "address": 104, "register": 1, "data": [2], "status": "ok", "stage": "data"}
+{"time": "+97.781935s", "kind": "round", "round": 7, "stimulus": "face down", "local_time": "+94s", "accel": {"ready": true, "raw": [640, 832, 16768], "g": [0.04, 0.052, 1.048], "norm_g": 1.05}, "magnet": {"ready": true, "raw": [9054, 6179, 1387], "gauss": [1.3233, 0.9031, 0.2027], "norm_gauss": 1.6149, "temp_c_rel": 27.6}, "baro": {"adc_t": 534416, "adc_p": 303136, "temp_c": 29.12, "pressure_hpa": 1006.56}, "light": {"raw": [40, 1], "lux": 23.22, "config": 0}, "rtc_seconds": {"raw": 2, "seconds": 2}}
+{"time": "+97.782156s", "kind": "stimulus", "round": 8, "instruction": "horizontal, cover light sensor with hand"}
+{"time": "+106.039593s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+106.546645s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 2, 0, 231, 0, 52], "status": "ok", "stage": "data"}
+{"time": "+106.800404s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+107.299643s", "kind": "register_read", "address": 30, "register": 168, "data": [152, 34, 226, 24, 162, 4], "status": "ok", "stage": "data"}
+{"time": "+107.604155s", "kind": "register_read", "address": 30, "register": 174, "data": [18, 0], "status": "ok", "stage": "data"}
+{"time": "+107.799408s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+108.064055s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+108.553636s", "kind": "register_read", "address": 119, "register": 247, "data": [73, 243, 0, 130, 76, 0], "status": "ok", "stage": "data"}
+{"time": "+108.813620s", "kind": "register_read", "address": 74, "register": 3, "data": [41], "status": "ok", "stage": "data"}
+{"time": "+109.071932s", "kind": "register_read", "address": 74, "register": 4, "data": [2], "status": "ok", "stage": "data"}
+{"time": "+109.332115s", "kind": "register_read", "address": 74, "register": 2, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+109.587389s", "kind": "register_read", "address": 104, "register": 1, "data": [20], "status": "ok", "stage": "data"}
+{"time": "+109.587671s", "kind": "round", "round": 8, "stimulus": "horizontal, cover light sensor with hand", "local_time": "+106s", "accel": {"ready": true, "raw": [704, -6400, 13312], "g": [0.044, -0.4, 0.832], "norm_g": 0.924}, "magnet": {"ready": true, "raw": [8856, 6370, 1186], "gauss": [1.2944, 0.931, 0.1733], "norm_gauss": 1.6038, "temp_c_rel": 27.2}, "baro": {"adc_t": 533696, "adc_p": 302896, "temp_c": 28.9, "pressure_hpa": 1006.57}, "light": {"raw": [41, 2], "lux": 26.28, "config": 0}, "rtc_seconds": {"raw": 20, "seconds": 14}}
+{"time": "+109.587891s", "kind": "stimulus", "round": 9, "instruction": "horizontal, phone flashlight above"}
+{"time": "+117.843454s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+118.341794s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 9, 64, 248, 64, 46], "status": "ok", "stage": "data"}
+{"time": "+118.597250s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+119.096905s", "kind": "register_read", "address": 30, "register": 168, "data": [182, 34, 188, 24, 18, 5], "status": "ok", "stage": "data"}
+{"time": "+119.399516s", "kind": "register_read", "address": 30, "register": 174, "data": [20, 0], "status": "ok", "stage": "data"}
+{"time": "+119.593776s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+119.865979s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+120.354017s", "kind": "register_read", "address": 119, "register": 247, "data": [73, 235, 0, 130, 55, 0], "status": "ok", "stage": "data"}
+{"time": "+120.607666s", "kind": "register_read", "address": 74, "register": 3, "data": [41], "status": "ok", "stage": "data"}
+{"time": "+120.856851s", "kind": "register_read", "address": 74, "register": 4, "data": [1], "status": "ok", "stage": "data"}
+{"time": "+121.107871s", "kind": "register_read", "address": 74, "register": 2, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+121.358987s", "kind": "register_read", "address": 104, "register": 1, "data": [37], "status": "ok", "stage": "data"}
+{"time": "+121.359216s", "kind": "round", "round": 9, "stimulus": "horizontal, phone flashlight above", "local_time": "+117s", "accel": {"ready": true, "raw": [2368, -1984, 11840], "g": [0.148, -0.124, 0.74], "norm_g": 0.765}, "magnet": {"ready": true, "raw": [8886, 6332, 1298], "gauss": [1.2987, 0.9255, 0.1897], "norm_gauss": 1.606, "temp_c_rel": 27.5}, "baro": {"adc_t": 533360, "adc_p": 302768, "temp_c": 28.79, "pressure_hpa": 1006.6}, "light": {"raw": [41, 1], "lux": 26.1, "config": 0}, "rtc_seconds": {"raw": 37, "seconds": 25}}
+{"time": "+121.359461s", "kind": "stimulus", "round": 10, "instruction": "still, uncovered (final baseline)"}
+{"time": "+129.614775s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+130.121259s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 12, 128, 0, 192, 66], "status": "ok", "stage": "data"}
+{"time": "+130.358782s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+130.862344s", "kind": "register_read", "address": 30, "register": 168, "data": [8, 34, 148, 24, 209, 3], "status": "ok", "stage": "data"}
+{"time": "+131.166080s", "kind": "register_read", "address": 30, "register": 174, "data": [17, 0], "status": "ok", "stage": "data"}
+{"time": "+131.357055s", "kind": "register_write", "address": 119, "register": 244, "written": [37], "status": "ok"}
+{"time": "+131.621969s", "kind": "register_read", "address": 119, "register": 243, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+132.120888s", "kind": "register_read", "address": 119, "register": 247, "data": [73, 241, 0, 130, 74, 0], "status": "ok", "stage": "data"}
+{"time": "+132.376964s", "kind": "register_read", "address": 74, "register": 3, "data": [31], "status": "ok", "stage": "data"}
+{"time": "+132.628211s", "kind": "register_read", "address": 74, "register": 4, "data": [9], "status": "ok", "stage": "data"}
+{"time": "+132.883598s", "kind": "register_read", "address": 74, "register": 2, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+133.134405s", "kind": "register_read", "address": 104, "register": 1, "data": [55], "status": "ok", "stage": "data"}
+{"time": "+133.134681s", "kind": "round", "round": 10, "stimulus": "still, uncovered (final baseline)", "local_time": "+129s", "accel": {"ready": true, "raw": [3200, 128, 17088], "g": [0.2, 0.008, 1.068], "norm_g": 1.087}, "magnet": {"ready": true, "raw": [8712, 6292, 977], "gauss": [1.2733, 0.9196, 0.1428], "norm_gauss": 1.5772, "temp_c_rel": 27.1}, "baro": {"adc_t": 533664, "adc_p": 302864, "temp_c": 28.89, "pressure_hpa": 1006.6}, "light": {"raw": [31, 9], "lux": 22.41, "config": 0}, "rtc_seconds": {"raw": 55, "seconds": 37}}
+{"time": "+133.329033s", "kind": "register_write", "address": 25, "register": 32, "written": [7], "status": "ok"}
+{"time": "+133.581823s", "kind": "register_read", "address": 25, "register": 32, "data": [7], "status": "ok", "stage": "data"}
+{"time": "+133.777127s", "kind": "register_write", "address": 25, "register": 35, "written": [0], "status": "ok"}
+{"time": "+134.029708s", "kind": "register_read", "address": 25, "register": 35, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+134.227141s", "kind": "register_write", "address": 30, "register": 34, "written": [3], "status": "ok"}
+{"time": "+134.482688s", "kind": "register_read", "address": 30, "register": 34, "data": [3], "status": "ok", "stage": "data"}
+{"time": "+134.678234s", "kind": "register_write", "address": 30, "register": 32, "written": [24], "status": "ok"}
+{"time": "+134.932800s", "kind": "register_read", "address": 30, "register": 32, "data": [24], "status": "ok", "stage": "data"}
+{"time": "+135.122773s", "kind": "register_write", "address": 30, "register": 33, "written": [0], "status": "ok"}
+{"time": "+135.361389s", "kind": "register_read", "address": 30, "register": 33, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+135.361472s", "kind": "restore", "ok": true, "failures": []}
+{"time": "+135.361611s", "kind": "verdict", "accel": {"rounds": 10, "plausible": 9, "distinct": 10, "status": "revisar"}, "magnet": {"rounds": 10, "plausible": 0, "distinct": 10, "status": "revisar"}, "baro": {"rounds": 10, "plausible": 10, "distinct": 7, "status": "mide"}, "light": {"rounds": 10, "plausible": 10, "distinct": 10, "status": "mide"}}
+{"time": "+143.375337s", "kind": "closure", "unchanged": true, "hashes": {"bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc", "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"}, "bootloader": true, "pc": 479486, "cnf19": 0, "errors": [], "valid": true}

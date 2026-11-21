@@ -1,0 +1,237 @@
+{"time": "+0.000000s", "kind": "parameters", "tool": "sensor_readout", "supply": "3,3 V C/F (rotation setup)", "sda": 14, "scl": 15, "rail": [6, 7], "settle": 1.0, "rounds": 40, "interval": 0.0, "guided": null, "only": ["magnet", "accel"], "writes": {"0x19": [["0x20", "0x57"], ["0x23", "0x80"]], "0x1e": [["0x20", "0x90"], ["0x21", "0x0"], ["0x22", "0x0"]], "0x77": [["0xf4", "0x25"]]}, "restore": "original control registers restored on completion"}
+{"time": "+0.458908s", "kind": "baseline", "part": 337970, "gpio": [{"pin": 0, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 1, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 2, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 3, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 4, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 5, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 6, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 7, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 8, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 9, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 10, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 11, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 12, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 0, "reserved": true}, {"pin": 13, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 3, "reserved": true}, {"pin": 14, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 15, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 16, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 17, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 3, "reserved": false}, {"pin": 18, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 19, "level": 0, "raw_in_bit": 0, "input_connected": true, "cnf": 0, "reserved": true}, {"pin": 20, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 196620, "reserved": false}, {"pin": 21, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 22, "level": 0, "raw_in_bit": 0, "input_connected": true, "cnf": 196620, "reserved": true}, {"pin": 23, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 24, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 25, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 26, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 27, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 28, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 29, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 30, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 31, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}], "dir": 139264, "out": 8192, "resetpins": [21, 21], "uart": {"enable": 8, "tx": 13, "rx": 12}, "radio": 0}
+{"time": "+7.916739s", "kind": "active_start", "hashes": {"bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc", "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"}, "radio": 0, "irq19": "input without pull"}
+{"time": "+8.280911s", "kind": "rail_on", "levels": {"6": 1, "7": 1, "14": 0, "15": 0}}
+{"time": "+8.310534s", "kind": "i2c_electrical", "idle": {"14": 1, "15": 1}, "lines": [{"driven": 14, "initial_low": {"14": 0, "15": 1}, "low": {"14": 0, "15": 1}, "low_ok": true, "released": {"14": 1, "15": 1}, "recovered": true, "valid": true}, {"driven": 15, "initial_low": {"14": 1, "15": 0}, "low": {"14": 1, "15": 0}, "low_ok": true, "released": {"14": 1, "15": 1}, "recovered": true, "valid": true}], "valid": true}
+{"time": "+9.395951s", "kind": "presence", "attempt": 1, "address": 25, "rw": "W", "byte": 50, "ack_sample": {"14": 1, "15": 1}, "status": "nack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.580766s", "kind": "presence", "attempt": 2, "address": 25, "rw": "W", "byte": 50, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.659022s", "kind": "presence", "attempt": 1, "address": 30, "rw": "W", "byte": 60, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.736127s", "kind": "presence", "attempt": 1, "address": 74, "rw": "W", "byte": 148, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.812650s", "kind": "presence", "attempt": 1, "address": 104, "rw": "W", "byte": 208, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+9.889071s", "kind": "presence", "attempt": 1, "address": 119, "rw": "W", "byte": 238, "ack_sample": {"14": 0, "15": 1}, "status": "ack", "post_stop": {"14": 1, "15": 1}}
+{"time": "+10.140850s", "kind": "register_read", "address": 25, "register": 32, "data": [7], "status": "ok", "stage": "data"}
+{"time": "+10.394782s", "kind": "register_read", "address": 25, "register": 35, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+10.395081s", "kind": "saved_control", "address": 25, "registers": [[32, 7], [35, 0]]}
+{"time": "+10.597213s", "kind": "register_write", "address": 25, "register": 32, "written": [87], "status": "ok"}
+{"time": "+10.849828s", "kind": "register_read", "address": 25, "register": 32, "data": [87], "status": "ok", "stage": "data"}
+{"time": "+11.047645s", "kind": "register_write", "address": 25, "register": 35, "written": [128], "status": "ok"}
+{"time": "+11.301783s", "kind": "register_read", "address": 25, "register": 35, "data": [128], "status": "ok", "stage": "data"}
+{"time": "+11.550636s", "kind": "register_read", "address": 30, "register": 32, "data": [24], "status": "ok", "stage": "data"}
+{"time": "+11.805512s", "kind": "register_read", "address": 30, "register": 33, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+12.062064s", "kind": "register_read", "address": 30, "register": 34, "data": [3], "status": "ok", "stage": "data"}
+{"time": "+12.062316s", "kind": "saved_control", "address": 30, "registers": [[32, 24], [33, 0], [34, 3]]}
+{"time": "+12.255179s", "kind": "register_write", "address": 30, "register": 32, "written": [144], "status": "ok"}
+{"time": "+12.508727s", "kind": "register_read", "address": 30, "register": 32, "data": [144], "status": "ok", "stage": "data"}
+{"time": "+12.705944s", "kind": "register_write", "address": 30, "register": 33, "written": [0], "status": "ok"}
+{"time": "+12.958675s", "kind": "register_read", "address": 30, "register": 33, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+13.156056s", "kind": "register_write", "address": 30, "register": 34, "written": [0], "status": "ok"}
+{"time": "+13.412858s", "kind": "register_read", "address": 30, "register": 34, "data": [0], "status": "ok", "stage": "data"}
+{"time": "+14.819178s", "kind": "register_read", "address": 119, "register": 136, "data": [89, 107, 183, 100, 50, 0, 118, 150, 144, 214, 208, 11, 135, 31, 196, 254, 249, 255, 140, 60, 248, 198, 112, 23], "status": "ok", "stage": "data"}
+{"time": "+14.819491s", "kind": "bmp280_calibration", "values": [27481, 25783, 50, 38518, -10608, 3024, 8071, -316, -7, 15500, -14600, 6000]}
+{"time": "+15.282922s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+15.796156s", "kind": "register_read", "address": 30, "register": 168, "data": [13, 31, 181, 25, 34, 4], "status": "ok", "stage": "data"}
+{"time": "+16.101447s", "kind": "register_read", "address": 30, "register": 174, "data": [15, 0], "status": "ok", "stage": "data"}
+{"time": "+16.358568s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+16.856923s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 1, 192, 250, 64, 65], "status": "ok", "stage": "data"}
+{"time": "+16.857220s", "kind": "round", "round": 1, "stimulus": null, "local_time": "+15s", "magnet": {"ready": true, "raw": [7949, 6581, 1058], "gauss": [1.1618, 0.9619, 0.1546], "norm_gauss": 1.5162, "temp_c_rel": 26.9}, "accel": {"ready": true, "raw": [320, -1344, 16704], "g": [0.02, -0.084, 1.044], "norm_g": 1.048}}
+{"time": "+17.105777s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+17.610728s", "kind": "register_read", "address": 30, "register": 168, "data": [44, 32, 43, 24, 243, 3], "status": "ok", "stage": "data"}
+{"time": "+17.914766s", "kind": "register_read", "address": 30, "register": 174, "data": [16, 0], "status": "ok", "stage": "data"}
+{"time": "+18.166170s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+18.667468s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 2, 0, 250, 64, 65], "status": "ok", "stage": "data"}
+{"time": "+18.667739s", "kind": "round", "round": 2, "stimulus": null, "local_time": "+17s", "magnet": {"ready": true, "raw": [8236, 6187, 1011], "gauss": [1.2037, 0.9043, 0.1478], "norm_gauss": 1.5128, "temp_c_rel": 27.0}, "accel": {"ready": true, "raw": [704, -1536, 16704], "g": [0.044, -0.096, 1.044], "norm_g": 1.049}}
+{"time": "+18.920350s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+19.422052s", "kind": "register_read", "address": 30, "register": 168, "data": [196, 32, 144, 24, 181, 3], "status": "ok", "stage": "data"}
+{"time": "+19.723505s", "kind": "register_read", "address": 30, "register": 174, "data": [15, 0], "status": "ok", "stage": "data"}
+{"time": "+19.978738s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+20.480948s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 1, 192, 249, 128, 70], "status": "ok", "stage": "data"}
+{"time": "+20.481326s", "kind": "round", "round": 3, "stimulus": null, "local_time": "+19s", "magnet": {"ready": true, "raw": [8388, 6288, 949], "gauss": [1.226, 0.919, 0.1387], "norm_gauss": 1.5384, "temp_c_rel": 26.9}, "accel": {"ready": true, "raw": [320, -1600, 18048], "g": [0.02, -0.1, 1.128], "norm_g": 1.133}}
+{"time": "+20.733646s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+21.232812s", "kind": "register_read", "address": 30, "register": 168, "data": [3, 33, 110, 24, 130, 3], "status": "ok", "stage": "data"}
+{"time": "+21.535834s", "kind": "register_read", "address": 30, "register": 174, "data": [16, 0], "status": "ok", "stage": "data"}
+{"time": "+21.784374s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+22.282954s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 1, 64, 252, 128, 65], "status": "ok", "stage": "data"}
+{"time": "+22.283267s", "kind": "round", "round": 4, "stimulus": null, "local_time": "+20s", "magnet": {"ready": true, "raw": [8451, 6254, 898], "gauss": [1.2352, 0.9141, 0.1312], "norm_gauss": 1.5422, "temp_c_rel": 27.0}, "accel": {"ready": true, "raw": [256, -960, 16768], "g": [0.016, -0.06, 1.048], "norm_g": 1.05}}
+{"time": "+22.537627s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+23.042735s", "kind": "register_read", "address": 30, "register": 168, "data": [243, 33, 194, 23, 2, 3], "status": "ok", "stage": "data"}
+{"time": "+23.343457s", "kind": "register_read", "address": 30, "register": 174, "data": [15, 0], "status": "ok", "stage": "data"}
+{"time": "+23.599022s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+24.096507s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 1, 128, 252, 64, 64], "status": "ok", "stage": "data"}
+{"time": "+24.096800s", "kind": "round", "round": 5, "stimulus": null, "local_time": "+22s", "magnet": {"ready": true, "raw": [8691, 6082, 770], "gauss": [1.2702, 0.8889, 0.1125], "norm_gauss": 1.5545, "temp_c_rel": 26.9}, "accel": {"ready": true, "raw": [320, -896, 16448], "g": [0.02, -0.056, 1.028], "norm_g": 1.03}}
+{"time": "+24.351271s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+24.853195s", "kind": "register_read", "address": 30, "register": 168, "data": [124, 34, 153, 22, 254, 2], "status": "ok", "stage": "data"}
+{"time": "+25.156771s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+25.407161s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+25.907663s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 4, 64, 251, 64, 61], "status": "ok", "stage": "data"}
+{"time": "+25.907883s", "kind": "round", "round": 6, "stimulus": null, "local_time": "+24s", "magnet": {"ready": true, "raw": [8828, 5785, 766], "gauss": [1.2903, 0.8455, 0.112], "norm_gauss": 1.5467, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [1216, -1216, 15680], "g": [0.076, -0.076, 0.98], "norm_g": 0.986}}
+{"time": "+26.158928s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+26.664007s", "kind": "register_read", "address": 30, "register": 168, "data": [25, 35, 171, 21, 168, 2], "status": "ok", "stage": "data"}
+{"time": "+26.964180s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+27.217770s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+27.716862s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 3, 192, 249, 192, 66], "status": "ok", "stage": "data"}
+{"time": "+27.717207s", "kind": "round", "round": 7, "stimulus": null, "local_time": "+26s", "magnet": {"ready": true, "raw": [8985, 5547, 680], "gauss": [1.3132, 0.8107, 0.0994], "norm_gauss": 1.5465, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [960, -1600, 17088], "g": [0.06, -0.1, 1.068], "norm_g": 1.074}}
+{"time": "+27.969177s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+28.474955s", "kind": "register_read", "address": 30, "register": 168, "data": [123, 35, 20, 19, 174, 2], "status": "ok", "stage": "data"}
+{"time": "+28.775781s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+29.032757s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+29.529771s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 5, 192, 251, 192, 66], "status": "ok", "stage": "data"}
+{"time": "+29.530073s", "kind": "round", "round": 8, "stimulus": null, "local_time": "+28s", "magnet": {"ready": true, "raw": [9083, 4884, 686], "gauss": [1.3275, 0.7138, 0.1003], "norm_gauss": 1.5106, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [1280, -1088, 17088], "g": [0.08, -0.068, 1.068], "norm_g": 1.073}}
+{"time": "+29.785186s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+30.291140s", "kind": "register_read", "address": 30, "register": 168, "data": [159, 35, 205, 18, 143, 2], "status": "ok", "stage": "data"}
+{"time": "+30.593717s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+30.846117s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+31.352727s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 3, 0, 241, 128, 62], "status": "ok", "stage": "data"}
+{"time": "+31.353025s", "kind": "round", "round": 9, "stimulus": null, "local_time": "+29s", "magnet": {"ready": true, "raw": [9119, 4813, 655], "gauss": [1.3328, 0.7034, 0.0957], "norm_gauss": 1.5101, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [832, -3840, 16000], "g": [0.052, -0.24, 1.0], "norm_g": 1.03}}
+{"time": "+31.606134s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+32.111020s", "kind": "register_read", "address": 30, "register": 168, "data": [157, 35, 200, 17, 92, 2], "status": "ok", "stage": "data"}
+{"time": "+32.415426s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+32.669030s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+33.179457s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 2, 128, 253, 64, 65], "status": "ok", "stage": "data"}
+{"time": "+33.179621s", "kind": "round", "round": 10, "stimulus": null, "local_time": "+31s", "magnet": {"ready": true, "raw": [9117, 4552, 604], "gauss": [1.3325, 0.6653, 0.0883], "norm_gauss": 1.492, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [640, -640, 16704], "g": [0.04, -0.04, 1.044], "norm_g": 1.046}}
+{"time": "+33.446163s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+33.955085s", "kind": "register_read", "address": 30, "register": 168, "data": [11, 35, 99, 16, 197, 1], "status": "ok", "stage": "data"}
+{"time": "+34.247093s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+34.500402s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+34.999930s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 3, 192, 254, 192, 68], "status": "ok", "stage": "data"}
+{"time": "+35.000237s", "kind": "round", "round": 11, "stimulus": null, "local_time": "+33s", "magnet": {"ready": true, "raw": [8971, 4195, 453], "gauss": [1.3112, 0.6131, 0.0662], "norm_gauss": 1.449, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [896, -320, 17600], "g": [0.056, -0.02, 1.1], "norm_g": 1.102}}
+{"time": "+35.256940s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+35.763280s", "kind": "register_read", "address": 30, "register": 168, "data": [242, 34, 41, 16, 94, 1], "status": "ok", "stage": "data"}
+{"time": "+36.071432s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+36.324489s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+36.827258s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 1, 64, 1, 128, 66], "status": "ok", "stage": "data"}
+{"time": "+36.827557s", "kind": "round", "round": 12, "stimulus": null, "local_time": "+35s", "magnet": {"ready": true, "raw": [8946, 4137, 350], "gauss": [1.3075, 0.6046, 0.0512], "norm_gauss": 1.4415, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [320, 320, 17024], "g": [0.02, 0.02, 1.064], "norm_g": 1.064}}
+{"time": "+37.079009s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+37.586368s", "kind": "register_read", "address": 30, "register": 168, "data": [100, 34, 124, 15, 204, 1], "status": "ok", "stage": "data"}
+{"time": "+37.887217s", "kind": "register_read", "address": 30, "register": 174, "data": [15, 0], "status": "ok", "stage": "data"}
+{"time": "+38.149054s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+38.650409s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 1, 0, 253, 64, 67], "status": "ok", "stage": "data"}
+{"time": "+38.650617s", "kind": "round", "round": 13, "stimulus": null, "local_time": "+37s", "magnet": {"ready": true, "raw": [8804, 3964, 460], "gauss": [1.2868, 0.5794, 0.0672], "norm_gauss": 1.4128, "temp_c_rel": 26.9}, "accel": {"ready": true, "raw": [320, -768, 17216], "g": [0.02, -0.048, 1.076], "norm_g": 1.077}}
+{"time": "+38.903877s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+39.405983s", "kind": "register_read", "address": 30, "register": 168, "data": [181, 32, 66, 14, 85, 2], "status": "ok", "stage": "data"}
+{"time": "+39.707267s", "kind": "register_read", "address": 30, "register": 174, "data": [16, 0], "status": "ok", "stage": "data"}
+{"time": "+39.959305s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+40.457550s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 3, 0, 0, 0, 66], "status": "ok", "stage": "data"}
+{"time": "+40.457950s", "kind": "round", "round": 14, "stimulus": null, "local_time": "+39s", "magnet": {"ready": true, "raw": [8373, 3650, 597], "gauss": [1.2238, 0.5335, 0.0873], "norm_gauss": 1.3378, "temp_c_rel": 27.0}, "accel": {"ready": true, "raw": [896, 0, 16896], "g": [0.056, 0.0, 1.056], "norm_g": 1.057}}
+{"time": "+40.715170s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+41.212227s", "kind": "register_read", "address": 30, "register": 168, "data": [23, 29, 44, 14, 164, 2], "status": "ok", "stage": "data"}
+{"time": "+41.513254s", "kind": "register_read", "address": 30, "register": 174, "data": [15, 0], "status": "ok", "stage": "data"}
+{"time": "+41.767578s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+42.268495s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 5, 64, 254, 0, 75], "status": "ok", "stage": "data"}
+{"time": "+42.268861s", "kind": "round", "round": 15, "stimulus": null, "local_time": "+40s", "magnet": {"ready": true, "raw": [7447, 3628, 676], "gauss": [1.0884, 0.5303, 0.0988], "norm_gauss": 1.2147, "temp_c_rel": 26.9}, "accel": {"ready": true, "raw": [1280, -448, 19200], "g": [0.08, -0.028, 1.2], "norm_g": 1.203}}
+{"time": "+42.520119s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+43.025670s", "kind": "register_read", "address": 30, "register": 168, "data": [29, 26, 66, 15, 237, 2], "status": "ok", "stage": "data"}
+{"time": "+43.328937s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+43.581679s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+44.080157s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 4, 192, 253, 64, 65], "status": "ok", "stage": "data"}
+{"time": "+44.080363s", "kind": "round", "round": 16, "stimulus": null, "local_time": "+42s", "magnet": {"ready": true, "raw": [6685, 3906, 749], "gauss": [0.9771, 0.5709, 0.1095], "norm_gauss": 1.1369, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [1088, -576, 16704], "g": [0.068, -0.036, 1.044], "norm_g": 1.047}}
+{"time": "+44.331539s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+44.831774s", "kind": "register_read", "address": 30, "register": 168, "data": [236, 23, 111, 16, 160, 3], "status": "ok", "stage": "data"}
+{"time": "+45.135480s", "kind": "register_read", "address": 30, "register": 174, "data": [16, 0], "status": "ok", "stage": "data"}
+{"time": "+45.387254s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+45.889502s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 4, 64, 251, 192, 63], "status": "ok", "stage": "data"}
+{"time": "+45.889931s", "kind": "round", "round": 17, "stimulus": null, "local_time": "+44s", "magnet": {"ready": true, "raw": [6124, 4207, 928], "gauss": [0.8951, 0.6149, 0.1356], "norm_gauss": 1.0944, "temp_c_rel": 27.0}, "accel": {"ready": true, "raw": [1152, -1216, 16320], "g": [0.072, -0.076, 1.02], "norm_g": 1.025}}
+{"time": "+46.144328s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+46.648763s", "kind": "register_read", "address": 30, "register": 168, "data": [95, 22, 37, 17, 32, 4], "status": "ok", "stage": "data"}
+{"time": "+46.952845s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+47.198602s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+47.699043s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 15, 128, 253, 128, 64], "status": "ok", "stage": "data"}
+{"time": "+47.699288s", "kind": "round", "round": 18, "stimulus": null, "local_time": "+46s", "magnet": {"ready": true, "raw": [5727, 4389, 1056], "gauss": [0.837, 0.6415, 0.1543], "norm_gauss": 1.0658, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [3840, -640, 16512], "g": [0.24, -0.04, 1.032], "norm_g": 1.06}}
+{"time": "+47.950032s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+48.454605s", "kind": "register_read", "address": 30, "register": 168, "data": [223, 21, 218, 18, 34, 4], "status": "ok", "stage": "data"}
+{"time": "+48.758243s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+49.012816s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+49.513150s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 5, 192, 251, 0, 66], "status": "ok", "stage": "data"}
+{"time": "+49.513423s", "kind": "round", "round": 19, "stimulus": null, "local_time": "+48s", "magnet": {"ready": true, "raw": [5599, 4826, 1058], "gauss": [0.8183, 0.7053, 0.1546], "norm_gauss": 1.0914, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [1472, -1088, 16896], "g": [0.092, -0.068, 1.056], "norm_g": 1.062}}
+{"time": "+49.757606s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+50.263727s", "kind": "register_read", "address": 30, "register": 168, "data": [68, 21, 247, 22, 176, 4], "status": "ok", "stage": "data"}
+{"time": "+50.571275s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+50.824668s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+51.325315s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 0, 0, 250, 0, 64], "status": "ok", "stage": "data"}
+{"time": "+51.325625s", "kind": "round", "round": 20, "stimulus": null, "local_time": "+49s", "magnet": {"ready": true, "raw": [5444, 5879, 1200], "gauss": [0.7957, 0.8593, 0.1754], "norm_gauss": 1.1841, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [192, -1536, 16384], "g": [0.012, -0.096, 1.024], "norm_g": 1.029}}
+{"time": "+51.579003s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+52.079997s", "kind": "register_read", "address": 30, "register": 168, "data": [103, 22, 56, 24, 178, 4], "status": "ok", "stage": "data"}
+{"time": "+52.382784s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+52.635277s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+53.133664s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 2, 192, 248, 0, 65], "status": "ok", "stage": "data"}
+{"time": "+53.133944s", "kind": "round", "round": 21, "stimulus": null, "local_time": "+51s", "magnet": {"ready": true, "raw": [5735, 6200, 1202], "gauss": [0.8382, 0.9062, 0.1757], "norm_gauss": 1.2468, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [640, -1856, 16640], "g": [0.04, -0.116, 1.04], "norm_g": 1.047}}
+{"time": "+53.385955s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+53.887565s", "kind": "register_read", "address": 30, "register": 168, "data": [42, 24, 111, 25, 40, 4], "status": "ok", "stage": "data"}
+{"time": "+54.186067s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+54.437776s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+54.935080s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 5, 192, 249, 192, 64], "status": "ok", "stage": "data"}
+{"time": "+54.935367s", "kind": "round", "round": 22, "stimulus": null, "local_time": "+53s", "magnet": {"ready": true, "raw": [6186, 6511, 1064], "gauss": [0.9041, 0.9516, 0.1555], "norm_gauss": 1.3218, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [1472, -1600, 16576], "g": [0.092, -0.1, 1.036], "norm_g": 1.045}}
+{"time": "+55.189234s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+55.690230s", "kind": "register_read", "address": 30, "register": 168, "data": [84, 24, 171, 25, 150, 4], "status": "ok", "stage": "data"}
+{"time": "+55.992383s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+56.242435s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+56.739958s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 3, 64, 251, 128, 65], "status": "ok", "stage": "data"}
+{"time": "+56.740301s", "kind": "round", "round": 23, "stimulus": null, "local_time": "+55s", "magnet": {"ready": true, "raw": [6228, 6571, 1174], "gauss": [0.9103, 0.9604, 0.1716], "norm_gauss": 1.3343, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [832, -1216, 16768], "g": [0.052, -0.076, 1.048], "norm_g": 1.052}}
+{"time": "+56.991453s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+57.492666s", "kind": "register_read", "address": 30, "register": 168, "data": [47, 23, 102, 24, 112, 4], "status": "ok", "stage": "data"}
+{"time": "+57.800140s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+58.050456s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+58.555768s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 3, 128, 250, 192, 65], "status": "ok", "stage": "data"}
+{"time": "+58.556065s", "kind": "round", "round": 24, "stimulus": null, "local_time": "+57s", "magnet": {"ready": true, "raw": [5935, 6246, 1136], "gauss": [0.8674, 0.9129, 0.166], "norm_gauss": 1.2702, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [832, -1408, 16832], "g": [0.052, -0.088, 1.052], "norm_g": 1.057}}
+{"time": "+58.810771s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+59.312992s", "kind": "register_read", "address": 30, "register": 168, "data": [21, 22, 158, 21, 156, 4], "status": "ok", "stage": "data"}
+{"time": "+59.617344s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+59.868933s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+60.368023s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 3, 192, 251, 64, 67], "status": "ok", "stage": "data"}
+{"time": "+60.368423s", "kind": "round", "round": 25, "stimulus": null, "local_time": "+58s", "magnet": {"ready": true, "raw": [5653, 5534, 1180], "gauss": [0.8262, 0.8088, 0.1725], "norm_gauss": 1.169, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [896, -1088, 17216], "g": [0.056, -0.068, 1.076], "norm_g": 1.08}}
+{"time": "+60.617257s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+61.129276s", "kind": "register_read", "address": 30, "register": 168, "data": [185, 22, 175, 18, 98, 4], "status": "ok", "stage": "data"}
+{"time": "+61.432290s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+61.686622s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+62.187923s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 3, 0, 252, 64, 64], "status": "ok", "stage": "data"}
+{"time": "+62.188266s", "kind": "round", "round": 26, "stimulus": null, "local_time": "+60s", "magnet": {"ready": true, "raw": [5817, 4783, 1122], "gauss": [0.8502, 0.6991, 0.164], "norm_gauss": 1.1128, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [832, -1024, 16448], "g": [0.052, -0.064, 1.028], "norm_g": 1.031}}
+{"time": "+62.443984s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+62.944932s", "kind": "register_read", "address": 30, "register": 168, "data": [140, 23, 162, 16, 228, 3], "status": "ok", "stage": "data"}
+{"time": "+63.252517s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+63.511011s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+64.013842s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 2, 64, 252, 64, 65], "status": "ok", "stage": "data"}
+{"time": "+64.013935s", "kind": "round", "round": 27, "stimulus": null, "local_time": "+62s", "magnet": {"ready": true, "raw": [6028, 4258, 996], "gauss": [0.881, 0.6223, 0.1456], "norm_gauss": 1.0884, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [704, -960, 16704], "g": [0.044, -0.06, 1.044], "norm_g": 1.047}}
+{"time": "+64.253996s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+64.751616s", "kind": "register_read", "address": 30, "register": 168, "data": [178, 24, 15, 15, 135, 3], "status": "ok", "stage": "data"}
+{"time": "+65.055262s", "kind": "register_read", "address": 30, "register": 174, "data": [12, 0], "status": "ok", "stage": "data"}
+{"time": "+65.309184s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+65.813348s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 4, 64, 253, 192, 64], "status": "ok", "stage": "data"}
+{"time": "+65.813663s", "kind": "round", "round": 28, "stimulus": null, "local_time": "+64s", "magnet": {"ready": true, "raw": [6322, 3855, 903], "gauss": [0.924, 0.5634, 0.132], "norm_gauss": 1.0903, "temp_c_rel": 26.5}, "accel": {"ready": true, "raw": [1088, -704, 16576], "g": [0.068, -0.044, 1.036], "norm_g": 1.039}}
+{"time": "+66.076057s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+66.577292s", "kind": "register_read", "address": 30, "register": 168, "data": [140, 27, 176, 14, 15, 3], "status": "ok", "stage": "data"}
+{"time": "+66.881156s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+67.137844s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+67.638244s", "kind": "register_read", "address": 25, "register": 168, "data": [64, 4, 192, 253, 0, 65], "status": "ok", "stage": "data"}
+{"time": "+67.638403s", "kind": "round", "round": 29, "stimulus": null, "local_time": "+66s", "magnet": {"ready": true, "raw": [7052, 3760, 783], "gauss": [1.0307, 0.5495, 0.1144], "norm_gauss": 1.1736, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [1088, -576, 16640], "g": [0.068, -0.036, 1.04], "norm_g": 1.043}}
+{"time": "+67.888507s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+68.391512s", "kind": "register_read", "address": 30, "register": 168, "data": [36, 30, 254, 13, 111, 2], "status": "ok", "stage": "data"}
+{"time": "+68.695106s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+68.946917s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+69.443166s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 254, 192, 252, 0, 66], "status": "ok", "stage": "data"}
+{"time": "+69.443486s", "kind": "round", "round": 30, "stimulus": null, "local_time": "+68s", "magnet": {"ready": true, "raw": [7716, 3582, 623], "gauss": [1.1277, 0.5235, 0.0911], "norm_gauss": 1.2467, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [-320, -832, 16896], "g": [-0.02, -0.052, 1.056], "norm_g": 1.057}}
+{"time": "+69.698964s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+70.197194s", "kind": "register_read", "address": 30, "register": 168, "data": [7, 33, 192, 14, 238, 1], "status": "ok", "stage": "data"}
+{"time": "+70.497416s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+70.749693s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+71.248403s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 5, 0, 254, 0, 67], "status": "ok", "stage": "data"}
+{"time": "+71.248622s", "kind": "round", "round": 31, "stimulus": null, "local_time": "+69s", "magnet": {"ready": true, "raw": [8455, 3776, 494], "gauss": [1.2357, 0.5519, 0.0722], "norm_gauss": 1.3553, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [1280, -512, 17152], "g": [0.08, -0.032, 1.072], "norm_g": 1.075}}
+{"time": "+71.498688s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+71.997357s", "kind": "register_read", "address": 30, "register": 168, "data": [85, 35, 244, 16, 183, 1], "status": "ok", "stage": "data"}
+{"time": "+72.301095s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+72.551677s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+73.056300s", "kind": "register_read", "address": 25, "register": 168, "data": [192, 3, 64, 251, 64, 66], "status": "ok", "stage": "data"}
+{"time": "+73.056632s", "kind": "round", "round": 32, "stimulus": null, "local_time": "+71s", "magnet": {"ready": true, "raw": [9045, 4340, 439], "gauss": [1.322, 0.6343, 0.0642], "norm_gauss": 1.4677, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [960, -1216, 16960], "g": [0.06, -0.076, 1.06], "norm_g": 1.064}}
+{"time": "+73.308989s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+73.817020s", "kind": "register_read", "address": 30, "register": 168, "data": [226, 35, 19, 18, 251, 1], "status": "ok", "stage": "data"}
+{"time": "+74.114904s", "kind": "register_read", "address": 30, "register": 174, "data": [13, 0], "status": "ok", "stage": "data"}
+{"time": "+74.364568s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+74.869518s", "kind": "register_read", "address": 25, "register": 168, "data": [0, 3, 128, 253, 128, 66], "status": "ok", "stage": "data"}
+{"time": "+74.869885s", "kind": "round", "round": 33, "stimulus": null, "local_time": "+73s", "magnet": {"ready": true, "raw": [9186, 4627, 507], "gauss": [1.3426, 0.6763, 0.0741], "norm_gauss": 1.5051, "temp_c_rel": 26.6}, "accel": {"ready": true, "raw": [768, -640, 17024], "g": [0.048, -0.04, 1.064], "norm_g": 1.066}}
+{"time": "+75.125799s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+75.628672s", "kind": "register_read", "address": 30, "register": 168, "data": [223, 35, 112, 20, 222, 1], "status": "ok", "stage": "data"}
+{"time": "+75.926284s", "kind": "register_read", "address": 30, "register": 174, "data": [14, 0], "status": "ok", "stage": "data"}
+{"time": "+76.176823s", "kind": "register_read", "address": 25, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+76.677357s", "kind": "register_read", "address": 25, "register": 168, "data": [128, 3, 128, 252, 128, 64], "status": "ok", "stage": "data"}
+{"time": "+76.677646s", "kind": "round", "round": 34, "stimulus": null, "local_time": "+75s", "magnet": {"ready": true, "raw": [9183, 5232, 478], "gauss": [1.3422, 0.7647, 0.0699], "norm_gauss": 1.5463, "temp_c_rel": 26.8}, "accel": {"ready": true, "raw": [896, -896, 16512], "g": [0.056, -0.056, 1.032], "norm_g": 1.035}}
+{"time": "+76.931933s", "kind": "register_read", "address": 30, "register": 39, "data": [255], "status": "ok", "stage": "data"}
+{"time": "+77.644905s", "kind": "closure", "unchanged": false, "hashes": null, "bootloader": false, "pc": null, "cnf19": null, "errors": [{"step": "halt", "error": "TransferError(\"SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock\")"}, {"step": "hashes", "error": "TransferError('SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock')"}, {"step": "reset", "error": "Error('Target not detected. Check connection to target. Potentially reduce debug clock.')"}, {"step": "halt_after_failed_reset", "error": "TransferError(\"SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock\")"}], "valid": false}
+{"time": "+77.646830s", "kind": "error", "error": "TransferError(\"SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock\")"}

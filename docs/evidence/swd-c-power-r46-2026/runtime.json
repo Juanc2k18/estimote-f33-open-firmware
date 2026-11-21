@@ -1,0 +1,56 @@
+{
+  "vtor": "0x0",
+  "gpregret": "0x0",
+  "resetreas": "0x0",
+  "rtc1_counter": "0x1ba68b",
+  "radio_state": "0x0",
+  "gpio_out": "0x20c0",
+  "gpio_dir": "0x220c0",
+  "status_address": "0x20003004",
+  "count_before": 55,
+  "count_after": 57,
+  "packet_hex": "013f3900400084001004d803ac0177014c0b2f6c8901208401009e0cf2011e",
+  "decoded": {
+    "version": 1,
+    "seq": 57,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.064,
+        0.132,
+        1.04
+      ],
+      "norm_g": 1.05
+    },
+    "magnet": {
+      "gauss": [
+        0.984,
+        0.428,
+        0.375
+      ],
+      "norm_gauss": 1.137
+    },
+    "baro": {
+      "temp_c": 28.92,
+      "pressure_hpa": 1007.16
+    },
+    "light": {
+      "lux": 99.36
+    },
+    "rtc_seconds": 30,
+    "adc": {
+      "vdd_v": 3.23,
+      "ain3_v": 0.498,
+      "battery_v_estimate": 3.022,
+      "battery_percent": 0
+    }
+  },
+  "method": "Application RAM only: 0x20003000\u20130x200037FF; exclude lower RAM used by programmer/SoftDevice"
+}

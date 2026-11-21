@@ -1,0 +1,81 @@
+test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) ... test_echo_is_not_ack (test_dfu_ping.CLITests) ... FAIL
+test_echo_then_ack (test_dfu_ping.CLITests) ... ok
+test_fragmented_ack (test_dfu_ping.CLITests) ... ok
+test_r15_ack_and_request (test_dfu_ping.CLITests) ... ok
+
+======================================================================
+FAIL: test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) (data='c0100000f0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 80, in test_bad_frames_and_silence_fail
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+======================================================================
+FAIL: test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) (data='c0100000f1c0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 80, in test_bad_frames_and_silence_fail
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f1 c0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+======================================================================
+FAIL: test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) (data='c0500000b0c0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 80, in test_bad_frames_and_silence_fail
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 50 00 00 b0 c0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+======================================================================
+FAIL: test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) (data='c0100100efc0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 80, in test_bad_frames_and_silence_fail
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 01 00 ef c0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+======================================================================
+FAIL: test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) (data='c0101000e0c0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 80, in test_bad_frames_and_silence_fail
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 10 00 e0 c0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+======================================================================
+FAIL: test_echo_is_not_ack (test_dfu_ping.CLITests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 57, in test_echo_is_not_ack
+    self.assertEqual(result.returncode, 1, result.stdout)
+AssertionError: 0 != 1 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+Correct ACK for seq 1: next expected 2
+ENLACE UART OK
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 15.938s
+
+FAILED (failures=6)

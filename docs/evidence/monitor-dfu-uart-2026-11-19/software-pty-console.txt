@@ -1,0 +1,62 @@
+TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0 c0
++0.000000s seq=1 ack
+TX c0 da 4e 00 d8 7f 00 00 00 97 da c0
+RX c0 18 00 00 e8 c0
++0.068093s seq=2 ack
+TX c0 e3 4e 00 cf 7f 00 00 00 cc a6 c0
+RX c0 20 00 00 e0 c0
++0.133622s seq=3 ack
+TX c0 ec 4e 00 c6 7f 00 00 00 72 d7 c0
+RX c0 28 00 00 d8 c0
++0.199726s seq=4 ack
+TX c0 f5 4e 00 bd 7f 00 00 00 b6 42 c0
+RX c0 30 00 00 d0 c0
++0.269736s seq=5 ack
+TX c0 fe 4e 00 b4 7f 00 00 00 65 3c c0
+RX c0 38 00 00 c8 c0
++0.334909s seq=6 ack
+TX c0 c7 4e 00 eb 7f 00 00 00 7b 53 c0
+RX c0 00 00 00 00 c0
++0.403343s seq=7 ack
+TX c0 c8 4e 00 ea 7f 00 00 00 e8 20 c0
+RX c0 08 00 00 f8 c0
++0.469884s seq=0 ack
+TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0 c0
++0.533326s seq=1 ack
+TX c0 da 4e 00 d8 7f 00 00 00 97 da c0
+RX c0 18 00 00 e8 c0
++0.601778s seq=2 ack
+TX c0 e3 4e 00 cf 7f 00 00 00 cc a6 c0
+RX c0 20 00 00 e0 c0
++0.669879s seq=3 ack
+TX c0 ec 4e 00 c6 7f 00 00 00 72 d7 c0
+RX c0 28 00 00 d8 c0
++0.738163s seq=4 ack
+TX c0 f5 4e 00 bd 7f 00 00 00 b6 42 c0
+RX c0 30 00 00 d0 c0
++0.804207s seq=5 ack
+TX c0 fe 4e 00 b4 7f 00 00 00 65 3c c0
+RX c0 38 00 00 c8 c0
++0.868930s seq=6 ack
+TX c0 c7 4e 00 eb 7f 00 00 00 7b 53 c0
+RX c0 00 00 00 00 c0
++0.936295s seq=7 ack
+TX c0 c8 4e 00 ea 7f 00 00 00 e8 20 c0
+RX c0 08 00 00 f8 c0
++1.002013s seq=0 ack
+TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0 c0
++1.069927s seq=1 ack
+TX c0 da 4e 00 d8 7f 00 00 00 97 da c0
+RX c0 18 00 00 e8 c0
++1.134757s seq=2 ack
+TX c0 e3 4e 00 cf 7f 00 00 00 cc a6 c0
+RX c0 20 00 00 e0 c0
++1.202742s seq=3 ack
+TX c0 ec 4e 00 c6 7f 00 00 00 72 d7 c0
+RX c0 28 00 00 d8 c0
++1.270564s seq=4 ack
+SUMMARY {"ack": 20, "attempts": 20}
+ENLACE UART OK

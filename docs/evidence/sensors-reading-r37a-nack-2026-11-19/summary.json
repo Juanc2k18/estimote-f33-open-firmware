@@ -1,0 +1,16 @@
+{
+  "status": "incomplete",
+  "counts": {
+    "parameters": 1,
+    "baseline": 1,
+    "active_start": 1,
+    "rail_on": 1,
+    "i2c_electrical": 1,
+    "register_read": 1,
+    "restore": 1,
+    "closure": 1,
+    "error": 1
+  },
+  "findings": [],
+  "limitation": "A NACK does not prove absence. Does not physically locate D or pins without continuity."
+}

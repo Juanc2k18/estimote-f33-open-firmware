@@ -1,0 +1,5 @@
+{"t": "+0.000s", "kind": "waiting", "port": "/dev/cu.usbmodem21102", "wait_s": 60, "zip": "firmware/ble-sensores/release/f33-ble-sensores-1.0.0.zip"}
+{"t": "+0.012s", "kind": "dfu_command_ok"}
+{"t": "+0.043s", "kind": "caught", "attempts": 1, "after_s": 0.0}
+{"t": "+0.071s", "kind": "sequence_wrapped"}
+{"t": "+3.069s", "kind": "nrfutil_done", "returncode": 0, "seconds": 3.0, "stdout_tail": "Upgrading target on /dev/cu.usbmodem21102 with DFU package firmware/ble-sensores/release/f33-ble-sensores-1.0.0.zip. Flow control is disabled, Dual bank, Touch disabled\n###################\nActivating new firmware\nDevice programmed.\n", "stderr_tail": "Opened serial port /dev/cu.usbmodem21102\nStarting DFU upgrade of type 4, SoftDevice size: 0, bootloader size: 0, application size: 9244\nSending DFU start packet\nSending DFU init packet\nSending firmware file\n\nDFU upgrade took 2.660489082336426s\n"}

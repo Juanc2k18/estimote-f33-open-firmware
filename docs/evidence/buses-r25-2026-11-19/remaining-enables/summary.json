@@ -1,0 +1,585 @@
+{
+  "complete": true,
+  "trials": 51,
+  "by_pin": {
+    "12": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          13
+        ],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          13
+        ],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          13
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          0
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          29
+        ]
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          12
+        ],
+        "others_fall": []
+      }
+    ],
+    "14": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "15": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          12,
+          13
+        ],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          12,
+          13
+        ],
+        "others_fall": []
+      }
+    ],
+    "16": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12
+        ]
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "17": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "18": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "19": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "20": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "23": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "24": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "26": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "27": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          26
+        ]
+      },
+      {
+        "pass": 2,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12,
+          13,
+          26
+        ]
+      },
+      {
+        "pass": 3,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          26
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12,
+          13
+        ]
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "29": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "30": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "31": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      },
+      {
+        "pass": 2,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12,
+          13
+        ]
+      },
+      {
+        "pass": 3,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12,
+          13
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "probe": "E660C0D1C75C942F",
+  "python": "3.10.14",
+  "pc": "0x75108",
+  "dp_idr": "0x2ba01477",
+  "ficr_part": "0x52832",
+  "ficr_variant": "0x41414230",
+  "ram_kb": 64,
+  "pselreset": [
+    21,
+    21
+  ],
+  "approtect": "0xffffffff",
+  "radio_state": 0,
+  "uicr_sha256": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7",
+  "bootloader_sha256": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc"
+}

@@ -1,0 +1,8 @@
+{
+  "frequency": 10000,
+  "action": "read DP/CTRL-AP; pulse CTRL-AP RESET only if Nordic ID matches; no erase",
+  "dp_idr": "0x2ba01477",
+  "ctrlap_idr": "0x2880000",
+  "approtectstatus": 1,
+  "reset_pulsed": true
+}

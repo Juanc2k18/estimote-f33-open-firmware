@@ -1,0 +1,5 @@
+{
+ "tool": "uart_dfu",
+ "zip": "docs/evidence/dfu-battery-r45-2026-11-19/hex/r45c-uart.zip",
+ "status": "ok"
+}

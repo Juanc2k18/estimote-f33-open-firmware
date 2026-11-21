@@ -1,0 +1,12 @@
+{
+  "mode": "check",
+  "pc_before": "0x77a0a",
+  "resetreas": "0x1",
+  "pselreset": [
+    "0x15",
+    "0x15"
+  ],
+  "counter": "0x7cbcb1fd",
+  "returned_to_flash": true,
+  "still_in_ram_loop": false
+}

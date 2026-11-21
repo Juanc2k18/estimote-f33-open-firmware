@@ -1,0 +1,19 @@
+test_active_cleanup_after_failure_keeps_irq_input (test_board_diagnostics.BoardTests) ... ok
+test_baseline_reads_gpio_without_writing_or_halting (test_board_diagnostics.BoardTests) ... ok
+test_cleanup_also_runs_when_preparation_fails (test_board_diagnostics.BoardTests) ... ok
+test_deadline_expires_as_incomplete (test_board_diagnostics.BoardTests) ... ok
+test_pin_selection_rejects_reserved_and_duplicates (test_board_diagnostics.BoardTests) ... ok
+test_uart_audit_detects_false_positive (test_board_diagnostics.BoardTests) ... ok
+test_rtc_bcd_and_rollover (test_board_diagnostics.ClassificationTests) ... ok
+test_rtc_stopped_and_invalid_not_identified (test_board_diagnostics.ClassificationTests) ... ok
+test_sensor_ids_require_repeated_matching_reads (test_board_diagnostics.ClassificationTests) ... ok
+test_nack_at_each_stage_returns_no_data (test_board_diagnostics.RegisterTests) ... ok
+test_register_repeated_start_and_final_nack (test_board_diagnostics.RegisterTests) ... ok
+test_stuck_bus_not_reported_as_nack (test_board_diagnostics.RegisterTests) ... ok
+test_spi_reads_id_in_both_modes (test_board_diagnostics.SPITests) ... ok
+test_stuck_clock_is_electrical_failure_not_zero_id (test_board_diagnostics.SPITests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.004s
+
+OK

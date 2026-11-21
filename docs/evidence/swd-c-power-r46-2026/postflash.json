@@ -1,0 +1,118 @@
+{
+  "probe": "E660C0D1C75C942F",
+  "operation": "read-only post-flash verification",
+  "images": [
+    {
+      "file": "firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r46.hex",
+      "all_segments_match": true,
+      "segments": [
+        {
+          "start": "0x0",
+          "end_exclusive": "0xb00",
+          "bytes": 2816,
+          "match": true,
+          "expected_sha256": "1bc875feba5eb16d68022068cb252598f9bf0f9835e93a632bc2e72828a4aa9e",
+          "actual_sha256": "1bc875feba5eb16d68022068cb252598f9bf0f9835e93a632bc2e72828a4aa9e"
+        },
+        {
+          "start": "0x1000",
+          "end_exclusive": "0x25150",
+          "bytes": 147792,
+          "match": true,
+          "expected_sha256": "6f4942f71aed2e097d2042c94d3100aa1fe3f274ba35798fddb622c9b5b900af",
+          "actual_sha256": "6f4942f71aed2e097d2042c94d3100aa1fe3f274ba35798fddb622c9b5b900af"
+        },
+        {
+          "start": "0x74000",
+          "end_exclusive": "0x79230",
+          "bytes": 21040,
+          "match": true,
+          "expected_sha256": "d4697eaed3410c13c8cdf03520346a2c5919e1427459836150ef52748d81f6d5",
+          "actual_sha256": "d4697eaed3410c13c8cdf03520346a2c5919e1427459836150ef52748d81f6d5"
+        },
+        {
+          "start": "0x10001014",
+          "end_exclusive": "0x1000101c",
+          "bytes": 8,
+          "match": true,
+          "expected_sha256": "de83a8312f32d2acc0993c88c539a5ff59dfdb4e448d1a110eed6970e3e38ac5",
+          "actual_sha256": "de83a8312f32d2acc0993c88c539a5ff59dfdb4e448d1a110eed6970e3e38ac5"
+        }
+      ]
+    },
+    {
+      "file": "firmware/ble-sensors/release/f33-ble-sensors-1.0.0.hex",
+      "all_segments_match": true,
+      "segments": [
+        {
+          "start": "0x26000",
+          "end_exclusive": "0x2841c",
+          "bytes": 9244,
+          "match": true,
+          "expected_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae",
+          "actual_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae"
+        }
+      ]
+    }
+  ],
+  "cpu_state": "State.SLEEPING",
+  "application_runtime": {
+    "vtor": "0x0",
+    "gpregret": "0x0",
+    "resetreas": "0x0",
+    "rtc1_counter": "0x1ba68b",
+    "radio_state": "0x0",
+    "gpio_out": "0x20c0",
+    "gpio_dir": "0x220c0",
+    "status_address": "0x20003004",
+    "count_before": 55,
+    "count_after": 57,
+    "packet_hex": "013f3900400084001004d803ac0177014c0b2f6c8901208401009e0cf2011e",
+    "decoded": {
+      "version": 1,
+      "seq": 57,
+      "valid": {
+        "accel": true,
+        "magnet": true,
+        "baro": true,
+        "light": true,
+        "rtc": true,
+        "adc": true
+      },
+      "accel": {
+        "g": [
+          0.064,
+          0.132,
+          1.04
+        ],
+        "norm_g": 1.05
+      },
+      "magnet": {
+        "gauss": [
+          0.984,
+          0.428,
+          0.375
+        ],
+        "norm_gauss": 1.137
+      },
+      "baro": {
+        "temp_c": 28.92,
+        "pressure_hpa": 1007.16
+      },
+      "light": {
+        "lux": 99.36
+      },
+      "rtc_seconds": 30,
+      "adc": {
+        "vdd_v": 3.23,
+        "ain3_v": 0.498,
+        "battery_v_estimate": 3.022,
+        "battery_percent": 0
+      }
+    },
+    "method": "Application RAM only: 0x20003000\u20130x200037FF; exclude lower RAM used by programmer/SoftDevice"
+  },
+  "r46_model_string_present": true,
+  "settings_erased": true,
+  "runtime_locator_note": "Initial all-RAM scan found a stale marker below application RAM; corrected search uses linker range starting 0x20003000."
+}

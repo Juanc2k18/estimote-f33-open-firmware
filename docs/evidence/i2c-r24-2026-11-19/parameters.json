@@ -1,0 +1,12 @@
+{
+  "python": "3.10.14",
+  "pyocd": "0.46.1",
+  "probe": "E660C0D1C75C942F",
+  "swd_hz": 100000,
+  "half_cycle_min_s": 0.001,
+  "line_timeout_s": 0.05,
+  "settle_enable_s": 0.15,
+  "git": "main without commits; identified by SHA-256 and source copies",
+  "gcc": "arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]",
+  "spi_host_verification": "clang -Wall -Wextra -Werror -o /tmp/estimote-spi-test tests/spi_classification.c && /tmp/estimote-spi-test; exit 0; ABI offset 996, CS blocked, SCK fixed low/high, modes 0/3, counter of 10 transactions per combination"
+}

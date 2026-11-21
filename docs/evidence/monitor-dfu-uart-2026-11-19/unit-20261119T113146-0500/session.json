@@ -1,0 +1,12 @@
+{
+  "objective": "Validate UART DFU response and monitor with r15 wiring",
+  "owner_report": {
+    "power": "Single 3.3 V supply on C/F; H, E3 and batteries disconnected",
+    "uart": "GP4/pin6 -> E2; GP5/pin7 <- E1; F common GND; pad E/SWO disconnected",
+    "swd": "A to 4 and B to 5; interpreted from documented wiring as physical pins 4/GP2 and 5/GP3"
+  },
+  "voltage_independently_measured": false,
+  "port": "/dev/cu.usbmodem21202",
+  "baud": 115200,
+  "reset_requested": false
+}

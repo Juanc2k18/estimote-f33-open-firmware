@@ -1,0 +1,30 @@
+{
+ "pc_prefixes": {
+  "0x2695": 13,
+  "0x2696": 7
+ },
+ "p0_out": "0x20c0",
+ "twim_enable": 6,
+ "rtc1_counter": 0,
+ "radio": {
+  "samples": 1258,
+  "states": {
+   "Disabled": 1256,
+   "Tx": 1,
+   "TxRu": 1
+  },
+  "frequencies": {
+   "80": 1,
+   "2": 1
+  },
+  "tx_power_raw": {
+   "0": 2
+  },
+  "active_fraction": 0.0016,
+  "advertising_channels": [
+   2,
+   80
+  ]
+ },
+ "reset_reason": "0x4"
+}

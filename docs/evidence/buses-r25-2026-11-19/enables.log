@@ -1,0 +1,172 @@
+Error during board uninit:
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 602, in read_ap_result_callback
+    value = result()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1082, in read_reg_cb
+    res = transfer.get_result()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 161, in get_result
+    self.daplink.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 887, in flush
+    self._read_packet()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1168, in _read_packet
+    decoded_data = cmd.decode_data(raw_data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 486, in decode_data
+    data = self._decode_transfer_data(data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 392, in _decode_transfer_data
+    self._check_response(data[2])
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 375, in _check_response
+    raise DAPAccessIntf.TransferError("SWD/JTAG communication failure (Unexpected ACK '%d'); " \
+pyocd.probe.pydapaccess.dap_access_api.DAPAccessIntf.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 949, in read_ap_cb
+    result = result_cb()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 607, in read_ap_result_callback
+    raise self._convert_exception(error) from error
+pyocd.core.exceptions.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 540, in read_dp
+    result = self._link.read_reg(reg_id, now=now)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1088, in read_reg
+    return read_reg_cb()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1082, in read_reg_cb
+    res = transfer.get_result()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 161, in get_result
+    self.daplink.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 887, in flush
+    self._read_packet()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1168, in _read_packet
+    decoded_data = cmd.decode_data(raw_data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 484, in decode_data
+    data = self._decode_transfer_block_data(data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 453, in _decode_transfer_block_data
+    self._check_response(data[3])
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 375, in _check_response
+    raise DAPAccessIntf.TransferError("SWD/JTAG communication failure (Unexpected ACK '%d'); " \
+pyocd.probe.pydapaccess.dap_access_api.DAPAccessIntf.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/ap.py", line 1182, in read_mem_cb
+    res = result_cb() # type: ignore # ignore possibly unbound result_cb
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 955, in read_ap_cb
+    self._handle_error(error, num)
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 1053, in _handle_error
+    self._swd_reset()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 1080, in _swd_reset
+    self.probe.read_dp(DP_IDR, now=True)    # Read DP IDR to take connection out of reset state.
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 543, in read_dp
+    raise self._convert_exception(error) from error
+pyocd.core.exceptions.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 540, in read_dp
+    result = self._link.read_reg(reg_id, now=now)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1088, in read_reg
+    return read_reg_cb()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1082, in read_reg_cb
+    res = transfer.get_result()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 161, in get_result
+    self.daplink.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 887, in flush
+    self._read_packet()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1168, in _read_packet
+    decoded_data = cmd.decode_data(raw_data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 484, in decode_data
+    data = self._decode_transfer_block_data(data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 453, in _decode_transfer_block_data
+    self._check_response(data[3])
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 375, in _check_response
+    raise DAPAccessIntf.TransferError("SWD/JTAG communication failure (Unexpected ACK '%d'); " \
+pyocd.probe.pydapaccess.dap_access_api.DAPAccessIntf.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scripts/gpio_enable_matrix_r25.py", line 39, in main
+    high=sample();cnf=t.read32(P+0x700+4*p)
+  File "scripts/gpio_enable_matrix_r25.py", line 27, in sample
+    raw=t.read32(P+0x510);return {'raw':raw,'pins':{p:raw>>p&1 for p in range(32)}}
+  File "~/.local/lib/python3.10/site-packages/pyocd/core/memory_interface.py", line 116, in read32
+    return self.read_memory(addr, 32, now)
+  File "~/.local/lib/python3.10/site-packages/pyocd/core/soc_target.py", line 232, in read_memory
+    return self.selected_core_or_raise.read_memory(addr, transfer_size, now)
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/cortex_m.py", line 621, in read_memory
+    result = self.ap.read_memory(addr, transfer_size, now)
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/ap.py", line 1204, in _read_memory
+    result = read_mem_cb()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/ap.py", line 1200, in read_mem_cb
+    self._handle_error(error, num)
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/ap.py", line 1364, in _handle_error
+    self.dp._handle_error(error, num)
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 1053, in _handle_error
+    self._swd_reset()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 1080, in _swd_reset
+    self.probe.read_dp(DP_IDR, now=True)    # Read DP IDR to take connection out of reset state.
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 543, in read_dp
+    raise self._convert_exception(error) from error
+pyocd.core.exceptions.TransferError: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 428, in flush
+    self._link.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 887, in flush
+    self._read_packet()
+  File "~/.local/lib/python3.10/site-packages/pyocd/utility/concurrency.py", line 29, in _locking
+    return func(self, *args, **kwargs)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 1168, in _read_packet
+    decoded_data = cmd.decode_data(raw_data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 486, in decode_data
+    data = self._decode_transfer_data(data)
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 392, in _decode_transfer_data
+    self._check_response(data[2])
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/pydapaccess/dap_access_cmsis_dap.py", line 372, in _check_response
+    raise DAPAccessIntf.TransferError("SWD/JTAG communication failure (No ACK); " \
+pyocd.probe.pydapaccess.dap_access_api.DAPAccessIntf.TransferError: SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scripts/gpio_enable_matrix_r25.py", line 50, in <module>
+    if __name__=='__main__':main()
+  File "scripts/gpio_enable_matrix_r25.py", line 46, in main
+    t.halt();release();after=[digest(0x74000,0xc000),digest(0x10001000,0x400)]
+  File "~/.local/lib/python3.10/site-packages/pyocd/core/soc_target.py", line 196, in halt
+    return self.selected_core_or_raise.halt()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/cortex_m.py", line 659, in halt
+    self.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/cortex_m.py", line 412, in flush
+    self.parent.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/coresight_target.py", line 92, in flush
+    self.dp.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/coresight/dap.py", line 527, in flush
+    self.probe.flush()
+  File "~/.local/lib/python3.10/site-packages/pyocd/probe/cmsis_dap_probe.py", line 431, in flush
+    raise self._convert_exception(exc) from exc
+pyocd.core.exceptions.TransferError: SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock

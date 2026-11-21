@@ -1,0 +1,44 @@
+[
+  {
+    "source": "~/Downloads/IMG_0576.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0576.HEIC",
+    "sha256": "4eede3b20e2be57e07d74a55122cadeef2ab63ff79a03551280d00788addcef4",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0576.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0576.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0577.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0577.HEIC",
+    "sha256": "63a2de384fecc31a2adcc4ddb3d34bf3bdbfcc8b6522abcb37371a085e9f3770",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0577.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0577.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0578.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0578.HEIC",
+    "sha256": "ee1330307d69ea7a6cae03d435627c0f0518de168b84c24ed97a158d5bd72b9a",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0578.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0578.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0579.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0579.HEIC",
+    "sha256": "a980323f99ebacaafbb710220f66bd759b418c6b20fc674bc87a5391387c0f66",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0579.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0579.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0580.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0580.HEIC",
+    "sha256": "3d9412fff27c3064cf7914f5e542edf80d8bd22e0ab7c0fd5a6e826bb2a82bd5",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0580.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0580.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0581.HEIC",
+    "original": "docs/evidence/fotos-rtc-r30-2026-11-19/originales/IMG_0581.HEIC",
+    "sha256": "4831e6cc721efd3c38e819b51490e82ca1081ced52f1eb18126951a64f30596a",
+    "png": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/IMG_0581.png",
+    "preview": "docs/evidence/fotos-rtc-r30-2026-11-19/consulta/vista/IMG_0581.png"
+  }
+]

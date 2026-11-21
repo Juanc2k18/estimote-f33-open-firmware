@@ -1,0 +1,61 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "command 0x02: UART DFU; E3 at 3.7 V, Pico on E1/E2/E4",
+  "found": true,
+  "samples": 0,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 55,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.064,
+        0.032,
+        1.044
+      ],
+      "norm_g": 1.046
+    },
+    "magnet": {
+      "gauss": [
+        1.062,
+        0.55,
+        0.217
+      ],
+      "norm_gauss": 1.215
+    },
+    "baro": {
+      "temp_c": 28.51,
+      "pressure_hpa": 1005.84
+    },
+    "light": {
+      "lux": 136.8
+    },
+    "rtc_seconds": 14,
+    "adc": {
+      "vdd_v": 3.404,
+      "ain3_v": 0.055,
+      "battery_v_estimate": 0.0,
+      "battery_percent": 0
+    }
+  },
+  "firmware_revision": "r45c-ota",
+  "battery_level": 0,
+  "dfu_command": "02",
+  "dfu_write": "desconectada antes de responder: disconnected"
+}

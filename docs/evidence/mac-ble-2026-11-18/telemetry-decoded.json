@@ -1,0 +1,157 @@
+{
+  "source": "https://github.com/Estimote/estimote-specs/blob/master/estimote-telemetry.js",
+  "frames": [
+    {
+      "raw": "22bb6b7d16b94a4e260005fe42004af899428801",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 0,
+      "acceleration_g": [
+        0.07874015748031496,
+        -0.031496062992125984,
+        1.0393700787401574
+      ],
+      "motion_code": 0,
+      "gpio_reported_high": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100418.59765625
+    },
+    {
+      "raw": "22bb6b7d16b94a4e26010000005ea78290f00401",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 1,
+      "temperature_c": 36.125,
+      "light_lux": 322.56,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 679,
+      "uptime_unit": "seconds",
+      "battery_mv": 316,
+      "battery_percent": 1
+    },
+    {
+      "raw": "22bb6b7d16b94a4e260005fe42004bf816468801",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 0,
+      "acceleration_g": [
+        0.07874015748031496,
+        -0.031496062992125984,
+        1.0393700787401574
+      ],
+      "motion_code": 0,
+      "gpio_reported_high": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100422.0859375
+    },
+    {
+      "raw": "22bb6b7d16b94a4e26010000005ecbc291f00401",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 1,
+      "temperature_c": 36.4375,
+      "light_lux": 322.56,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 715,
+      "uptime_unit": "seconds",
+      "battery_mv": 316,
+      "battery_percent": 1
+    },
+    {
+      "raw": "22bb6b7d16b94a4e260005ff42004df81b3e8801",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 0,
+      "acceleration_g": [
+        0.07874015748031496,
+        -0.015748031496062992,
+        1.0393700787401574
+      ],
+      "motion_code": 0,
+      "gpio_reported_high": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100414.10546875
+    },
+    {
+      "raw": "22bb6b7d16b94a4e26010000005f514397f00401",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 1,
+      "temperature_c": 37.8125,
+      "light_lux": 345.59999999999997,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 849,
+      "uptime_unit": "seconds",
+      "battery_mv": 316,
+      "battery_percent": 1
+    },
+    {
+      "raw": "22bb6b7d16b94a4e26010000005f574397f00401",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 1,
+      "temperature_c": 37.8125,
+      "light_lux": 345.59999999999997,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 855,
+      "uptime_unit": "seconds",
+      "battery_mv": 316,
+      "battery_percent": 1
+    },
+    {
+      "raw": "22bb6b7d16b94a4e260004ff42004ef8ed3b8801",
+      "protocol_version": 2,
+      "short_id": "bb6b7d16b94a4e26",
+      "subframe": 0,
+      "acceleration_g": [
+        0.06299212598425197,
+        -0.015748031496062992,
+        1.0393700787401574
+      ],
+      "motion_code": 0,
+      "gpio_reported_high": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100411.92578125
+    }
+  ]
+}

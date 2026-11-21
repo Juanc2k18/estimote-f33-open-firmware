@@ -1,0 +1,65 @@
+{"time": "+0.000000s", "kind": "parameters", "pin": 17, "seconds": 60.0, "gate": 1.0, "rail": null, "supply": "3,3 V C/F"}
+{"time": "+0.504080s", "kind": "baseline", "part": 337970, "gpio": [{"pin": 0, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 1, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 2, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 3, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 4, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 5, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 6, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 7, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 8, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 9, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 10, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 11, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 12, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 0, "reserved": true}, {"pin": 13, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 3, "reserved": true}, {"pin": 14, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 15, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 16, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 17, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 3, "reserved": false}, {"pin": 18, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 19, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 3, "reserved": true}, {"pin": 20, "level": 1, "raw_in_bit": 1, "input_connected": true, "cnf": 196620, "reserved": false}, {"pin": 21, "level": null, "raw_in_bit": 1, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 22, "level": 0, "raw_in_bit": 0, "input_connected": true, "cnf": 196620, "reserved": true}, {"pin": 23, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 24, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 25, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": true}, {"pin": 26, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 27, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 28, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 29, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 30, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}, {"pin": 31, "level": null, "raw_in_bit": 0, "input_connected": false, "cnf": 2, "reserved": false}], "dir": 663552, "out": 8192, "resetpins": [21, 21], "uart": {"enable": 8, "tx": 13, "rx": 12}, "radio": 0}
+{"time": "+7.969256s", "kind": "active_start", "hashes": {"bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc", "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"}, "radio": 0, "irq19": "input without pull"}
+{"time": "+8.139222s", "kind": "counter_control", "pin": 18, "toggles": 20, "rising_edges": 20, "valid": true}
+{"time": "+9.163636s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0053, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+10.185194s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0033, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+11.208437s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0055, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+12.230880s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0041, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+13.254527s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0052, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+14.278606s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+15.299202s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0014, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+16.322754s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0051, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+17.347199s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0059, "hz_estimate": 8.9, "level_before": 0}
+{"time": "+18.370469s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0052, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+19.394376s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+20.414210s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0011, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+21.436960s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0046, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+22.455907s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0007, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+23.479441s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0051, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+24.500691s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0023, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+25.521094s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0021, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+26.543375s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0033, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+27.564310s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0026, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+28.586436s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0037, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+29.609271s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0045, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+30.632302s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0045, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+31.656230s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0052, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+32.676333s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0015, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+33.697491s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0032, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+34.721381s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+35.745285s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+36.765673s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0019, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+37.789595s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0055, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+38.809178s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.001, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+39.832660s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0053, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+40.851601s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0005, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+41.875339s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0055, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+42.894815s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0011, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+43.916020s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0028, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+44.939858s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+45.960422s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0017, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+46.980555s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0013, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+48.004263s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0053, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+49.026517s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0044, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+50.049789s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0052, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+51.073196s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0053, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+52.092691s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0013, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+53.116560s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0048, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+54.140128s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0051, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+55.159535s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0005, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+56.183570s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0054, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+57.206696s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0052, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+58.225457s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0011, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+59.248798s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0053, "hz_estimate": 8.0, "level_before": 1}
+{"time": "+60.272491s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+61.303629s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.005, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+62.322738s", "kind": "window", "pin": 17, "rising_edges": 8, "gate_s": 1.0008, "hz_estimate": 8.0, "level_before": 0}
+{"time": "+63.342459s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0018, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+64.366475s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+65.389495s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0049, "hz_estimate": 9.0, "level_before": 1}
+{"time": "+66.413274s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0054, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+67.433876s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0024, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+68.454031s", "kind": "window", "pin": 17, "rising_edges": 9, "gate_s": 1.0021, "hz_estimate": 9.0, "level_before": 0}
+{"time": "+68.454465s", "kind": "watch_summary", "pin": 17, "windows": 59, "hz_min": 8.0, "hz_max": 9.0}
+{"time": "+76.422357s", "kind": "closure", "unchanged": true, "hashes": {"bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc", "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"}, "bootloader": true, "pc": 489982, "cnf19": 0, "errors": [], "valid": true}

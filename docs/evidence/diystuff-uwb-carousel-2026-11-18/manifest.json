@@ -1,0 +1,50 @@
+{
+  "source": "https://diystuff.nl/embedded/estimote-uwb-location-beacon-teardown/",
+  "images": [
+    {
+      "file": "1TopComponents.png",
+      "url": "https://diystuff.nl/wp-content/uploads/2018/02/1TopComponents.png",
+      "bytes": 1338237,
+      "sha256": "e1b5626bb4a01ad191706eacbf460b414ad1c433a0c3053ad5d45c3fdfa39b12",
+      "width": 1301,
+      "height": 742,
+      "mode": "RGBA"
+    },
+    {
+      "file": "1Top.png",
+      "url": "https://diystuff.nl/wp-content/uploads/2018/02/1Top.png",
+      "bytes": 485774,
+      "sha256": "b0f773d17296c80875404e9e6e0a2250ce90e95860a8720500dc5b1677968caa",
+      "width": 6816,
+      "height": 3878,
+      "mode": "RGBA"
+    },
+    {
+      "file": "2Inner.png",
+      "url": "https://diystuff.nl/wp-content/uploads/2018/02/2Inner.png",
+      "bytes": 314807,
+      "sha256": "1422ba181c50885be1511ed253e023440e78633ea33540cacd4955b6632250be",
+      "width": 6816,
+      "height": 3878,
+      "mode": "RGBA"
+    },
+    {
+      "file": "3Inner.png",
+      "url": "https://diystuff.nl/wp-content/uploads/2018/02/3Inner.png",
+      "bytes": 301328,
+      "sha256": "ae66b899e8dac0822b423a3c99b8a4df4064c351bd8e60c277114477a35988a0",
+      "width": 6816,
+      "height": 3878,
+      "mode": "RGBA"
+    },
+    {
+      "file": "4Bot.png",
+      "url": "https://diystuff.nl/wp-content/uploads/2018/02/4Bot.png",
+      "bytes": 358101,
+      "sha256": "021b44e58c3e016dd67667c097260b1b096df4651e8aabe8b68838c67657ac9e",
+      "width": 6816,
+      "height": 3878,
+      "mode": "RGBA"
+    }
+  ]
+}

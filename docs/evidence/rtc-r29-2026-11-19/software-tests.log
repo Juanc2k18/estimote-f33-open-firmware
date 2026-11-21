@@ -1,0 +1,12 @@
+test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok
+test_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok
+test_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok
+test_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok
+test_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok
+test_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok
+test_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+OK

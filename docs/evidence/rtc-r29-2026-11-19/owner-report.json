@@ -1,0 +1,13 @@
+{
+  "unix": 1795099626.559617,
+  "reported_continuity": "M41T62 pin6 counted counterclockwise from dot → nRF52832 physical pin22",
+  "nrf_gpio": "P0.19",
+  "rtc_function_if_numbering_correct": "IRQ/OUT, no SDA/SCL",
+  "ohms": null,
+  "instrument": null,
+  "reported_mount": "Pico and supply reconnected; E1/E2 disconnected; retain H/F setting; E→GP5 state not explicitly reconfirmed",
+  "rtc_vcc_measurement": {
+    "value_v": null,
+    "status": "undetermined; owner could not distinguish zero from lack of contact on small pads"
+  }
+}

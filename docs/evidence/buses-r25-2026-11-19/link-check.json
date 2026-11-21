@@ -1,0 +1,14 @@
+[
+  {
+    "unix": 1795073997.2235541,
+    "frequency": 50000,
+    "probe": "E660C0D1C75C942F",
+    "error": "Target not detected. Check connection to target. Potentially reduce debug clock."
+  },
+  {
+    "unix": 1795073997.2615921,
+    "frequency": 10000,
+    "probe": "E660C0D1C75C942F",
+    "error": "Target not detected. Check connection to target. Potentially reduce debug clock."
+  }
+]

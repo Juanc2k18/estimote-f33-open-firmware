@@ -1,0 +1,23 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+secrets/
+dumps/
+backups/
+*.bin
+*.hex
+*.uf2
+*.elf
+*.map
+__pycache__/
+.venv/
+tools/bootloader-build/
+
+firmware/ble-sensors/build/
+
+# Exceptions: only the current firmware is published (bootloader r46 and app 1.0.0)
+# plus the raw .bin evidence captures (they are not firmware).
+!firmware/adafruit-bootloader/*-r46.hex
+!firmware/ble-sensors/release/*.hex
+!docs/evidence/**/*-rx.bin

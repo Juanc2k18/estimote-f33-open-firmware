@@ -1,0 +1,13 @@
+{"state": "control-ZZ", "pullup_internal": true, "sda": 2, "scl": 8, "valid": true, "W": {"counts": {"nack": 112}, "acks": []}, "R": {"counts": {"nack": 112}, "acks": []}}
+{"state": "ZZ", "pullup_internal": false, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "ZZ", "pullup_internal": false, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}
+{"state": "ZZ", "pullup_internal": true, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "ZZ", "pullup_internal": true, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}
+{"state": "HZ", "pullup_internal": false, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "HZ", "pullup_internal": false, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}
+{"state": "HZ", "pullup_internal": true, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "HZ", "pullup_internal": true, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}
+{"state": "ZH", "pullup_internal": false, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "ZH", "pullup_internal": false, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}
+{"state": "ZH", "pullup_internal": true, "sda": 6, "scl": 7, "valid": false, "W": {}, "R": {}}
+{"state": "ZH", "pullup_internal": true, "sda": 7, "scl": 6, "valid": false, "W": {}, "R": {}}

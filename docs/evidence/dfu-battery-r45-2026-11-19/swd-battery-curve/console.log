@@ -1,0 +1,209 @@
+{"t": "+0.000s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+0.003s", "kind": "first", "resetreas": "0x4", "reasons": ["SREQ"], "count": 51}
+00:06:56.012 #51    VDD 2.001 V · AIN3 0.592 V · bat≈3.57 V 0 %
+00:06:56.784 #52    VDD 2.003 V · AIN3 0.582 V · bat≈3.51 V 0 %
+00:06:57.817 #53    VDD 1.998 V · AIN3 0.573 V · bat≈3.46 V 0 %
+00:06:58.844 #54    VDD 2.004 V · AIN3 0.566 V · bat≈3.42 V 0 %
+00:06:59.880 #55    VDD 2.003 V · AIN3 0.553 V · bat≈3.34 V 0 %
+00:07:00.913 #56    VDD 2.002 V · AIN3 0.548 V · bat≈3.31 V 0 %
+00:07:01.945 #57    VDD 2.007 V · AIN3 0.539 V · bat≈3.26 V 0 %
+00:07:02.723 #58    VDD 2.000 V · AIN3 0.536 V · bat≈3.24 V 0 %
+00:07:03.754 #59    VDD 2.003 V · AIN3 0.532 V · bat≈3.22 V 0 %
+00:07:04.786 #60    VDD 2.007 V · AIN3 0.526 V · bat≈3.19 V 0 %
+00:07:05.809 #61    VDD 2.005 V · AIN3 0.516 V · bat≈3.13 V 0 %
+00:07:06.837 #62    VDD 2.008 V · AIN3 0.515 V · bat≈3.12 V 0 %
+00:07:07.871 #63    VDD 2.006 V · AIN3 0.498 V · bat≈3.02 V 0 %
+Error during board uninit:
+{"t": "+12.897s", "kind": "swd_lost", "error": "TransferError(\"SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock\")"}
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock
+{"t": "+68.021s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+68.024s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+68.026s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+68.678s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+68.681s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+68.683s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+69.319s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+69.322s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+69.324s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+69.977s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+69.980s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+69.982s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+70.635s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+70.638s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+70.640s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+71.290s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+71.292s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+71.295s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+71.946s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+71.949s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+71.951s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+72.605s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+72.607s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 0}
+{"t": "+72.610s", "kind": "swd_lost", "error": "ValueError('unknown packet version: 0')"}
+{"t": "+73.258s", "kind": "swd_ok", "status_addr": "0x20003000"}
+{"t": "+73.260s", "kind": "boot", "resetreas": "0x0", "reasons": ["POR/BOR"], "count": 1}
+00:08:09.269 #1     VDD 2.001 V · AIN3 0.548 V · bat≈3.31 V 0 %
+00:08:09.788 #2     VDD 1.996 V · AIN3 0.558 V · bat≈3.37 V 0 %
+00:08:10.817 #3     VDD 1.992 V · AIN3 0.571 V · bat≈3.45 V 0 %
+00:08:11.850 #4     VDD 1.994 V · AIN3 0.578 V · bat≈3.49 V 0 %
+00:08:12.885 #5     VDD 2.000 V · AIN3 0.583 V · bat≈3.52 V 0 %
+00:08:13.920 #6     VDD 1.995 V · AIN3 0.598 V · bat≈3.60 V 0 %
+00:08:14.699 #7     VDD 1.992 V · AIN3 0.599 V · bat≈3.61 V 0 %
+00:08:15.733 #8     VDD 1.997 V · AIN3 0.611 V · bat≈3.68 V 0 %
+00:08:16.767 #9     VDD 1.999 V · AIN3 0.630 V · bat≈3.79 V 0 %
+00:08:17.794 #10    VDD 2.004 V · AIN3 0.645 V · bat≈3.88 V 0 %
+00:08:18.828 #11    VDD 1.998 V · AIN3 0.663 V · bat≈3.98 V 0 %
+00:08:19.867 #12    VDD 2.004 V · AIN3 0.679 V · bat≈4.08 V 0 %
+00:08:20.901 #13    VDD 2.002 V · AIN3 0.693 V · bat≈4.16 V 0 %
+00:08:21.933 #14    VDD 1.996 V · AIN3 0.695 V · bat≈4.17 V 1 %
+00:08:22.710 #15    VDD 1.999 V · AIN3 0.705 V · bat≈4.23 V 1 %
+00:08:23.745 #16    VDD 2.001 V · AIN3 0.720 V · bat≈4.32 V 1 %
+00:08:24.777 #17    VDD 2.005 V · AIN3 0.733 V · bat≈4.39 V 2 %
+00:08:25.812 #18    VDD 2.000 V · AIN3 0.740 V · bat≈4.43 V 2 %
+00:08:26.844 #19    VDD 1.996 V · AIN3 0.748 V · bat≈4.48 V 2 %
+00:08:27.876 #20    VDD 2.004 V · AIN3 0.756 V · bat≈4.53 V 3 %
+00:08:28.909 #21    VDD 2.000 V · AIN3 0.758 V · bat≈4.54 V 3 %
+00:08:29.684 #22    VDD 2.001 V · AIN3 0.769 V · bat≈4.60 V 3 %
+00:08:30.718 #23    VDD 2.005 V · AIN3 0.783 V · bat≈4.68 V 4 %
+00:08:31.754 #24    VDD 2.004 V · AIN3 0.795 V · bat≈4.75 V 4 %
+00:08:32.787 #25    VDD 2.000 V · AIN3 0.809 V · bat≈4.83 V 6 %
+00:08:33.818 #26    VDD 1.991 V · AIN3 0.828 V · bat≈4.95 V 10 %
+00:08:34.842 #27    VDD 1.993 V · AIN3 0.835 V · bat≈4.99 V 11 %
+00:08:35.879 #28    VDD 1.993 V · AIN3 0.846 V · bat≈5.05 V 14 %
+00:08:36.917 #29    VDD 1.999 V · AIN3 0.858 V · bat≈5.12 V 16 %
+00:08:37.693 #30    VDD 1.989 V · AIN3 0.865 V · bat≈5.16 V 18 %
+00:08:38.727 #31    VDD 1.995 V · AIN3 0.876 V · bat≈5.22 V 22 %
+00:08:39.759 #32    VDD 2.000 V · AIN3 0.882 V · bat≈5.26 V 25 %
+00:08:40.792 #33    VDD 1.992 V · AIN3 0.897 V · bat≈5.35 V 34 %
+00:08:41.826 #34    VDD 1.998 V · AIN3 0.904 V · bat≈5.39 V 38 %
+00:08:42.862 #35    VDD 1.992 V · AIN3 0.919 V · bat≈5.47 V 47 %
+00:08:43.904 #36    VDD 1.990 V · AIN3 0.934 V · bat≈5.56 V 56 %
+00:08:44.938 #37    VDD 1.992 V · AIN3 0.937 V · bat≈5.58 V 58 %
+00:08:45.710 #38    VDD 1.996 V · AIN3 0.954 V · bat≈5.68 V 67 %
+00:08:46.745 #39    VDD 1.996 V · AIN3 0.974 V · bat≈5.79 V 79 %
+00:08:47.774 #40    VDD 1.998 V · AIN3 0.991 V · bat≈5.89 V 89 %
+00:08:48.806 #41    VDD 2.002 V · AIN3 0.997 V · bat≈5.93 V 92 %
+00:08:49.833 #42    VDD 2.004 V · AIN3 1.003 V · bat≈5.96 V 96 %
+00:08:50.864 #43    VDD 2.000 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:08:51.898 #44    VDD 1.994 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:08:52.925 #45    VDD 1.996 V · AIN3 1.011 V · bat≈6.01 V 100 %
+00:08:53.702 #46    VDD 2.000 V · AIN3 1.006 V · bat≈5.98 V 98 %
+00:08:54.735 #47    VDD 1.996 V · AIN3 1.009 V · bat≈6.00 V 99 %
+00:08:55.771 #48    VDD 1.989 V · AIN3 1.009 V · bat≈6.00 V 99 %
+00:08:56.805 #49    VDD 1.996 V · AIN3 1.006 V · bat≈5.98 V 98 %
+00:08:57.842 #50    VDD 2.004 V · AIN3 1.005 V · bat≈5.98 V 97 %
+00:08:58.872 #51    VDD 1.985 V · AIN3 1.006 V · bat≈5.98 V 98 %
+00:08:59.904 #52    VDD 2.001 V · AIN3 1.014 V · bat≈6.03 V 100 %
+00:09:00.933 #53    VDD 1.999 V · AIN3 1.012 V · bat≈6.02 V 100 %
+00:09:01.709 #54    VDD 1.996 V · AIN3 1.005 V · bat≈5.98 V 97 %
+00:09:02.738 #55    VDD 1.999 V · AIN3 1.005 V · bat≈5.98 V 97 %
+00:09:03.771 #56    VDD 1.999 V · AIN3 1.010 V · bat≈6.00 V 100 %
+00:09:04.810 #57    VDD 2.000 V · AIN3 1.011 V · bat≈6.01 V 100 %
+00:09:05.845 #58    VDD 2.000 V · AIN3 1.016 V · bat≈6.04 V 100 %
+00:09:06.878 #59    VDD 2.003 V · AIN3 1.013 V · bat≈6.02 V 100 %
+00:09:07.911 #60    VDD 2.006 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:09:08.688 #61    VDD 1.993 V · AIN3 1.007 V · bat≈5.99 V 98 %
+00:09:09.725 #62    VDD 1.997 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:09:10.761 #63    VDD 1.992 V · AIN3 1.005 V · bat≈5.98 V 97 %
+00:09:11.798 #64    VDD 1.994 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:09:12.837 #65    VDD 1.992 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:09:13.867 #66    VDD 2.002 V · AIN3 1.007 V · bat≈5.99 V 98 %
+00:09:14.904 #67    VDD 2.000 V · AIN3 1.012 V · bat≈6.02 V 100 %
+00:09:15.937 #68    VDD 1.993 V · AIN3 1.013 V · bat≈6.02 V 100 %
+00:09:16.713 #69    VDD 2.001 V · AIN3 1.006 V · bat≈5.98 V 98 %
+00:09:17.747 #70    VDD 1.994 V · AIN3 1.008 V · bat≈5.99 V 99 %
+00:09:18.786 #71    VDD 1.996 V · AIN3 1.001 V · bat≈5.95 V 95 %
+00:09:19.813 #72    VDD 1.997 V · AIN3 1.011 V · bat≈6.01 V 100 %
+00:09:20.842 #73    VDD 2.000 V · AIN3 1.007 V · bat≈5.99 V 98 %
+{"t": "+145.866s", "kind": "swd_lost", "error": "AssertionError()"}
+{"t": "+156.683s", "kind": "interrupted"}
+{"tool": "swd_monitor", "started": "-0.118s", "note": "battery curve over SWD (r45c); owner adjusts H/F supply", "samples": 86, "finished": "+156.683s"}

@@ -1,0 +1,31 @@
+{
+  "python_suite": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests": 21,
+    "monitor_tests": 14,
+    "failures": 0,
+    "exit_code": 0,
+    "output": "software-tests.txt"
+  },
+  "spi_host": {
+    "command": "clang -Wall -Wextra -Werror -o /tmp/estimote-monitor-spi-test tests/spi_classification.c && /tmp/estimote-monitor-spi-test",
+    "exit_code": 0
+  },
+  "pty": {
+    "attempts": 20,
+    "ack": 20,
+    "summary_matches_jsonl": true,
+    "output": "software-pty.jsonl"
+  },
+  "beacon": {
+    "transmitted": false,
+    "live_log": null,
+    "reason": "r15 wiring unconfirmed; last setup used SWO and 6 V on H/F, C/F~2 V."
+  },
+  "review": {
+    "independent": true,
+    "important_findings": 2,
+    "important_fixed": 2,
+    "remaining": 0
+  }
+}

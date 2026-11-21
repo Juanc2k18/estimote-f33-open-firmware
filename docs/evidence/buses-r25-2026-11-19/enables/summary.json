@@ -1,0 +1,121 @@
+{
+  "complete": false,
+  "trials": 9,
+  "by_pin": {
+    "2": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "3": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          0
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "4": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          0
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "5": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "6": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          7
+        ],
+        "others_fall": []
+      }
+    ],
+    "7": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ],
+    "8": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": [
+          12,
+          13
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pass": 1,
+        "own": [
+          0,
+          1,
+          1
+        ],
+        "others_rise": [
+          10
+        ],
+        "others_fall": []
+      }
+    ],
+    "10": [
+      {
+        "pass": 1,
+        "own": [
+          1,
+          1,
+          1
+        ],
+        "others_rise": [],
+        "others_fall": []
+      }
+    ]
+  }
+}

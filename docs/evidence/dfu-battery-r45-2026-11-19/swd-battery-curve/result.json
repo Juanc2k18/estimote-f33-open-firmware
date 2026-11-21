@@ -1,0 +1,170 @@
+{
+  "tool": "swd_monitor",
+  "note": "battery curve over SWD (r45c); owner adjusts H/F supply",
+  "samples": 86,
+  "events": [
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "first",
+      "resetreas": "0x4",
+      "reasons": [
+        "SREQ"
+      ],
+      "count": 51
+    },
+    {
+      "kind": "swd_lost",
+      "error": "TransferError(\"SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock\")"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 0
+    },
+    {
+      "kind": "swd_lost",
+      "error": "ValueError('unknown packet version: 0')"
+    },
+    {
+      "kind": "swd_ok",
+      "status_addr": "0x20003000"
+    },
+    {
+      "kind": "boot",
+      "resetreas": "0x0",
+      "reasons": [
+        "POR/BOR"
+      ],
+      "count": 1
+    },
+    {
+      "kind": "swd_lost",
+      "error": "AssertionError()"
+    },
+    {
+      "kind": "interrupted"
+    }
+  ]
+}

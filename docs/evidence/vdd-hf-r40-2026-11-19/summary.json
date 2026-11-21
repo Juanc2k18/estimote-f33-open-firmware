@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "counts": {
+    "active_start": 1,
+    "analog": 7,
+    "closure": 1
+  },
+  "findings": [],
+  "limitation": "A NACK does not prove absence. Does not physically locate D or pins without continuity."
+}

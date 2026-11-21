@@ -1,0 +1,55 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/gpio_bus_matrix_r25.py",
+      "scripts/i2c_candidates_r25.py",
+      "scripts/rtc_irq_input_r29.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok\ntest_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok\ntest_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok\ntest_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok\ntest_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok\ntest_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok\ntest_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.005s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/i2c_candidates_r25.py",
+      "--matrix",
+      "docs/evidence/rtc-r29-2026-11-19/matrix-retry/matrix.json",
+      "--out",
+      "docs/evidence/rtc-r29-2026-11-19/guard-not-run",
+      "--uart-disconnected",
+      "--exclude",
+      "19",
+      "--anchor",
+      "19",
+      "--addresses",
+      "0x68"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2,
+    "stderr": "usage: i2c_candidates_r25.py [-h] --matrix MATRIX --out OUT\n                             [--uart-disconnected] [--addresses ADDRESSES]\n                             [--power-pin {14,15}] [--settle SETTLE]\n                             [--exclude EXCLUDE] [--anchor ANCHOR]\n                             [--anchor-role {either,sda,scl}]\ni2c_candidates_r25.py: error: anchor GPIO does not pass electrical matrix; do not interpret as device absence\n",
+    "hardware_connected_by_command": false
+  },
+  {
+    "evidence_checks": "2040 NACK in3 states; IRQ19 input samples; hashes/bootloader preserved; VCC unknown",
+    "passed": true,
+    "known_failure": "first matrix GPIO11 OD read/cleanup failed; recovered and excluded"
+  }
+]

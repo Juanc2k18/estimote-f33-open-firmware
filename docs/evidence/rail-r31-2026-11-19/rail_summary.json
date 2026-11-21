@@ -1,0 +1,200 @@
+{
+  "topology": [
+    {
+      "kind": "rail_topology",
+      "idle_pull_down": {
+        "6": 0,
+        "7": 0,
+        "14": 0,
+        "15": 0
+      },
+      "rows": [
+        {
+          "driven": 6,
+          "others": {
+            "7": 1,
+            "14": 0,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 7,
+          "others": {
+            "6": 1,
+            "14": 0,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 14,
+          "others": {
+            "6": 1,
+            "7": 1,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 15,
+          "others": {
+            "6": 1,
+            "7": 1,
+            "14": 0
+          },
+          "all_follow": false
+        }
+      ],
+      "single_node": false,
+      "interpretation": "not a single node: the full rail is not switched on"
+    }
+  ],
+  "counter_control": [
+    {
+      "kind": "counter_control",
+      "pin": 19,
+      "toggles": 20,
+      "rising_edges": 0,
+      "valid": false
+    },
+    {
+      "kind": "counter_control",
+      "pin": 18,
+      "toggles": 20,
+      "rising_edges": 20,
+      "valid": true
+    }
+  ],
+  "lfclk": [
+    {
+      "kind": "lfclk",
+      "phase": "rail_off",
+      "status": "complete",
+      "verdict": "consistent with a passive crystal: no edges on XL1 and no 32 kHz in bypass",
+      "initial": {
+        "lfclkstat": "0x10000",
+        "running": true,
+        "src": 0,
+        "lfclksrc": "0x0"
+      },
+      "xl_as_gpio": [
+        {
+          "pin": 0,
+          "rising_edges": 0,
+          "gate_s": 0.2544,
+          "hz_estimate": 0.0,
+          "level_before": 0
+        },
+        {
+          "pin": 1,
+          "rising_edges": 0,
+          "gate_s": 0.2519,
+          "hz_estimate": 0.0,
+          "level_before": 0
+        }
+      ],
+      "xtal": {
+        "started_s": 0.318,
+        "state": {
+          "lfclkstat": "0x10001",
+          "running": true,
+          "src": 1,
+          "lfclksrc": "0x1"
+        },
+        "rate": {
+          "ticks": 16504,
+          "gate_s": 0.5038,
+          "hz_estimate": 32760.1
+        }
+      },
+      "external_bypass": {
+        "started_s": null,
+        "state": {
+          "lfclkstat": "0x10000",
+          "running": true,
+          "src": 0,
+          "lfclksrc": "0x30001"
+        }
+      }
+    }
+  ],
+  "active_pins": [
+    {
+      "kind": "frequency",
+      "phase": "rail_off",
+      "pin": 17,
+      "rising_edges": 9,
+      "gate_s": 0.2547,
+      "hz_estimate": 35.3,
+      "level_before": 0
+    }
+  ],
+  "matrix_diff": [],
+  "analog": [
+    {
+      "kind": "analog",
+      "phase": "rail_off",
+      "channels": [
+        {
+          "pin": 2,
+          "source": "AIN0",
+          "raw": 105,
+          "mv": 92.3
+        },
+        {
+          "pin": 3,
+          "source": "AIN1",
+          "raw": 10,
+          "mv": 8.8
+        },
+        {
+          "pin": 4,
+          "source": "AIN2",
+          "raw": 7,
+          "mv": 6.2
+        },
+        {
+          "pin": 5,
+          "source": "AIN3",
+          "raw": 532,
+          "mv": 467.6
+        },
+        {
+          "pin": 28,
+          "source": "AIN4",
+          "raw": 281,
+          "mv": 247.0
+        },
+        {
+          "pin": 29,
+          "source": "AIN5",
+          "raw": 132,
+          "mv": 116.0
+        },
+        {
+          "pin": 30,
+          "source": "AIN6",
+          "raw": 168,
+          "mv": 147.7
+        },
+        {
+          "pin": 31,
+          "source": "AIN7",
+          "raw": 182,
+          "mv": 160.0
+        },
+        {
+          "pin": null,
+          "source": "VDD",
+          "raw": 3550,
+          "mv": 3120.1
+        }
+      ]
+    }
+  ],
+  "i2c_ack": [],
+  "candidates": [],
+  "identification": [],
+  "errors": []
+}

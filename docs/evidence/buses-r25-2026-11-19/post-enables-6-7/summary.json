@@ -1,0 +1,714 @@
+[
+  {
+    "state": "control-ZZ",
+    "pullup_internal": true,
+    "sda": 2,
+    "scl": 8,
+    "electrical": {
+      "idle": {
+        "2": 1,
+        "8": 1
+      },
+      "lines": [
+        {
+          "driven": 2,
+          "initial_low": {
+            "2": 0,
+            "8": 1
+          },
+          "low": {
+            "2": 0,
+            "8": 1
+          },
+          "low_ok": true,
+          "released": {
+            "2": 1,
+            "8": 1
+          },
+          "recovered": true,
+          "valid": true
+        },
+        {
+          "driven": 8,
+          "initial_low": {
+            "2": 1,
+            "8": 0
+          },
+          "low": {
+            "2": 1,
+            "8": 0
+          },
+          "low_ok": true,
+          "released": {
+            "2": 1,
+            "8": 1
+          },
+          "recovered": true,
+          "valid": true
+        }
+      ],
+      "valid": true
+    },
+    "W": {
+      "counts": {
+        "nack": 112
+      },
+      "acks": []
+    },
+    "R": {
+      "counts": {
+        "nack": 112
+      },
+      "acks": []
+    },
+    "repeats": []
+  },
+  {
+    "state": "ZZ",
+    "pullup_internal": false,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 0,
+        "7": 0
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 0,
+            "7": 0
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 0,
+            "7": 0
+          },
+          "recovered": false,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 0,
+            "7": 0
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 0,
+            "7": 0
+          },
+          "recovered": false,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZZ",
+    "pullup_internal": false,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 0,
+        "6": 0
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 0,
+            "6": 0
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 0,
+            "6": 0
+          },
+          "recovered": false,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 0,
+            "6": 0
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 0,
+            "6": 0
+          },
+          "recovered": false,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZZ",
+    "pullup_internal": true,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 0,
+        "7": 0
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 0,
+            "7": 0
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 0,
+            "7": 0
+          },
+          "recovered": false,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 0,
+            "7": 0
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 0,
+            "7": 0
+          },
+          "recovered": false,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZZ",
+    "pullup_internal": true,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 0,
+        "6": 0
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 0,
+            "6": 0
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 0,
+            "6": 0
+          },
+          "recovered": false,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 0,
+            "6": 0
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 0,
+            "6": 0
+          },
+          "recovered": false,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "HZ",
+    "pullup_internal": false,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 1,
+        "7": 1
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "HZ",
+    "pullup_internal": false,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 1,
+        "6": 1
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "HZ",
+    "pullup_internal": true,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 1,
+        "7": 1
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "HZ",
+    "pullup_internal": true,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 1,
+        "6": 1
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 1,
+            "6": 0
+          },
+          "low_ok": true,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": true
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZH",
+    "pullup_internal": false,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 1,
+        "7": 1
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZH",
+    "pullup_internal": false,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 1,
+        "6": 1
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZH",
+    "pullup_internal": true,
+    "sda": 6,
+    "scl": 7,
+    "electrical": {
+      "idle": {
+        "6": 1,
+        "7": 1
+      },
+      "lines": [
+        {
+          "driven": 6,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 7,
+          "initial_low": {
+            "6": 1,
+            "7": 1
+          },
+          "low": {
+            "6": 0,
+            "7": 0
+          },
+          "low_ok": false,
+          "released": {
+            "6": 1,
+            "7": 1
+          },
+          "recovered": true,
+          "valid": false
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  },
+  {
+    "state": "ZH",
+    "pullup_internal": true,
+    "sda": 7,
+    "scl": 6,
+    "electrical": {
+      "idle": {
+        "7": 1,
+        "6": 1
+      },
+      "lines": [
+        {
+          "driven": 7,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 0,
+            "6": 0
+          },
+          "low_ok": false,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": false
+        },
+        {
+          "driven": 6,
+          "initial_low": {
+            "7": 1,
+            "6": 1
+          },
+          "low": {
+            "7": 1,
+            "6": 0
+          },
+          "low_ok": true,
+          "released": {
+            "7": 1,
+            "6": 1
+          },
+          "recovered": true,
+          "valid": true
+        }
+      ],
+      "valid": false
+    },
+    "W": {},
+    "R": {},
+    "repeats": []
+  }
+]

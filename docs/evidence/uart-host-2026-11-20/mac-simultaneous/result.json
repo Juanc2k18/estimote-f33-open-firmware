@@ -1,0 +1,59 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "",
+  "found": true,
+  "samples": 10,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 21,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.0,
+        0.34,
+        0.98
+      ],
+      "norm_g": 1.037
+    },
+    "magnet": {
+      "gauss": [
+        0.798,
+        0.378,
+        0.416
+      ],
+      "norm_gauss": 0.976
+    },
+    "baro": {
+      "temp_c": 31.2,
+      "pressure_hpa": 1006.01
+    },
+    "light": {
+      "lux": 106.56
+    },
+    "rtc_seconds": 3,
+    "adc": {
+      "vdd_v": 3.357,
+      "ain3_v": 0.24,
+      "battery_v_estimate": 1.52,
+      "battery_percent": 0
+    }
+  },
+  "firmware_revision": "1.0.0",
+  "battery_level": 0
+}

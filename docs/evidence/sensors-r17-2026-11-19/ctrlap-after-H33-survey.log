@@ -1,0 +1,7 @@
+Generic 'cortex_m' target type is selected by default; is this intentional? You will be able to debug most devices, but not program flash. To set the target type use the '--target' argument or 'target_override' option. Use 'pyocd list --targets' to see available targets types.
+DP IDR 0x2ba01477
+RESET 0x0
+ERASEALL 0x0
+ERASEALLSTATUS 0x0
+APPROTECTSTATUS 0x1
+IDR 0x2880000

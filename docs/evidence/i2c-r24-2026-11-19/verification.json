@@ -1,0 +1,128 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok\ntest_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok\ntest_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok\ntest_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok\ntest_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok\ntest_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok\ntest_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.005s\n\nOK\n"
+  },
+  {
+    "command": [
+      "clang",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-o",
+      "/tmp/estimote-spi-test",
+      "tests/spi_classification.c"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/tmp/estimote-spi-test"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "~/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-gcc",
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-Os",
+      "-ffreestanding",
+      "-nostdlib",
+      "-T",
+      "tools/ram-scanner/ram.ld",
+      "-Wl,--gc-sections",
+      "-o",
+      "tools/ram-scanner/scanner-r24-spi.elf",
+      "tools/ram-scanner/scanner-r24-spi.c"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "~/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-objcopy",
+      "-O",
+      "binary",
+      "--only-section=.text",
+      "--only-section=.data",
+      "tools/ram-scanner/scanner-r24-spi.elf",
+      "tools/ram-scanner/scanner-r24-spi.bin"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/bus_probe.py",
+      "scripts/i2c_trial_r24.py",
+      "tools/ram-scanner/run_scanner.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "tools/ram-scanner/run_scanner.py",
+      "--spi-stats",
+      "--i2c",
+      ""
+    ],
+    "exit_code": 2,
+    "stderr": "usage: run_scanner.py [-h] [--image IMAGE] [--require-pin REQUIRE_PIN]\n                      [--spi-stats] [--mosi MOSI] [--frequency FREQUENCY]\n                      [--power POWER] [--low LOW] [--cs CS] [--sck SCK]\n                      [--miso MISO] [--i2c I2C] [--timeout TIMEOUT]\nrun_scanner.py: error: r24: never 14 and 15 high together\n",
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "python3",
+      "tools/ram-scanner/run_scanner.py",
+      "--spi-stats",
+      "--power",
+      "",
+      "--sck",
+      "2",
+      "--i2c",
+      "6"
+    ],
+    "exit_code": 2,
+    "stderr": "usage: run_scanner.py [-h] [--image IMAGE] [--require-pin REQUIRE_PIN]\n                      [--spi-stats] [--mosi MOSI] [--frequency FREQUENCY]\n                      [--power POWER] [--low LOW] [--cs CS] [--sck SCK]\n                      [--miso MISO] [--i2c I2C] [--timeout TIMEOUT]\nrun_scanner.py: error: r24 is SPI only: use empty --i2c\n",
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "python3",
+      "tools/ram-scanner/run_scanner.py",
+      "--spi-stats",
+      "--power",
+      "",
+      "--sck",
+      "3",
+      "--i2c",
+      ""
+    ],
+    "exit_code": 2,
+    "stderr": "usage: run_scanner.py [-h] [--image IMAGE] [--require-pin REQUIRE_PIN]\n                      [--spi-stats] [--mosi MOSI] [--frequency FREQUENCY]\n                      [--power POWER] [--low LOW] [--cs CS] [--sck SCK]\n                      [--miso MISO] [--i2c I2C] [--timeout TIMEOUT]\nrun_scanner.py: error: r24: clocks with historical SWD loss excluded\n",
+    "expected_exit": 2
+  }
+]

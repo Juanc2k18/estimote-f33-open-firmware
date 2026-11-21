@@ -1,0 +1,45 @@
+{
+  "rtc": {
+    "photos": [
+      "IMG_0569",
+      "IMG_0571",
+      "IMG_0572"
+    ],
+    "read_marking": "M41T62",
+    "confidence": "high, visual identification by marking and package; function untested",
+    "interface": "I2C",
+    "address_7bit": "0x68",
+    "electrical_test": false
+  },
+  "pressure": {
+    "photos": [
+      "IMG_0573",
+      "IMG_0574",
+      "IMG_0575"
+    ],
+    "read_marking": "first line appears to be 121; second KN, clear K",
+    "candidate": "Bosch BMP280",
+    "confidence": "high for visual identification; electronic ID pending",
+    "reason": "package with vent and CCC/Kx marking scheme; Bosch associates K with BMP280",
+    "electrical_test": false
+  },
+  "fem": {
+    "photos": [
+      "IMG_0569",
+      "IMG_0570",
+      "IMG_0571",
+      "IMG_0575"
+    ],
+    "read_marking": "66110-11",
+    "candidate": "Skyworks SKY66110-11",
+    "confidence": "high visual confidence; supports r22; not a sensor"
+  },
+  "black_ics": {
+    "read_marking": "one beside RTC: partial CU3/CU? characters, matrix code",
+    "confidence": "no model assigned; LIS2DH12/EEPROM unconfirmed"
+  },
+  "traces": {
+    "finding": "more surface traces and vias visible; RTC contacts accessible",
+    "limit": "photo does not prove full continuity to GPIO; do not yet assign SDA/SCL to nRF pins"
+  }
+}

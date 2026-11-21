@@ -1,0 +1,8 @@
+0000471 I Loading firmware/ble-sensores/build/f33-ble-sensores.hex [load_cmd]
+0000476 I Erasing... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0000524 I Programming... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0000751 I Erased 8192 bytes (2 sectors), programmed 8192 bytes (2 pages), identical 0 bytes (0 pages) at 29.13 kB/s [loader]

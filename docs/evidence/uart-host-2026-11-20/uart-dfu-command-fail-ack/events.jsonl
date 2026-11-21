@@ -1,0 +1,2 @@
+{"t": "+0.000s", "kind": "waiting", "port": "/dev/cu.usbmodem21102", "wait_s": 60, "zip": "firmware/ble-sensores/build/f33-ble-sensores.zip"}
+{"t": "+1.515s", "kind": "error", "error": "TimeoutError('application did not respond {\"ok\":\"dfu\"}: UART off or E2 disconnected?')"}

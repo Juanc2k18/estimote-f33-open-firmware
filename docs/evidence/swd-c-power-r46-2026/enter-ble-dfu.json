@@ -1,0 +1,6 @@
+{
+  "operation": "request BLE DFU via GPREGRET=0xA8 and SYSRESETREQ; no flash written",
+  "probe": "E660C0D1C75C942F",
+  "gpregret_after": "0x0",
+  "cpu_state": "State.RUNNING"
+}

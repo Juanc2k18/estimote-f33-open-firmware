@@ -1,0 +1,35 @@
+# F3.3 diagnostics
+
+Status: **complete**.
+
+## Recorded tests
+
+- parameters: 1
+- baseline: 1
+- active_start: 1
+- rail_on: 1
+- i2c_electrical: 8
+- i2c_address: 672
+- i2c_repeat: 90
+- i2c_control: 45
+- i2c_candidate: 15
+- register_read: 24
+- identification: 6
+- rtc: 3
+- rail_off: 1
+- closure: 1
+
+## Findings
+
+- `{"time": "+0.000000s", "phase": "rail_67", "mode": "od", "kind": "identification", "sda": 14, "scl": 15, "address": 25, "model": "LIS3DH/LIS2DH12 compatible", "readings": [51, 51, 51], "status": "id_repeated"}`
+- `{"time": "+4.921434s", "phase": "rail_67", "mode": "od", "kind": "rtc", "sda": 14, "scl": 15, "address": 104, "first": [8, 55, 118, 63, 23, 157, 155, 207], "second": [137, 56, 118, 63, 23, 157, 155, 207], "elapsed_seconds": 1.8067255630739965, "exact_model_verified": false, "advance_seconds": null, "status": "invalid_clock_data", "reason": "RTC reserved bits"}`
+- `{"time": "+6.512373s", "phase": "rail_67", "mode": "od", "kind": "identification", "sda": 14, "scl": 15, "address": 119, "model": "BMP280", "readings": [88, 88, 88], "status": "id_repeated"}`
+- `{"time": "+25.525549s", "phase": "rail_67", "mode": "push_pull", "kind": "identification", "sda": 14, "scl": 15, "address": 25, "model": "LIS3DH/LIS2DH12 compatible", "readings": [51, 51, 51], "status": "id_repeated"}`
+- `{"time": "+30.435568s", "phase": "rail_67", "mode": "push_pull", "kind": "rtc", "sda": 14, "scl": 15, "address": 104, "first": [96, 2, 119, 63, 23, 157, 155, 207], "second": [64, 4, 119, 63, 23, 157, 155, 207], "elapsed_seconds": 1.806611395557411, "exact_model_verified": false, "advance_seconds": null, "status": "invalid_clock_data", "reason": "RTC reserved bits"}`
+- `{"time": "+32.031922s", "phase": "rail_67", "mode": "push_pull", "kind": "identification", "sda": 14, "scl": 15, "address": 119, "model": "BMP280", "readings": [88, 88, 88], "status": "id_repeated"}`
+- `{"time": "+51.506232s", "phase": "rail_off", "mode": "push_pull", "kind": "identification", "sda": 14, "scl": 15, "address": 25, "model": "LIS3DH/LIS2DH12 compatible", "readings": [51, 51, 51], "status": "id_repeated"}`
+- `{"time": "+56.437963s", "phase": "rail_off", "mode": "push_pull", "kind": "rtc", "sda": 14, "scl": 15, "address": 104, "first": [89, 40, 119, 63, 23, 157, 155, 207], "second": [64, 48, 119, 63, 23, 157, 155, 207], "elapsed_seconds": 1.807445270998869, "exact_model_verified": false, "advance_seconds": null, "status": "invalid_clock_data", "reason": "RTC reserved bits"}`
+- `{"time": "+58.021922s", "phase": "rail_off", "mode": "push_pull", "kind": "identification", "sda": 14, "scl": 15, "address": 119, "model": "BMP280", "readings": [88, 88, 88], "status": "id_repeated"}`
+
+NACK does not prove absence. Does not physically locate D or pins without continuity.
+See events.jsonl for frames, electrical states and closure.

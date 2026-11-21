@@ -1,0 +1,10 @@
+{"version": 1, "seq": 2, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.995, "ain3_v": 0.535, "battery_v_estimate": 3.21}, "t": "+0.000s"}
+{"version": 1, "seq": 3, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.994, "ain3_v": 0.54, "battery_v_estimate": 3.24}, "t": "+2.011s"}
+{"version": 1, "seq": 4, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 2.002, "ain3_v": 0.544, "battery_v_estimate": 3.26}, "t": "+4.021s"}
+{"version": 1, "seq": 5, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 2.0, "ain3_v": 0.539, "battery_v_estimate": 3.23}, "t": "+6.001s"}
+{"version": 1, "seq": 6, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 2.0, "ain3_v": 0.54, "battery_v_estimate": 3.24}, "t": "+8.011s"}
+{"version": 1, "seq": 7, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.995, "ain3_v": 0.535, "battery_v_estimate": 3.21}, "t": "+10.021s"}
+{"version": 1, "seq": 8, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.994, "ain3_v": 0.536, "battery_v_estimate": 3.22}, "t": "+12.002s"}
+{"version": 1, "seq": 9, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.998, "ain3_v": 0.537, "battery_v_estimate": 3.22}, "t": "+14.011s"}
+{"version": 1, "seq": 10, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 1.996, "ain3_v": 0.533, "battery_v_estimate": 3.2}, "t": "+16.021s"}
+{"version": 1, "seq": 11, "valid": {"accel": false, "magnet": false, "baro": false, "light": false, "rtc": false, "adc": true}, "adc": {"vdd_v": 2.002, "ain3_v": 0.54, "battery_v_estimate": 3.24}, "t": "+18.001s"}

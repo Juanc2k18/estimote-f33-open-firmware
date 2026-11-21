@@ -1,0 +1,11 @@
+test_rtc_bcd_and_rollover (test_board_diagnostics.ClassificationTests) ... ok
+test_rtc_stopped_and_invalid_not_identified (test_board_diagnostics.ClassificationTests) ... ok
+test_sensor_ids_require_repeated_matching_reads (test_board_diagnostics.ClassificationTests) ... ok
+test_nack_at_each_stage_returns_no_data (test_board_diagnostics.RegisterTests) ... ok
+test_register_repeated_start_and_final_nack (test_board_diagnostics.RegisterTests) ... ok
+test_stuck_bus_not_reported_as_nack (test_board_diagnostics.RegisterTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

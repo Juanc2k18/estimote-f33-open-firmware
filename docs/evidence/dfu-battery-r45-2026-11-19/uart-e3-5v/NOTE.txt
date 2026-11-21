@@ -1,0 +1,3 @@
+Correction (owner, 2026-11-20): the power supply was at 5 V on E3, not 3.6 V.
+The "3,6 V / VDD ~3,3 V" notes in console.log and result.json are the agent's earlier assumption.
+VDD measured by SAADC: saturated at 3.60 V (r45 with 5 V: C/F = 4.58 V by multimeter).

@@ -1,0 +1,26 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "r44 first reading, board at rest",
+  "found": true,
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 1,
+    "valid": {
+      "accel": false,
+      "magnet": false,
+      "baro": false,
+      "light": false,
+      "rtc": false,
+      "adc": true
+    },
+    "adc": {
+      "vdd_v": 1.995,
+      "ain3_v": 0.535,
+      "battery_v_estimate": 3.21
+    }
+  },
+  "samples": 10
+}

@@ -1,0 +1,21 @@
+{"time": "+0.000000s", "monotonic": 679374.605885583, "session": null, "event": "run_start", "python": "3.12.12", "os": "macOS-27.2.1-arm64-arm-64bit", "bleak": "3.0.1"}
+{"time": "+0.000201s", "monotonic": 679374.606078583, "session": null, "event": "scan_start", "seconds": 25}
+{"time": "+25.064173s", "monotonic": 679399.67002125, "session": null, "event": "scan_end"}
+{"time": "+27.265699s", "monotonic": 679401.871527833, "session": 1, "event": "connect_request", "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F"}
+{"time": "+39.268140s", "monotonic": 679413.873956833, "session": 1, "event": "session_error", "error": "TimeoutError()"}
+{"time": "+39.270515s", "monotonic": 679413.876321625, "session": 1, "event": "session_end"}
+{"time": "+39.271065s", "monotonic": 679413.876858708, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+45.319418s", "monotonic": 679419.925230541, "session": null, "event": "scan_end"}
+{"time": "+45.980953s", "monotonic": 679420.586743833, "session": 2, "event": "connect_request", "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F"}
+{"time": "+57.984011s", "monotonic": 679432.589795625, "session": 2, "event": "session_error", "error": "TimeoutError()"}
+{"time": "+57.985032s", "monotonic": 679432.590780208, "session": 2, "event": "session_end"}
+{"time": "+57.985824s", "monotonic": 679432.591570541, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+64.037881s", "monotonic": 679438.643661916, "session": null, "event": "scan_end"}
+{"time": "+64.722922s", "monotonic": 679439.328664291, "session": 3, "event": "connect_request", "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F"}
+{"time": "+76.726268s", "monotonic": 679451.331998666, "session": 3, "event": "session_error", "error": "TimeoutError()"}
+{"time": "+76.727185s", "monotonic": 679451.332892541, "session": 3, "event": "session_end"}
+{"time": "+76.727694s", "monotonic": 679451.333403458, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+82.779205s", "monotonic": 679457.384894541, "session": null, "event": "scan_end"}
+{"time": "+82.779536s", "monotonic": 679457.385212916, "session": null, "event": "scan_start", "seconds": 30}
+{"time": "+112.818254s", "monotonic": 679487.423900083, "session": null, "event": "scan_end"}
+{"time": "+112.821701s", "monotonic": 679487.427333416, "session": null, "event": "run_end"}

@@ -1,0 +1,6 @@
+{
+  "tool": "uart_sensores",
+  "port": "/dev/cu.usbmodem21102",
+  "samples": 21,
+  "events": []
+}

@@ -1,0 +1,8 @@
+0000477 I Loading firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r43.hex [load_cmd]
+0000531 I Erasing... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0000576 I Programming... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0004111 I Erased chip, programmed 181248 bytes (45 pages), identical 0 bytes (0 pages) at 49.44 kB/s [loader]

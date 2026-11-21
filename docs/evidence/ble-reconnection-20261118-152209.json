@@ -1,0 +1,251 @@
+{
+  "mode": "advertisement_scan_no_gatt_connection",
+  "target_events": [
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -67,
+      "hex": "22bb6b7d16b94a4e26010000004a1c807ffcffff"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -58,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -65,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -65,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -56,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -61,
+      "hex": "22bb6b7d16b94a4e26000ef3400029f8e6078801"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -48,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -60,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -75,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -75,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -68,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -68,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -48,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -66,
+      "hex": "22bb6b7d16b94a4e26010000004a36807f785dff"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -52,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -60,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -75,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -75,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -58,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -60,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -56,
+      "hex": "22bb6b7d16b94a4e26000ef33e0041f800048801"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -51,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    }
+  ],
+  "telemetry": [
+    {
+      "subframe": 1,
+      "raw": "22bb6b7d16b94a4e26010000004a1c807ffcffff",
+      "battery_mv": null,
+      "battery_percent": null,
+      "uptime_value": 28,
+      "uptime_unit": "seconds",
+      "temperature_c": 31.875,
+      "light_lux": 115.19999999999999
+    },
+    {
+      "subframe": 0,
+      "raw": "22bb6b7d16b94a4e26000ef3400029f8e6078801",
+      "acceleration_g": [
+        0.22,
+        -0.205,
+        1.008
+      ],
+      "pressure_pa": 100359.8984375,
+      "firmware_error": false,
+      "clock_error": true
+    },
+    {
+      "subframe": 1,
+      "raw": "22bb6b7d16b94a4e26010000004a36807f785dff",
+      "battery_mv": 5982,
+      "battery_percent": null,
+      "uptime_value": 54,
+      "uptime_unit": "seconds",
+      "temperature_c": 31.875,
+      "light_lux": 115.19999999999999
+    },
+    {
+      "subframe": 0,
+      "raw": "22bb6b7d16b94a4e26000ef33e0041f800048801",
+      "acceleration_g": [
+        0.22,
+        -0.205,
+        0.976
+      ],
+      "pressure_pa": 100356.0,
+      "firmware_error": false,
+      "clock_error": true
+    }
+  ]
+}

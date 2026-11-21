@@ -1,0 +1,50 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "r44b internal pull-up, board at rest",
+  "found": true,
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 1,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        -0.024,
+        0.328,
+        0.98
+      ],
+      "norm_g": 1.034
+    },
+    "magnet": {
+      "gauss": [
+        1.322,
+        0.814,
+        0.165
+      ],
+      "norm_gauss": 1.561
+    },
+    "baro": {
+      "temp_c": 26.22,
+      "pressure_hpa": 1006.6
+    },
+    "light": {
+      "lux": 31.68
+    },
+    "rtc_seconds": 7,
+    "adc": {
+      "vdd_v": 1.996,
+      "ain3_v": 0.539,
+      "battery_v_estimate": 3.23
+    }
+  },
+  "samples": 10
+}

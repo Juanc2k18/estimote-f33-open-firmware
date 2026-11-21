@@ -1,0 +1,9 @@
+{"t": "+0.000s", "kind": "package", "zip": "firmware/ble-sensores/build/f33-ble-sensores.zip", "dat_len": 14, "bin_len": 9244}
+{"t": "+19.899s", "kind": "control_write_disconnected", "error": "disconnected"}
+{"t": "+19.899s", "kind": "dfu_requested"}
+{"t": "+23.331s", "kind": "dfu_revision", "raw": "0800", "mtu": 247}
+{"t": "+23.691s", "kind": "start_ok", "s": 0.27}
+{"t": "+23.917s", "kind": "init_ok"}
+{"t": "+33.231s", "kind": "image_ok", "bytes": 9244, "packets": 463, "bytes_per_s": 1012}
+{"t": "+33.322s", "kind": "validate_ok"}
+{"t": "+33.410s", "kind": "activated", "total_s": 9.99}

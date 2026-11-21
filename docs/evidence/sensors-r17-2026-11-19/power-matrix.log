@@ -1,0 +1,11 @@
+{"mode": "matrix", "power": [], "ficr": "0x52832", "nfcpins": "0xfffffffe", "resetpins": ["0x15", "0x15"]}
+{"levels": ["Z", "Z"], "rows": [{"pull": 0, "p6": 0, "p7": 0}, {"pull": 4, "p6": 0, "p7": 0}, {"pull": 12, "p6": 0, "p7": 0}]}
+{"levels": ["Z", "L"], "rows": [{"pull": 0, "p6": 0, "p7": 0}, {"pull": 4, "p6": 0, "p7": 0}, {"pull": 12, "p6": 0, "p7": 0}]}
+{"levels": ["Z", "H"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 1, "p7": 1}]}
+{"levels": ["L", "Z"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 0, "p7": 0}]}
+{"levels": ["L", "L"], "rows": [{"pull": 0, "p6": 0, "p7": 0}, {"pull": 4, "p6": 0, "p7": 0}, {"pull": 12, "p6": 0, "p7": 0}]}
+{"levels": ["L", "H"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 1, "p7": 1}]}
+{"levels": ["H", "Z"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 1, "p7": 1}]}
+{"levels": ["H", "L"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 1, "p7": 1}]}
+{"levels": ["H", "H"], "rows": [{"pull": 0, "p6": 1, "p7": 1}, {"pull": 4, "p6": 1, "p7": 1}, {"pull": 12, "p6": 1, "p7": 1}]}
+RESET: bootloader restored

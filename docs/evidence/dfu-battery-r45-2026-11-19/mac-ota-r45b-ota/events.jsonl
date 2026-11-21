@@ -1,0 +1,9 @@
+{"t": "+0.000s", "kind": "package", "zip": "docs/evidence/dfu-battery-r45-2026-11-19/hex/r45b-ota.zip", "dat_len": 14, "bin_len": 6860}
+{"t": "+7.425s", "kind": "control_write_disconnected", "error": "disconnected"}
+{"t": "+7.426s", "kind": "dfu_requested"}
+{"t": "+10.854s", "kind": "dfu_revision", "raw": "0800", "mtu": 247}
+{"t": "+11.213s", "kind": "start_ok", "s": 0.27}
+{"t": "+11.395s", "kind": "init_ok"}
+{"t": "+17.738s", "kind": "image_ok", "bytes": 6860, "packets": 343, "bytes_per_s": 1113}
+{"t": "+17.828s", "kind": "validate_ok"}
+{"t": "+17.917s", "kind": "activated", "total_s": 6.97}

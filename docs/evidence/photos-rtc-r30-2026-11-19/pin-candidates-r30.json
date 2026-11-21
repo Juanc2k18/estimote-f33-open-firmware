@@ -1,0 +1,408 @@
+{
+  "status": "r30: pinout through r29; RTC added with documented LCC8 numbering, electrical orientation pending",
+  "master": "docs/diagrams/estimote-f33-pin-map.vectorcraft",
+  "candidate_connections": {},
+  "confirmed_connections": {
+    "A": 25,
+    "B": 26,
+    "E": 21,
+    "G": 24
+  },
+  "connection_evidence": {
+    "A": "Continuity r10 + SWD r12",
+    "B": "Continuity r10 + SWD r12",
+    "E": "Functional UART + SWO/ITM r26; no ohms recorded",
+    "G": "Continuity ~2.1 Ω and physical reset r21"
+  },
+  "pin1_corner": "bottom left, antenna up (owner visual observation)",
+  "qfn48_orientation": "bottom 1-12 left→right; right 13-24 bottom→top; top 25-36 right→left; left 37-48 top→bottom",
+  "triangle_mark": "not observed on this unit (owner)",
+  "nfc": "no NFC coil (owner)",
+  "pins": [
+    {
+      "pad": "A",
+      "function": "SWDCLK confirmed",
+      "target": "25",
+      "evidence": "Continuity + SWD (r10–r12)",
+      "pending": "Pico GP2 · physical pin 4"
+    },
+    {
+      "pad": "B",
+      "function": "SWDIO confirmed",
+      "target": "26",
+      "evidence": "Continuity + SWD (r10–r12)",
+      "pending": "Pico GP3 · physical pin 5"
+    },
+    {
+      "pad": "C",
+      "function": "VDD confirmed",
+      "target": "13 / 36 / 48 *",
+      "evidence": "Owner + SAADC (r09/r25)",
+      "pending": "VDD ~1.992 V; currently no supply on C"
+    },
+    {
+      "pad": "D",
+      "function": "Unresolved",
+      "target": "Unassigned",
+      "evidence": "Reported voltage (r23)",
+      "pending": "D/F = 0.94 V; D→P0.05 is a hypothesis"
+    },
+    {
+      "pad": "E",
+      "function": "P0.18 / SWO confirmed",
+      "target": "21",
+      "evidence": "UART + ITM/SWO (r26)",
+      "pending": "Functional validation; no ohmic measurement"
+    },
+    {
+      "pad": "F",
+      "function": "Negative / GND",
+      "target": "VSS 31 / 45 / EP *",
+      "evidence": "Owner + SWD wiring",
+      "pending": "Common ground with Pico; do not confuse with H"
+    },
+    {
+      "pad": "G",
+      "function": "P0.21 / nRESET confirmed",
+      "target": "24",
+      "evidence": "~2,1 Ω + physical reset (r21)",
+      "pending": "PSELRESET=21; G→F pulse validated"
+    },
+    {
+      "pad": "H",
+      "function": "Positive / battery",
+      "target": "Regulator input",
+      "evidence": "Owner + curve (r20)",
+      "pending": "Supply set to 6 V on H/F; not VDD"
+    },
+    {
+      "pad": "E1",
+      "function": "Beacon UART TX",
+      "target": "16 · P0.13",
+      "evidence": "Continuity + DFU (r08/r15)",
+      "pending": "Confirmed to Pico GP5; now removed"
+    },
+    {
+      "pad": "E2",
+      "function": "Beacon UART RX",
+      "target": "15 · P0.12",
+      "evidence": "Continuity + DFU (r08/r15)",
+      "pending": "Confirmed from Pico GP4; now removed"
+    },
+    {
+      "pad": "E3",
+      "function": "External 5 V input",
+      "target": "Not MCU VDD",
+      "evidence": "Owner",
+      "pending": "Disconnected in this setup"
+    },
+    {
+      "pad": "E4",
+      "function": "External GND",
+      "target": "Ground net",
+      "evidence": "Owner",
+      "pending": "Internal route without recorded measurement"
+    }
+  ],
+  "qfn48_positions": {
+    "1": [
+      353.07692307692287,
+      838,
+      "bottom"
+    ],
+    "13": [
+      648,
+      796.9230769230769,
+      "right"
+    ],
+    "25": [
+      606.9230769230771,
+      502,
+      "top"
+    ],
+    "37": [
+      312,
+      543.0769230769231,
+      "left"
+    ],
+    "2": [
+      376.15384615384573,
+      838,
+      "bottom"
+    ],
+    "14": [
+      648,
+      773.8461538461538,
+      "right"
+    ],
+    "26": [
+      583.8461538461543,
+      502,
+      "top"
+    ],
+    "38": [
+      312,
+      566.1538461538462,
+      "left"
+    ],
+    "3": [
+      399.2307692307695,
+      838,
+      "bottom"
+    ],
+    "15": [
+      648,
+      750.7692307692307,
+      "right"
+    ],
+    "27": [
+      560.7692307692305,
+      502,
+      "top"
+    ],
+    "39": [
+      312,
+      589.2307692307693,
+      "left"
+    ],
+    "4": [
+      422.3076923076924,
+      838,
+      "bottom"
+    ],
+    "16": [
+      648,
+      727.6923076923077,
+      "right"
+    ],
+    "28": [
+      537.6923076923076,
+      502,
+      "top"
+    ],
+    "40": [
+      312,
+      612.3076923076923,
+      "left"
+    ],
+    "5": [
+      445.38461538461524,
+      838,
+      "bottom"
+    ],
+    "17": [
+      648,
+      704.6153846153846,
+      "right"
+    ],
+    "29": [
+      514.6153846153848,
+      502,
+      "top"
+    ],
+    "41": [
+      312,
+      635.3846153846154,
+      "left"
+    ],
+    "6": [
+      468.4615384615381,
+      838,
+      "bottom"
+    ],
+    "18": [
+      648,
+      681.5384615384615,
+      "right"
+    ],
+    "30": [
+      491.5384615384619,
+      502,
+      "top"
+    ],
+    "42": [
+      312,
+      658.4615384615385,
+      "left"
+    ],
+    "7": [
+      491.5384615384619,
+      838,
+      "bottom"
+    ],
+    "19": [
+      648,
+      658.4615384615385,
+      "right"
+    ],
+    "31": [
+      468.4615384615381,
+      502,
+      "top"
+    ],
+    "43": [
+      312,
+      681.5384615384615,
+      "left"
+    ],
+    "8": [
+      514.6153846153848,
+      838,
+      "bottom"
+    ],
+    "20": [
+      648,
+      635.3846153846154,
+      "right"
+    ],
+    "32": [
+      445.38461538461524,
+      502,
+      "top"
+    ],
+    "44": [
+      312,
+      704.6153846153846,
+      "left"
+    ],
+    "9": [
+      537.6923076923076,
+      838,
+      "bottom"
+    ],
+    "21": [
+      648,
+      612.3076923076924,
+      "right"
+    ],
+    "33": [
+      422.3076923076924,
+      502,
+      "top"
+    ],
+    "45": [
+      312,
+      727.6923076923076,
+      "left"
+    ],
+    "10": [
+      560.7692307692305,
+      838,
+      "bottom"
+    ],
+    "22": [
+      648,
+      589.2307692307693,
+      "right"
+    ],
+    "34": [
+      399.2307692307695,
+      502,
+      "top"
+    ],
+    "46": [
+      312,
+      750.7692307692307,
+      "left"
+    ],
+    "11": [
+      583.8461538461543,
+      838,
+      "bottom"
+    ],
+    "23": [
+      648,
+      566.1538461538462,
+      "right"
+    ],
+    "35": [
+      376.15384615384573,
+      502,
+      "top"
+    ],
+    "47": [
+      312,
+      773.8461538461538,
+      "left"
+    ],
+    "12": [
+      606.9230769230771,
+      838,
+      "bottom"
+    ],
+    "24": [
+      648,
+      543.0769230769231,
+      "right"
+    ],
+    "36": [
+      353.07692307692287,
+      502,
+      "top"
+    ],
+    "48": [
+      312,
+      796.9230769230769,
+      "left"
+    ]
+  },
+  "rtc": {
+    "model": "M41T62",
+    "identification": "visual r28/r30",
+    "package": "LCC8",
+    "pin_functions": {
+      "1": "SDA",
+      "2": "SQW",
+      "3": "VSS / GND",
+      "4": "NC",
+      "5": "VCC",
+      "6": "IRQ/OUT",
+      "7": "NC",
+      "8": "SCL"
+    },
+    "photo": "docs/evidence/photos-rtc-r30-2026-11-19/derived/rtc-reading.png",
+    "photo_view": "top; rotated 180 degrees; dot at bottom left",
+    "photo_contacts": {
+      "1": [
+        345,
+        748
+      ],
+      "2": [
+        464,
+        718
+      ],
+      "3": [
+        591,
+        691
+      ],
+      "4": [
+        704,
+        665
+      ],
+      "5": [
+        634,
+        433
+      ],
+      "6": [
+        518,
+        459
+      ],
+      "7": [
+        397,
+        485
+      ],
+      "8": [
+        279,
+        512
+      ]
+    },
+    "orientation_electrically_confirmed": false,
+    "reported_connection": {
+      "rtc_pin": 6,
+      "nrf_terminal": 22,
+      "nrf_gpio": 19,
+      "source": "owner r29; no ohms recorded"
+    }
+  },
+  "text_objects_created": 335
+}

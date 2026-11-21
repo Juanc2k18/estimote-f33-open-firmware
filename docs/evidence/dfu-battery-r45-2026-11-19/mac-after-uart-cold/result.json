@@ -1,0 +1,59 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "after cold-start UART DFU (E3 power cycle) of r45c-uart2",
+  "found": true,
+  "samples": 2,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 13,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.068,
+        0.032,
+        1.04
+      ],
+      "norm_g": 1.043
+    },
+    "magnet": {
+      "gauss": [
+        1.079,
+        0.551,
+        0.213
+      ],
+      "norm_gauss": 1.23
+    },
+    "baro": {
+      "temp_c": 28.23,
+      "pressure_hpa": 1005.87
+    },
+    "light": {
+      "lux": 77.4
+    },
+    "rtc_seconds": 17,
+    "adc": {
+      "vdd_v": 3.406,
+      "ain3_v": 0.292,
+      "battery_v_estimate": 1.822,
+      "battery_percent": 0
+    }
+  },
+  "firmware_revision": "r45c-uart2",
+  "battery_level": 0
+}

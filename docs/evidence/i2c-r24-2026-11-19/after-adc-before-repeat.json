@@ -1,0 +1,11 @@
+{
+  "pc": "0x779fe",
+  "radio_state": 0,
+  "pselreset": [
+    21,
+    21
+  ],
+  "bootloader_sha256": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+  "uicr_sha256": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7",
+  "verified": true
+}

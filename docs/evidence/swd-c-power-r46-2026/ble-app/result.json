@@ -1,0 +1,15 @@
+{
+  "tool": "ble_sensors",
+  "start_elapsed_s": 0.0,
+  "name": "F33",
+  "note": "",
+  "found": false,
+  "samples": 0,
+  "events": [
+    {
+      "elapsed_s": 5.2,
+      "kind": "not_found"
+    }
+  ],
+  "finish_elapsed_s": 5.2
+}

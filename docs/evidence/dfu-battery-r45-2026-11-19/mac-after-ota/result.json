@@ -1,0 +1,53 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "after BLE OTA DFU of r45-ota",
+  "found": true,
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 1,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.044,
+        0.136,
+        1.032
+      ],
+      "norm_g": 1.042
+    },
+    "magnet": {
+      "gauss": [
+        1.106,
+        0.55,
+        0.086
+      ],
+      "norm_gauss": 1.238
+    },
+    "baro": {
+      "temp_c": 26.28,
+      "pressure_hpa": 1006.45
+    },
+    "light": {
+      "lux": 41.4
+    },
+    "rtc_seconds": 15,
+    "adc": {
+      "vdd_v": 2.004,
+      "ain3_v": 0.541,
+      "battery_v_estimate": 3.273,
+      "battery_percent": 100
+    }
+  },
+  "firmware_revision": "r45-ota",
+  "battery_level": 100,
+  "samples": 3
+}

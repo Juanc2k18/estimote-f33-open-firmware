@@ -1,0 +1,59 @@
+{
+  "tool": "ble_sensores",
+  "name": "F33",
+  "note": "after UART DFU (command 0x02) of r45c-uart",
+  "found": true,
+  "samples": 2,
+  "events": [
+    {
+      "kind": "connected",
+      "mtu": 64
+    }
+  ],
+  "mac_os_identifier": "98864573-BACF-56A9-85C1-88958FA96AC9",
+  "mtu": 64,
+  "first_read": {
+    "version": 1,
+    "seq": 21,
+    "valid": {
+      "accel": true,
+      "magnet": true,
+      "baro": true,
+      "light": true,
+      "rtc": true,
+      "adc": true
+    },
+    "accel": {
+      "g": [
+        0.064,
+        0.032,
+        1.048
+      ],
+      "norm_g": 1.05
+    },
+    "magnet": {
+      "gauss": [
+        1.064,
+        0.549,
+        0.218
+      ],
+      "norm_gauss": 1.217
+    },
+    "baro": {
+      "temp_c": 28.34,
+      "pressure_hpa": 1005.76
+    },
+    "light": {
+      "lux": 77.76
+    },
+    "rtc_seconds": 40,
+    "adc": {
+      "vdd_v": 3.404,
+      "ain3_v": 0.04,
+      "battery_v_estimate": 0.0,
+      "battery_percent": 0
+    }
+  },
+  "firmware_revision": "r45c-uart",
+  "battery_level": 0
+}

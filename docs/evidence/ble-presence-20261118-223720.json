@@ -1,0 +1,63 @@
+{
+  "objective": "Comprobar presencia BLE actual de la unidad registrada",
+  "tool": "Python/Bleak/CoreBluetooth",
+  "duration_seconds": 15,
+  "connection": "BLE scan only; no GATT connection or writes; current power and wiring unobserved",
+  "target_id": "bb6b7d16b94a4e265cb6b304024bd423",
+  "events": [
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -54,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -62,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -54,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "name": "estimote",
+      "rssi": -74,
+      "service_data": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "name": "estimote",
+      "rssi": -75,
+      "service_data": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -58,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -54,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -58,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "name": null,
+      "rssi": -54,
+      "service_data": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    }
+  ]
+}

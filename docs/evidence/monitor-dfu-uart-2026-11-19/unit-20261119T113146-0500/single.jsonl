@@ -1,0 +1,1 @@
+{"time": "+0.000000s", "port": "/dev/cu.usbmodem21202", "baud": 115200, "sequence": 1, "tx_hex": "c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0", "rx_hex": "c0 10 00 00 f0 c0", "idle_rx_hex": "", "result": "ack", "latency_ms": 3.226, "ack_number": 2, "events": [{"kind": "ack", "number": 2}]}

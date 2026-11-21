@@ -1,0 +1,56 @@
+{
+  "pair_orientations": 380,
+  "valid": 378,
+  "invalid_pairs": [
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      9
+    ]
+  ],
+  "probe_total": 3024,
+  "control_total": 8,
+  "counts": {
+    "nack": 3024
+  },
+  "per_address_rw": {
+    "0x18/W": {
+      "nack": 378
+    },
+    "0x18/R": {
+      "nack": 378
+    },
+    "0x19/W": {
+      "nack": 378
+    },
+    "0x19/R": {
+      "nack": 378
+    },
+    "0x76/W": {
+      "nack": 378
+    },
+    "0x76/R": {
+      "nack": 378
+    },
+    "0x77/W": {
+      "nack": 378
+    },
+    "0x77/R": {
+      "nack": 378
+    }
+  },
+  "closure": {
+    "unix": 1795074706.564693,
+    "kind": "closure",
+    "pc": "0x75104",
+    "bootloader": true,
+    "hashes": [
+      "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+      "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+    ],
+    "unchanged": true
+  }
+}

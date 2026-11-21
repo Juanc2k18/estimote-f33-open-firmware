@@ -1,0 +1,1096 @@
+[
+  {
+    "unix": 1795100310.487604,
+    "kind": "baseline",
+    "pc": "0x750ec",
+    "cnf19": 3,
+    "dir19": 1,
+    "in19": 0,
+    "hashes": [
+      "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+      "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+    ]
+  },
+  {
+    "unix": 1795100311.056181,
+    "kind": "input",
+    "cnf": 0,
+    "dir19": 0,
+    "samples": [
+      {
+        "monotonic": 734881.361497791,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.3683,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.373368708,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.37821825,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.383037833,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.387915375,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.392724791,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.397850583,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.40266,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.407631083,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.4124915,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.417293166,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.421852041,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.426449333,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.431325416,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.436698083,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.44118725,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.445994083,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.450618875,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.4549015,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.459523625,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.46403775,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.468588958,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.473188541,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.478013541,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.482700291,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.487399291,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.492067458,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.496847791,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.501868375,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.506836208,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.511642791,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.51586025,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.520599625,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.525207125,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.529836916,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.534374041,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.538992541,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.543792208,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.548371958,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.55295875,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.557738458,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.562277875,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.566813958,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.571449291,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.57608375,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.580524,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.584908708,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.590200333,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.594856958,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.599463291,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.603943125,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.608730125,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.613379833,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.617648,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.622197083,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.626860208,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.632339041,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.637172708,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.642122416,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.646786166,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.651487208,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.656098041,
+        "level": 0
+      },
+      {
+        "monotonic": 734881.66093625,
+        "level": 0
+      }
+    ],
+    "ones": 0
+  },
+  {
+    "unix": 1795100311.41312,
+    "kind": "input",
+    "cnf": 12,
+    "dir19": 0,
+    "samples": [
+      {
+        "monotonic": 734881.721961125,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.7285255,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.733441916,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.738581458,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.743070333,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.747770083,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.752638458,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.757145333,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.761857541,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.766574833,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.771156291,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.775392458,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.779923958,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.784617791,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.789179666,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.793629375,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.798458833,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.80329725,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.808217208,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.812963375,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.817966291,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.822701416,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.827629416,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.832359791,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.836887541,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.841594541,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.846182625,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.850913833,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.855552166,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.8601225,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.864755458,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.869369166,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.873923166,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.878576625,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.883164458,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.887799041,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.892557583,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.897137,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.901758791,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.906408916,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.91118225,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.915991166,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.920754291,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.925668958,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.930433041,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.935072625,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.939941333,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.944647666,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.94940025,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.953905708,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.958505333,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.963157041,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.968055041,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.9726915,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.977193208,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.981825166,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.98642775,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.991107791,
+        "level": 1
+      },
+      {
+        "monotonic": 734881.995610041,
+        "level": 1
+      },
+      {
+        "monotonic": 734882.00013975,
+        "level": 1
+      },
+      {
+        "monotonic": 734882.004859583,
+        "level": 1
+      },
+      {
+        "monotonic": 734882.009378,
+        "level": 1
+      },
+      {
+        "monotonic": 734882.013931541,
+        "level": 1
+      },
+      {
+        "monotonic": 734882.018472291,
+        "level": 1
+      }
+    ],
+    "ones": 64
+  },
+  {
+    "unix": 1795100311.7700438,
+    "kind": "input",
+    "cnf": 4,
+    "dir19": 0,
+    "samples": [
+      {
+        "monotonic": 734882.083313375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.09015125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.095419291,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.100439625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.105551875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.109830041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.114524625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.119262375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.124348125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.129201375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.13386625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.138410291,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.14287275,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.147405833,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.151953541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.15645925,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.160911125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.165485625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.169983041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.174535916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.179059708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.183590208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.188099666,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.192583291,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.19708025,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.201618083,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.20609525,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.21058425,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.215149416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.219638916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.2241495,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.228630125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.23318025,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.237711541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.242064208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.246531166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.251019916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.255461625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.259907875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.2644025,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.26888725,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.273390125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.277871416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.282380541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.286848208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.2913585,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.295807041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.30032025,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.304847166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.309356916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.313888166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.318457916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.322966708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.328403458,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.332936375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.337415708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.341874625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.34633625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.350820458,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.355294625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.360375625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.365151916,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.369890875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.374713833,
+        "level": 0
+      }
+    ],
+    "ones": 0
+  },
+  {
+    "unix": 1795100312.128747,
+    "kind": "input",
+    "cnf": 0,
+    "dir19": 0,
+    "samples": [
+      {
+        "monotonic": 734882.438953583,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.445324,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.450138166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.454907625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.459750333,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.464497875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.469089666,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.473635041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.47826875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.483253125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.488112416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.493007041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.497709708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.502489625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.507111,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.511750166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.516113375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.520672208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.525195541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.529765625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.534513333,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.539120666,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.543736666,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.5483715,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.553023416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.557903125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.563202,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.56791825,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.572765958,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.577443583,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.582259041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.587089208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.5916845,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.596489125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.601064166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.60554875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.610066166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.614594708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.619071875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.623535208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.628070125,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.63292375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.637557416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.642108791,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.646656833,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.651257708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.655614041,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.66012575,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.664645208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.669160541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.673666375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.678140625,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.682920166,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.687852208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.692606375,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.697411208,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.701824541,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.70636425,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.711009291,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.716057875,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.720611833,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.724891708,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.729556416,
+        "level": 0
+      },
+      {
+        "monotonic": 734882.733858958,
+        "level": 0
+      }
+    ],
+    "ones": 0
+  },
+  {
+    "unix": 1795100312.133425,
+    "kind": "completed",
+    "radio": 0
+  },
+  {
+    "unix": 1795100320.304637,
+    "kind": "closure",
+    "pc": "0x77a06",
+    "bootloader": true,
+    "bootloader_cnf19_before_override": 3,
+    "cnf19_samples_after_resume": [
+      0,
+      0
+    ],
+    "temporary_override": "P0.19 input without pull; bootloader flash intact",
+    "hashes": [
+      "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+      "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+    ],
+    "unchanged": true
+  }
+]

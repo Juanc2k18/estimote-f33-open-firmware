@@ -1,0 +1,7 @@
+test_ack_remains_confirmed_when_peer_disconnects (test_dfu_ping.ReviewRegressionTests) ... ok
+test_zero_baud_rejected_before_port_open (test_dfu_ping.ReviewRegressionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.158s
+
+OK

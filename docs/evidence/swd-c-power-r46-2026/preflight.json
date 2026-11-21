@@ -1,0 +1,40 @@
+{
+  "tool": "pyocd",
+  "tool_version": "0.46.1",
+  "probe": "E660C0D1C75C942F",
+  "operation": "read-only attach; auto_unlock=false",
+  "owner_report": {
+    "supply_input": "C/F",
+    "supply_setpoint_v": 3.3,
+    "wiring": "Pico GP2 to A, GP3 to B, GND to F; supply + to C, - to F; owner confirmed preceding setup",
+    "future_power_preference": "6 V on H/F"
+  },
+  "measured_supply_v": null,
+  "flash_performed": false,
+  "cpu_state": "State.SLEEPING",
+  "ficr": {
+    "part": "0x00052832",
+    "variant": "0x41414230",
+    "package": "0x00002000",
+    "ram_kib": "0x00000040",
+    "flash_kib": "0x00000200"
+  },
+  "application": {
+    "address": "0x26000",
+    "bytes": 9244,
+    "matches_release": true,
+    "expected_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae",
+    "actual_sha256": "9af7e77a74cb0ec9e0a9ea84436ec48631492cd9b4ee0ad8cb963c7c0f506dae"
+  },
+  "uicr": {
+    "bootloader": "0x00074000",
+    "pselreset0": "0x00000015",
+    "pselreset1": "0x00000015",
+    "approtect": "0xffffffff"
+  },
+  "bootloader": {
+    "region_sha256": "8e6f23cbf1213e640de1c795146b61afa4d02609f434400a66315e8d15c7ed7b",
+    "has_r43_model_string": true,
+    "has_r46_model_string": false
+  }
+}

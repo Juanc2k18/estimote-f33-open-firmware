@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "attempts": 20,
+  "ack": 20,
+  "failures": 0,
+  "resync": 0,
+  "raw_ack_frames_checked": 20,
+  "summary_matches_jsonl": true,
+  "sequence_wrap_verified": true,
+  "latency_ms": {
+    "min": 3.104,
+    "max": 4.54,
+    "mean": 3.918
+  },
+  "power_source": "owner confirmation: 3.3 V on C/F only",
+  "voltage_independently_measured": false
+}

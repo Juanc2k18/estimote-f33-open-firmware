@@ -1,0 +1,12 @@
+{
+  "tool": "ble_scan_read",
+  "name": "AdaDFU",
+  "seconds": 5.0,
+  "note": "",
+  "start_elapsed_s": 0.0,
+  "found": false,
+  "mac_os_identifier": null,
+  "advertisements": 0,
+  "rssi": null,
+  "first_advertisement": null
+}

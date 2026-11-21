@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "counts": {
+    "parameters": 1,
+    "baseline": 1,
+    "active_start": 1,
+    "counter_control": 2,
+    "rail_topology": 1,
+    "phase": 1,
+    "frequency": 23,
+    "lfclk": 1,
+    "analog": 1,
+    "gpio_probe": 21,
+    "matrix": 1,
+    "skipped": 1,
+    "closure": 1
+  },
+  "findings": [],
+  "limitation": "A NACK does not prove absence. Does not physically locate D or pins without continuity."
+}

@@ -1,0 +1,12 @@
+flash 0x00000-0x00b00 OK sha256=1bc875feba5eb16d
+flash 0x01000-0x25150 OK sha256=6f4942f71aed2e09
+flash 0x74000-0x79230 OK sha256=662fd8e69d76c8ed
+sha256 bootloader region 0x74000-0x7E000: 8e6f23cbf1213e640de1c795146b61afa4d02609f434400a66315e8d15c7ed7b
+UICR antes de arrancar: {'0x10001014': '0x74000', '0x10001018': '0x7e000', '0x10001200': '0x15', '0x10001204': '0x15', '0x10001208': '0xffffffff'}
+UICR after boot: {'0x10001200': '0x15', '0x10001204': '0x15', '0x10001208': '0xffffffff'}
+corriendo: True RESETREAS 0x4
+PC 0x77960 en bootloader
+PWM0 enable 1 PSEL ['0x11', '0xffffffff', '0xffffffff', '0xffffffff']
+CNF17/19/20/22 ['0x3', '0x2', '0x2', '0x2']
+UART enable 8 TX 13 RX 12
+diferencias flash: 0

@@ -1,0 +1,241 @@
+{
+  "objective": "Read current battery and sensors from BLE advertisements",
+  "tool": "Python/Bleak/CoreBluetooth",
+  "mode": "45-second BLE scan; no GATT connection or writes; wiring and power unobserved",
+  "decoder": "scripts/decode_ble_capture.py (mismo formato protocolo 2)",
+  "target_events": [
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -63,
+      "hex": "22bb6b7d16b94a4e26000503420046f8daac8801"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -76,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -51,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -50,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -70,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -71,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -57,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -60,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -69,
+      "hex": "22bb6b7d16b94a4e26010000004a7b417ea02e01"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -50,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -80,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -51,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -50,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -61,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -59,
+      "hex": "22bb6b7d16b94a4e26000504410046f893ac8801"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -62,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": 127,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -58,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -66,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -59,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -60,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -59,
+      "hex": "22bb6b7d16b94a4e26010000004a94017ea02e01"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -51,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -55,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    }
+  ],
+  "readings": [
+    {
+      "subframe": 0,
+      "raw": "22bb6b7d16b94a4e26000503420046f8daac8801",
+      "acceleration_g": [
+        0.07874015748031496,
+        0.047244094488188976,
+        1.0393700787401574
+      ],
+      "motion_code": 0,
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100524.8515625
+    },
+    {
+      "subframe": 1,
+      "raw": "22bb6b7d16b94a4e26010000004a7b417ea02e01",
+      "temperature_c": 31.5625,
+      "light_lux": 115.19999999999999,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 379,
+      "uptime_unit": "seconds",
+      "battery_mv": 2984,
+      "battery_percent": 1
+    },
+    {
+      "subframe": 0,
+      "raw": "22bb6b7d16b94a4e26000504410046f893ac8801",
+      "acceleration_g": [
+        0.07874015748031496,
+        0.06299212598425197,
+        1.0236220472440944
+      ],
+      "motion_code": 0,
+      "firmware_error": false,
+      "clock_error": true,
+      "pressure_pa": 100524.57421875
+    },
+    {
+      "subframe": 1,
+      "raw": "22bb6b7d16b94a4e26010000004a94017ea02e01",
+      "temperature_c": 31.5,
+      "light_lux": 115.19999999999999,
+      "magnetic_normalized": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uptime_value": 404,
+      "uptime_unit": "seconds",
+      "battery_mv": 2984,
+      "battery_percent": 1
+    }
+  ]
+}

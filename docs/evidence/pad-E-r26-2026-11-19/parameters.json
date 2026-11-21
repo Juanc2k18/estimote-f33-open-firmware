@@ -1,0 +1,17 @@
+{
+  "python": "3.10.14",
+  "pyocd": "0.46.1",
+  "swd_hz": 100000,
+  "rx_port": "/dev/cu.usbmodem113202",
+  "pico_pin_physical": 7,
+  "pico_gpio": 5,
+  "nrf_gpio": 18,
+  "e_volts_owner_report": 2.43,
+  "trace_clock_hz": 32000000,
+  "tpiu_acpr": 3332,
+  "rx_baud": 9600,
+  "frame_bytes": 21,
+  "frames_each_mode": 6,
+  "sources": "nrfx v3.14.0; CMSIS core_cm4.h copied; exact code hashes in SHA256SUMS",
+  "flash_uicr_writes": false
+}

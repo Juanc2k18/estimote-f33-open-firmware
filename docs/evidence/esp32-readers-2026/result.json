@@ -1,0 +1,83 @@
+{
+  "validation_year": 2026,
+  "basis": [
+    "owner reports both sketches work on ESP32 DevKit V1",
+    "owner-provided UART and BLE screenshots inspected"
+  ],
+  "owner_report": {
+    "board": "ESP32 DevKit V1",
+    "both_sketches_work": true,
+    "power_context": "preceding request specifies 3.3 V on E3 and E1\u2013E4 only"
+  },
+  "screenshot_observations": {
+    "arduino_ide": "2.3.11",
+    "selected_board_profile": "ESP32 Dev Module",
+    "serial_port_example": "/dev/cu.usbserial-0001",
+    "uart": {
+      "evidence": "uart-reader.png",
+      "visible_sketch": "f33_uart_reader.ino",
+      "configured_rx_gpio": 16,
+      "configured_tx_gpio": 17,
+      "configured_baud": 115200,
+      "visible_seq_first": 182,
+      "visible_seq_last": 197,
+      "visible_rows": 16,
+      "vdd_mv_range": [
+        2963,
+        2979
+      ],
+      "temperature_cc_range": [
+        2752,
+        2776
+      ],
+      "rtc_s_first": 21,
+      "rtc_s_last": 36,
+      "all_five_sensor_fields_and_adc_present": true
+    },
+    "ble": {
+      "evidence": "ble-reader.png",
+      "visible_sketch": "f33_ble_reader.ino",
+      "target_name": "F33",
+      "address_seen": "eb:46:d9:38:11:cb",
+      "connected_message_visible": true,
+      "mode": "GATT reads, once per second",
+      "visible_sequences": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "visible_rows": 13,
+      "valid_flags_all_rows": "0x3f",
+      "vdd_mv_range": [
+        2939,
+        2976
+      ],
+      "temperature_c_range": [
+        28.08,
+        28.25
+      ],
+      "pressure_hpa_range": [
+        1005.3,
+        1005.48
+      ],
+      "rtc_s_first": 5,
+      "rtc_s_last": 18
+    }
+  },
+  "not_verified_in_this_record": [
+    "physical wiring and source of 3.3 V are not visible in the screenshots",
+    "actual host TX voltage and electrical margin were not measured",
+    "exact compiled binary identity and active Arduino core version were not independently read",
+    "BLE notification subscription, reconnect after an induced disconnect, long-duration operation, commands and DFU were not tested"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unix": 1795100320.304637,
+  "kind": "closure",
+  "pc": "0x77a06",
+  "bootloader": true,
+  "bootloader_cnf19_before_override": 3,
+  "cnf19_samples_after_resume": [
+    0,
+    0
+  ],
+  "temporary_override": "P0.19 input without pull; bootloader flash intact",
+  "hashes": [
+    "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+    "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+  ],
+  "unchanged": true
+}

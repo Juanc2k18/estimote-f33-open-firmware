@@ -1,0 +1,2 @@
+idle: SDA P0.25=0  SCL P0.10=1
+0x46 reg 0x7E: ACK True,True,True -> 00 00

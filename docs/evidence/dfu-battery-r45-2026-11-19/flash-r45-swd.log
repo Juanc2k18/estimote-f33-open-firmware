@@ -1,0 +1,8 @@
+0000377 I Loading docs/evidence/dfu-battery-r45-2026-11-19/hex/r45-swd.hex [load_cmd]
+0000384 I Erasing... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0000432 I Programming... [loader]
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+0000658 I Erased 8192 bytes (2 sectors), programmed 8192 bytes (2 pages), identical 0 bytes (0 pages) at 29.19 kB/s [loader]

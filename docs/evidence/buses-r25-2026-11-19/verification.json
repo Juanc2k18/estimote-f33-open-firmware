@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok\ntest_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok\ntest_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok\ntest_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok\ntest_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok\ntest_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok\ntest_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.005s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/gpio_bus_matrix_r25.py",
+      "scripts/i2c_candidates_r25.py",
+      "scripts/gpio_enable_matrix_r25.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "evidence_assertions": "29 GPIOs, 380 orientations/378 valid, 3024 NACKs, 51 later tests, final closure, source versions",
+    "passed": true,
+    "known_failure": "enables/ when trying GPIO11 high: No ACK; incomplete and recovered, documented"
+  }
+]

@@ -1,0 +1,48 @@
+usage: board_diagnostics.py [-h] [--profile {baseline,gpio,adc,i2c,spi,auto}]
+                            [--out OUT] [--pins PINS] [--i2c SDA:SCL]
+                            [--spi CS:SCK:MOSI:MISO] [--addresses ADDRESSES]
+                            [--enable {14,15}] [--max-seconds MAX_SECONDS]
+                            [--max-pairs MAX_PAIRS] [--frequency FREQUENCY]
+                            [--probe PROBE] [--uart-port UART_PORT]
+                            [--uart-log UART_LOG] [--plan]
+
+F3.3 diagnostics over SWD: GPIO, SAADC, I2C/RTC and targeted SPI.
+
+Not a UART bootloader command. Requires A/B/F connected to the Pico.
+
+options:
+  -h, --help            show this help message and exit
+  --profile {baseline,gpio,adc,i2c,spi,auto}
+  --out OUT
+  --pins PINS
+  --i2c SDA:SCL         repeatable targeted pairs; otherwise searches pairs
+                        candidates
+  --spi CS:SCK:MOSI:MISO
+                        traced pins only; there is no bulk SPI sweep
+  --addresses ADDRESSES
+  --enable {14,15}      experimental state: one GPIO high, other an input;
+                        none by default
+  --max-seconds MAX_SECONDS
+  --max-pairs MAX_PAIRS
+                        0: all candidate pairs within the deadline
+  --frequency FREQUENCY
+  --probe PROBE
+  --uart-port UART_PORT
+                        path for checking concurrent access; not opened;
+                        nothing transmitted
+  --uart-log UART_LOG   audit an existing UART log; does not need the board
+  --plan                show the selection and exclusions without connecting to the target
+
+Examples:
+  python3 scripts/board_diagnostics.py --plan --profile auto
+  python3 scripts/board_diagnostics.py --profile baseline --out NEW_PATH
+  python3 scripts/board_diagnostics.py --profile auto --max-seconds 600 --out NEW_PATH
+  python3 scripts/board_diagnostics.py --profile i2c --i2c 6:7 --out NEW_PATH
+  python3 scripts/board_diagnostics.py --profile spi --spi CS:SCK:MOSI:MISO --out NEW_PATH
+
+The numbers are nRF GPIOs, NOT pads A-H or Pico GPIOs.
+Stop dfu_ping with Ctrl-C. Confirmed power supply 3.3 V C/F; H/E3/batteries removed.
+Does not change UART12/13 or SWD; their wires do not need to be moved for the auto profile.
+The baseline profile only reads. The active profiles take over RAM and reset on close;
+GPIO19 stays an input without pull in RAM only; a later reset restores the LED.
+Exit code: 0 suite completed (does not imply a sensor was found), 1 incomplete, 2 CLI, 130 Ctrl-C.

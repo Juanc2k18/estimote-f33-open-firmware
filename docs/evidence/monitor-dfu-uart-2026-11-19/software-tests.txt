@@ -1,0 +1,26 @@
+test_ack_with_scl_high_and_read_bit (test_bus_probe.ProbeTests) ... ok
+test_clock_blocked_on_ack_is_not_ack_or_nack (test_bus_probe.ProbeTests) ... ok
+test_electrical_coupling_rejected (test_bus_probe.ProbeTests) ... ok
+test_electrical_independent_lines (test_bus_probe.ProbeTests) ... ok
+test_stop_timeout_is_not_valid_ack (test_bus_probe.ProbeTests) ... ok
+test_stuck_clock_is_not_nack (test_bus_probe.ProbeTests) ... ok
+test_write_nack_is_address_only (test_bus_probe.ProbeTests) ... ok
+test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) ... ok
+test_echo_is_not_ack (test_dfu_ping.CLITests) ... ok
+test_echo_then_ack (test_dfu_ping.CLITests) ... ok
+test_fragmented_ack (test_dfu_ping.CLITests) ... ok
+test_r15_ack_and_request (test_dfu_ping.CLITests) ... ok
+test_fragment_escape_and_bounded_overflow (test_dfu_ping.DecoderTests) ... ok
+test_ack_remains_confirmed_when_peer_disconnects (test_dfu_ping.ReviewRegressionTests) ... ok
+test_zero_baud_rejected_before_port_open (test_dfu_ping.ReviewRegressionTests) ... ok
+test_ctrl_c_flushes_inflight_attempt (test_dfu_ping.WatchTests) ... ok
+test_disconnect_and_reappearance_selected_path (test_dfu_ping.WatchTests) ... ok
+test_lost_ack_retries_same_sequence (test_dfu_ping.WatchTests) ... ok
+test_missing_port_and_bad_arguments (test_dfu_ping.WatchTests) ... ok
+test_previous_session_resynchronizes_without_counting_ack (test_dfu_ping.WatchTests) ... ok
+test_wrap_duplicates_and_log_summary (test_dfu_ping.WatchTests) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 12.358s
+
+OK

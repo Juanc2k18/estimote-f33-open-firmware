@@ -1,0 +1,99 @@
+Ble scanner, 2026-11-18
+Unknown  (EB:46:D9:38:11:CB)
+-----------------------------------
+A +0.000s Starting connection…
+I +0.339s onConnectionStateChange: status=GATT_SUCCESS (0), state=CONNECTED
+I +0.339s Connected
+V +0.347s Discovering services… (true)
+I +1.066s Services discovered (status 0)
+D +1.070s gatt.requestMtu(517) -> true
+I +1.070s Service 00001800-0000-1000-8000-00805f9b34fb (GENERIC ACCESS)
+I +1.071s   Char 00002a00-0000-1000-8000-00805f9b34fb props=[Read,]
+I +1.072s   Char 00002a01-0000-1000-8000-00805f9b34fb props=[Read,]
+I +1.072s   Char 00002a04-0000-1000-8000-00805f9b34fb props=[Read,]
+I +1.072s Service 00001801-0000-1000-8000-00805f9b34fb (GENERIC ATTRIBUTE)
+I +1.072s   Char 00002a05-0000-1000-8000-00805f9b34fb props=[Indicate,]
+I +1.072s Service 6c372000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +1.072s   Char 6c372001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write No Response]
+I +1.072s   Char 6c372002-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Notify,]
+I +1.072s   Char 6c372004-d2cc-11e4-9a1f-0002a5d5c51b props=[Read,]
+I +1.072s Service 6c371000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +1.072s   Char 6c371002-d2cc-11e4-9a1f-0002a5d5c51b props=[Notify,]
+I +1.072s   Char 6c371001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Write No Response]
+I +1.077s PHY read: tx=1M rx=1M status=GATT_SUCCESS
+I +1.088s MTU changed: 23  status=GATT_SUCCESS (0)
+I +10.220s onConnectionStateChange: status=GATT_SUCCESS (0), state=DISCONNECTED
+D +10.222s refreshDeviceCache -> true
+D +10.226s gatt.close()
+A +32.527s Connecting to Unknown (EB:46:D9:38:11:CB)
+I +33.696s onConnectionStateChange: status=GATT_SUCCESS (0), state=CONNECTED
+I +33.696s Connected
+V +33.701s Discovering services… (true)
+I +34.414s Services discovered (status 0)
+D +34.418s gatt.requestMtu(517) -> true
+I +34.418s Service 00001800-0000-1000-8000-00805f9b34fb (GENERIC ACCESS)
+I +34.419s   Char 00002a00-0000-1000-8000-00805f9b34fb props=[Read,]
+I +34.419s   Char 00002a01-0000-1000-8000-00805f9b34fb props=[Read,]
+I +34.419s   Char 00002a04-0000-1000-8000-00805f9b34fb props=[Read,]
+I +34.419s Service 00001801-0000-1000-8000-00805f9b34fb (GENERIC ATTRIBUTE)
+I +34.419s   Char 00002a05-0000-1000-8000-00805f9b34fb props=[Indicate,]
+I +34.419s Service 6c372000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +34.419s   Char 6c372001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write No Response]
+I +34.420s   Char 6c372002-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Notify,]
+I +34.420s   Char 6c372004-d2cc-11e4-9a1f-0002a5d5c51b props=[Read,]
+I +34.420s Service 6c371000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +34.420s   Char 6c371002-d2cc-11e4-9a1f-0002a5d5c51b props=[Notify,]
+I +34.420s   Char 6c371001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Write No Response]
+I +34.428s PHY read: tx=1M rx=1M status=GATT_SUCCESS
+I +34.435s MTU changed: 23  status=GATT_SUCCESS (0)
+I +43.511s onConnectionStateChange: status=GATT_SUCCESS (0), state=DISCONNECTED
+D +43.514s refreshDeviceCache -> true
+D +43.518s gatt.close()
+A +49.815s Connecting to Unknown (EB:46:D9:38:11:CB)
+I +51.412s onConnectionStateChange: status=GATT_SUCCESS (0), state=CONNECTED
+I +51.412s Connected
+V +51.414s Discovering services… (true)
+I +52.157s Services discovered (status 0)
+D +52.160s gatt.requestMtu(517) -> true
+I +52.160s Service 00001800-0000-1000-8000-00805f9b34fb (GENERIC ACCESS)
+I +52.160s   Char 00002a00-0000-1000-8000-00805f9b34fb props=[Read,]
+I +52.161s   Char 00002a01-0000-1000-8000-00805f9b34fb props=[Read,]
+I +52.161s   Char 00002a04-0000-1000-8000-00805f9b34fb props=[Read,]
+I +52.161s Service 00001801-0000-1000-8000-00805f9b34fb (GENERIC ATTRIBUTE)
+I +52.161s   Char 00002a05-0000-1000-8000-00805f9b34fb props=[Indicate,]
+I +52.161s Service 6c372000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +52.161s   Char 6c372001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write No Response]
+I +52.161s   Char 6c372002-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Notify,]
+I +52.161s   Char 6c372004-d2cc-11e4-9a1f-0002a5d5c51b props=[Read,]
+I +52.162s Service 6c371000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +52.162s   Char 6c371002-d2cc-11e4-9a1f-0002a5d5c51b props=[Notify,]
+I +52.162s   Char 6c371001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Write No Response]
+I +52.167s PHY read: tx=1M rx=1M status=GATT_SUCCESS
+I +52.179s MTU changed: 23  status=GATT_SUCCESS (0)
+I +61.387s onConnectionStateChange: status=GATT_SUCCESS (0), state=DISCONNECTED
+D +61.388s refreshDeviceCache -> true
+D +61.390s gatt.close()
+A +86.069s Connecting to Unknown (EB:46:D9:38:11:CB)
+I +87.348s onConnectionStateChange: status=GATT_SUCCESS (0), state=CONNECTED
+I +87.348s Connected
+V +87.350s Discovering services… (true)
+I +88.088s Services discovered (status 0)
+D +88.092s gatt.requestMtu(517) -> true
+I +88.092s Service 00001800-0000-1000-8000-00805f9b34fb (GENERIC ACCESS)
+I +88.093s   Char 00002a00-0000-1000-8000-00805f9b34fb props=[Read,]
+I +88.094s   Char 00002a01-0000-1000-8000-00805f9b34fb props=[Read,]
+I +88.094s   Char 00002a04-0000-1000-8000-00805f9b34fb props=[Read,]
+I +88.095s Service 00001801-0000-1000-8000-00805f9b34fb (GENERIC ATTRIBUTE)
+I +88.096s   Char 00002a05-0000-1000-8000-00805f9b34fb props=[Indicate,]
+I +88.096s Service 6c372000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +88.096s   Char 6c372001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write No Response]
+I +88.096s   Char 6c372002-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Notify,]
+I +88.096s   Char 6c372004-d2cc-11e4-9a1f-0002a5d5c51b props=[Read,]
+I +88.096s Service 6c371000-d2cc-11e4-9a1f-0002a5d5c51b (CUSTOM SERVICE)
+I +88.096s   Char 6c371002-d2cc-11e4-9a1f-0002a5d5c51b props=[Notify,]
+I +88.097s   Char 6c371001-d2cc-11e4-9a1f-0002a5d5c51b props=[Write,Write No Response]
+I +88.103s PHY read: tx=1M rx=1M status=GATT_SUCCESS
+I +88.104s MTU changed: 23  status=GATT_SUCCESS (0)
+I +97.237s onConnectionStateChange: status=GATT_SUCCESS (0), state=DISCONNECTED
+D +97.241s refreshDeviceCache -> true
+D +97.245s gatt.close()

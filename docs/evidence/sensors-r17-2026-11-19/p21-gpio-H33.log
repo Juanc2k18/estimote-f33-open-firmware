@@ -1,0 +1,14 @@
+UICR verificada {'0x14': '0x74000', '0x200': '0xffffffff', '0x204': '0xffffffff', '0x208': '0xffffffff', '0x20c': '0xfffffffe'}
+
+    2 s · combinaciones SPI 0 · hallazgos 0
+    4 s · combinaciones SPI 0 · hallazgos 0
+    6 s · combinaciones SPI 0 · hallazgos 0
+    8 s · combinaciones SPI 0 · hallazgos 0
+   10 s · combinaciones SPI 0 · hallazgos 0
+   12 s · combinaciones SPI 0 · hallazgos 0
+   14 s · combinaciones SPI 0 · hallazgos 0
+core {'pc': '0x2000036a', 'xpsr': '0x21000000', 'sp': '0x2000ffb0'} CFSR 0x0 HFSR 0x0
+total 0 · finished
+UICR verificada {'0x14': '0x74000', '0x200': '0x15', '0x204': '0x15', '0x208': '0xffffffff', '0x20c': '0xfffffffe'}
+bootloader SHA256 before/after 589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc 589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc
+P0.21 restored as reset

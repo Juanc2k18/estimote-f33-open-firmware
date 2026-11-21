@@ -1,0 +1,48 @@
+{
+  "probe": "E660C0D1C75C942F",
+  "supply_input_owner_report": "C/F at 3.3 V; H/E3 disconnected",
+  "operations": [
+    {
+      "image": "firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r46.hex",
+      "sha256": "1b1988ddbc7444d220b4e54c1daab0e0b82d2e8ddc55642e6757ae120ebd6c0d",
+      "command": [
+        "pyocd",
+        "flash",
+        "-t",
+        "nrf52832",
+        "-u",
+        "E660C0D1C75C942F",
+        "-f",
+        "1000000",
+        "-O",
+        "auto_unlock=false",
+        "-e",
+        "chip",
+        "firmware/adafruit-bootloader/estimote_f33_bootloader-0.11.0_s132_6.1.1-r46.hex"
+      ],
+      "returncode": 0,
+      "elapsed_s": 4.191
+    },
+    {
+      "image": "firmware/ble-sensors/release/f33-ble-sensors-1.0.0.hex",
+      "sha256": "26469daa5f3896900c521b5fcf9b11f9131f35baa50cea1eeb0b23f31e727d14",
+      "command": [
+        "pyocd",
+        "flash",
+        "-t",
+        "nrf52832",
+        "-u",
+        "E660C0D1C75C942F",
+        "-f",
+        "1000000",
+        "-O",
+        "auto_unlock=false",
+        "-e",
+        "sector",
+        "firmware/ble-sensors/release/f33-ble-sensors-1.0.0.hex"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.931
+    }
+  ]
+}

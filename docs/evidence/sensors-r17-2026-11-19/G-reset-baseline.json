@@ -1,0 +1,10 @@
+{
+  "pc": "0x75102",
+  "pselreset": [
+    "0x15",
+    "0x15"
+  ],
+  "resetreas_before": "0x0",
+  "resetreas_after_clear": "0x0",
+  "sentinel": "0x47323152"
+}

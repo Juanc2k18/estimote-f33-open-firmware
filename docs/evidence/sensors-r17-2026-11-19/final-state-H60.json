@@ -1,0 +1,12 @@
+{
+  "pc": "0x75102",
+  "part": "0x52832",
+  "bootloader_address": "0x74000",
+  "pselreset": [
+    "0x15",
+    "0x15"
+  ],
+  "approtect": "0xffffffff",
+  "nfcpins": "0xfffffffe",
+  "bootloader_sha256": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc"
+}

@@ -1,0 +1,6 @@
+{
+  "duration_seconds": 20,
+  "mode": "advertisement_scan_no_gatt_connection",
+  "total_advertisement_callbacks": 28,
+  "target_events": []
+}

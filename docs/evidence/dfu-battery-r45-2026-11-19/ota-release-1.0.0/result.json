@@ -1,0 +1,5 @@
+{
+ "tool": "ble_dfu",
+ "zip": "firmware/ble-sensores/release/f33-ble-sensores-1.0.0.zip",
+ "status": "ok"
+}

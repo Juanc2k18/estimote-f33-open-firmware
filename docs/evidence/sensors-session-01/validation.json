@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "duration_seconds": 123.3445,
+  "gpio_tested": 16,
+  "gpio_eligible": [
+    2,
+    8,
+    16,
+    18,
+    20,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "gpio_not_eligible": [
+    6,
+    7,
+    17
+  ],
+  "analog_sources": 7,
+  "vdd_mv": [
+    3170.21,
+    3174.61,
+    3171.97,
+    3173.73
+  ],
+  "i2c_pairs": 156,
+  "addresses": [
+    "0x18",
+    "0x19",
+    "0x29",
+    "0x39",
+    "0x50",
+    "0x68",
+    "0x76",
+    "0x77"
+  ],
+  "i2c_nacks": 1248,
+  "rtc_address_probes": 156,
+  "identifiers_found": 0,
+  "rtc_function_validated": false,
+  "spi_executed": false,
+  "closure": {
+    "kind": "closure",
+    "unchanged": true,
+    "hashes": {
+      "bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+      "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+    },
+    "bootloader": true,
+    "pc": 489980,
+    "cnf19": 0,
+    "errors": [],
+    "valid": true
+  },
+  "log_sha256": "e56a641641534ca88cb6ca56e81997bed1021e5f80b6d583c9b38e6e8fac9c05",
+  "summary_matches_raw": true
+}

@@ -1,0 +1,76 @@
+{
+  "mode": "advertisement_scan_no_gatt_connection",
+  "target_events": [
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -58,
+      "hex": "22bb6b7d16b94a4e26000df33e0047f82af28701"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -55,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -57,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -53,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -49,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -69,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "98864573-BACF-56A9-85C1-88958FA96AC9",
+      "rssi": -69,
+      "hex": "00bb6b7d16b94a4e265cb6b304024bd423946440"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -50,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c202"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -47,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -47,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -54,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c203"
+    },
+    {
+      "id": "1EFECAEF-655D-D8F8-CF40-BB95DC87DD0F",
+      "rssi": -48,
+      "hex": "11bb6b7d16b94a4e265cb6b304024bd423c201"
+    },
+    {
+      "id": "DD75C07D-F9F6-C8A8-415E-8820F04DF5EB",
+      "rssi": -61,
+      "hex": "22bb6b7d16b94a4e26010000004bb3c17e785d64"
+    }
+  ],
+  "battery_readings": [
+    {
+      "battery_mv": 5982,
+      "battery_percent": 100
+    }
+  ]
+}

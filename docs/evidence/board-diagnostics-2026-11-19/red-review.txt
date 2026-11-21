@@ -1,0 +1,124 @@
+test_active_cleanup_after_failure_keeps_irq_input (test_board_diagnostics.BoardTests) ... ok
+test_baseline_reads_gpio_without_writing_or_halting (test_board_diagnostics.BoardTests) ... ok
+test_cleanup_also_runs_when_preparation_fails (test_board_diagnostics.BoardTests) ... ok
+test_deadline_expires_as_incomplete (test_board_diagnostics.BoardTests) ... ok
+test_pin_selection_rejects_reserved_and_duplicates (test_board_diagnostics.BoardTests) ... ok
+test_uart_audit_detects_false_positive (test_board_diagnostics.BoardTests) ... ok
+test_rtc_bcd_and_rollover (test_board_diagnostics.ClassificationTests) ... ok
+test_rtc_stopped_and_invalid_not_identified (test_board_diagnostics.ClassificationTests) ... ok
+test_sensor_ids_require_repeated_matching_reads (test_board_diagnostics.ClassificationTests) ... ok
+test_nack_at_each_stage_returns_no_data (test_board_diagnostics.RegisterTests) ... ok
+test_register_repeated_start_and_final_nack (test_board_diagnostics.RegisterTests) ... ok
+test_stuck_bus_not_reported_as_nack (test_board_diagnostics.RegisterTests) ... ok
+test_adjacent_devices_can_reach_identification (test_board_diagnostics.ReviewRegressions) ... I2C 1/1 SDA2/SCL8: ACK ['0x18', '0x19']
+FAIL
+test_audit_rejects_empty_bad_tx_bad_ack_field_and_sequence_jump (test_board_diagnostics.ReviewRegressions) ... FAIL
+test_baseline_disconnect_does_not_force_resume (test_board_diagnostics.ReviewRegressions) ... ERROR
+test_cleanup_reset_attempted_even_if_hash_read_fails (test_board_diagnostics.ReviewRegressions) ... FAIL
+test_disconnected_input_is_not_a_physical_low (test_board_diagnostics.ReviewRegressions) ... FAIL
+test_gpio_records_neighbor_changes_during_od (test_board_diagnostics.ReviewRegressions) ... ERROR
+test_i2c_fault_is_not_a_complete_pair (test_board_diagnostics.ReviewRegressions) ... I2C 1/1 SDA2/SCL8: ACK []
+ERROR
+test_rtc_control_bits_are_not_bcd_or_reserved (test_board_diagnostics.ReviewRegressions) ... FAIL
+test_slow_rtc_transactions_use_observation_window (test_board_diagnostics.ReviewRegressions) ... ERROR
+test_spi_checks_mosi_before_command_clock (test_board_diagnostics.ReviewRegressions) ... FAIL
+test_spi_reads_id_in_both_modes (test_board_diagnostics.SPITests) ... ok
+test_stuck_clock_is_electrical_failure_not_zero_id (test_board_diagnostics.SPITests) ... ok
+
+======================================================================
+ERROR: test_baseline_disconnect_does_not_force_resume (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 252, in test_baseline_disconnect_does_not_force_resume
+    self.assertFalse(board.session_options('baseline',100000)['resume_on_disconnect'])
+AttributeError: module 'board_diagnostics' has no attribute 'session_options'
+
+======================================================================
+ERROR: test_gpio_records_neighbor_changes_during_od (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 249, in test_gpio_records_neighbor_changes_during_od
+    self.assertEqual(probe['od_low_raw']>>8&1,0)
+KeyError: 'od_low_raw'
+
+======================================================================
+ERROR: test_i2c_fault_is_not_a_complete_pair (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 282, in test_i2c_fault_is_not_a_complete_pair
+    self.assertEqual(next(e for e in events if e['kind']=='i2c_pair_incomplete')['unprobed'],[0x76])
+StopIteration
+
+======================================================================
+ERROR: test_slow_rtc_transactions_use_observation_window (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 217, in test_slow_rtc_transactions_use_observation_window
+    self.assertEqual(sensors.rtc_evidence(a,b,6,window=(2,6))['status'],'clock_advancing')
+TypeError: rtc_evidence() got an unexpected keyword argument 'window'
+
+======================================================================
+FAIL: test_adjacent_devices_can_reach_identification (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 293, in test_adjacent_devices_can_reach_identification
+    self.assertEqual(identified,[0x18,0x19])
+AssertionError: Lists differ: [] != [24, 25]
+
+Second list contains 2 additional elements.
+First extra element 0:
+24
+
+- []
++ [24, 25]
+
+======================================================================
+FAIL: test_audit_rejects_empty_bad_tx_bad_ack_field_and_sequence_jump (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 260, in test_audit_rejects_empty_bad_tx_bad_ack_field_and_sequence_jump
+    p.write_text('');self.assertFalse(board.audit_uart_log(p)['valid'])
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_cleanup_reset_attempted_even_if_hash_read_fails (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 229, in test_cleanup_reset_attempted_even_if_hash_read_fails
+    self.assertIn('reset',t.calls)
+AssertionError: 'reset' not found in ['halt', ('reg', 'pc', 536870912), ('reg', 'sp', 536936448), ('reg', 'xpsr', 16777216), 'resume', 'halt', 'resume']
+
+======================================================================
+FAIL: test_disconnected_input_is_not_a_physical_low (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 237, in test_disconnected_input_is_not_a_physical_low
+    self.assertIsNone(gpio['level']);self.assertEqual(gpio['raw_in_bit'],0)
+AssertionError: 0 is not None
+
+======================================================================
+FAIL: test_rtc_control_bits_are_not_bcd_or_reserved (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 213, in test_rtc_control_bits_are_not_bcd_or_reserved
+    self.assertEqual(sensors.rtc_evidence(first,second,1.1)['status'],'clock_advancing')
+AssertionError: 'invalid_clock_data' != 'clock_advancing'
+- invalid_clock_data
++ clock_advancing
+
+
+======================================================================
+FAIL: test_spi_checks_mosi_before_command_clock (test_board_diagnostics.ReviewRegressions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_board_diagnostics.py", line 271, in test_spi_checks_mosi_before_command_clock
+    self.assertEqual(r['status'],'mosi_not_level')
+AssertionError: 'ok' != 'mosi_not_level'
+- ok
++ mosi_not_level
+
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.059s
+
+FAILED (failures=6, errors=4)

@@ -1,0 +1,5 @@
+{
+ "tool": "uart_dfu",
+ "zip": "firmware/ble-sensores/build/f33-ble-sensores.zip",
+ "status": "error"
+}

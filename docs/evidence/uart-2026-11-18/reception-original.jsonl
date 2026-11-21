@@ -1,0 +1,14 @@
+{"time": "+0.000000s", "event": "opened", "port": "/dev/cu.usbserial-113120", "framing": "8N1", "transmitted_bytes": 0}
+{"time": "+0.000222s", "event": "listen_start", "baud": 115200, "seconds": 8}
+{"time": "+8.153636s", "event": "listen_end", "baud": 115200, "received_bytes": 0}
+{"time": "+8.157294s", "event": "listen_start", "baud": 9600, "seconds": 8}
+{"time": "+16.305642s", "event": "listen_end", "baud": 9600, "received_bytes": 0}
+{"time": "+16.308787s", "event": "listen_start", "baud": 57600, "seconds": 6}
+{"time": "+22.426105s", "event": "listen_end", "baud": 57600, "received_bytes": 0}
+{"time": "+22.430589s", "event": "listen_start", "baud": 38400, "seconds": 6}
+{"time": "+28.541941s", "event": "listen_end", "baud": 38400, "received_bytes": 0}
+{"time": "+28.543911s", "event": "listen_start", "baud": 19200, "seconds": 6}
+{"time": "+34.642816s", "event": "listen_end", "baud": 19200, "received_bytes": 0}
+{"time": "+34.645960s", "event": "listen_start", "baud": 230400, "seconds": 6}
+{"time": "+40.751303s", "event": "listen_end", "baud": 230400, "received_bytes": 0}
+{"time": "+40.753480s", "event": "closed", "transmitted_bytes": 0}

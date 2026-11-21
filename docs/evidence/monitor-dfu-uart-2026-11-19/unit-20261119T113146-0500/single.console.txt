@@ -1,0 +1,5 @@
+TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0 c0
++0.000000s seq=1 ack
+SUMMARY {"ack": 1, "attempts": 1}
+ENLACE UART OK

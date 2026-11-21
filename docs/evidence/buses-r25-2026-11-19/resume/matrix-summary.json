@@ -1,0 +1,437 @@
+[
+  {
+    "pin": 2,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 3,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 4,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 5,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      1,
+      1,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 6,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 7,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 8,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 9,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 10,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 11,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 12,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 13,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 14,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 15,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 16,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 17,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 18,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 19,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 20,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 22,
+    "can_low": true,
+    "can_high": false,
+    "pull_samples": [
+      0,
+      0,
+      0
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 23,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 24,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      1,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 25,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 26,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 27,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 28,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 29,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 30,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  },
+  {
+    "pin": 31,
+    "can_low": true,
+    "can_high": true,
+    "pull_samples": [
+      0,
+      0,
+      1
+    ],
+    "low_cnf": "0xd",
+    "released_cnf": "0xc",
+    "out_low": 0,
+    "dir_low": 1,
+    "dir_released": 0
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "closure": {
+    "unix": 1795075016.10961,
+    "kind": "closure",
+    "pc": "0x779fc",
+    "bootloader_running": true,
+    "radio_state": 0,
+    "resetpins": [
+      21,
+      21
+    ]
+  },
+  "hashes": {
+    "bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+    "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+  },
+  "unchanged": true,
+  "supply_report": "6 V H/F, C unpowered, G free; no new independent H/F measurement",
+  "saadc_vdd_mean_v": 1.99248046875,
+  "saadc_ain3_mean_v": 1.005029296875,
+  "uart": "E1/E2 disconnected per owner"
+}

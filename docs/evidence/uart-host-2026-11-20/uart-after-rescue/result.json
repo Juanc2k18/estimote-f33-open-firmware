@@ -1,0 +1,11 @@
+{
+  "tool": "uart_sensores",
+  "port": "/dev/cu.usbmodem21102",
+  "samples": 9,
+  "events": [
+    {
+      "kind": "not_json",
+      "line": "{\"seq\":1,\"acc_mg\":[28,332,980],\"{\"seq\":3,\"acc_mg\":[36,340,992],\"mag_mg\":[687,386,443],\"temp_cc\":3068,\"press_pa\":100604,\""
+    }
+  ]
+}

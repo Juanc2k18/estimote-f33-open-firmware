@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "counts": {
+    "parameters": 1,
+    "uart_audit": 1
+  },
+  "findings": [],
+  "limitation": "A NACK does not prove absence. Does not physically locate D or pins without continuity."
+}

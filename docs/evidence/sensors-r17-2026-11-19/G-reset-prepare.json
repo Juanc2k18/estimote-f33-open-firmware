@@ -1,0 +1,14 @@
+{
+  "mode": "prepare",
+  "pc_before": "0x779fc",
+  "resetreas": "0x0",
+  "pselreset": [
+    "0x15",
+    "0x15"
+  ],
+  "counter_samples": [
+    453915,
+    899473
+  ],
+  "pc_in_loop": "0x20000008"
+}

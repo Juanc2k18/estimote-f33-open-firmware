@@ -1,0 +1,79 @@
+{
+  "tool": "ble_scan_read",
+  "name": "AdaDFU",
+  "seconds": 10.0,
+  "note": "",
+  "found": true,
+  "mac_os_identifier": "077FA4B4-D2D4-8BA5-73A0-3F586AB9AD7E",
+  "advertisements": 82,
+  "rssi": {
+    "min": -69,
+    "median": -59.0,
+    "max": 127
+  },
+  "first_advertisement": {
+    "rssi": -64,
+    "tx_power": null,
+    "service_uuids": [
+      "00001530-1212-efde-1523-785feabcd123"
+    ],
+    "manufacturer_data": {}
+  },
+  "services": [
+    {
+      "uuid": "00001530-1212-efde-1523-785feabcd123",
+      "description": "Device Firmware Update Service",
+      "characteristics": [
+        {
+          "uuid": "00001532-1212-efde-1523-785feabcd123",
+          "properties": [
+            "write",
+            "write-without-response"
+          ]
+        },
+        {
+          "uuid": "00001531-1212-efde-1523-785feabcd123",
+          "properties": [
+            "write",
+            "notify"
+          ]
+        },
+        {
+          "uuid": "00001534-1212-efde-1523-785feabcd123",
+          "properties": [
+            "read"
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "0000180a-0000-1000-8000-00805f9b34fb",
+      "description": "Device Information",
+      "characteristics": [
+        {
+          "uuid": "00002a29-0000-1000-8000-00805f9b34fb",
+          "properties": [
+            "read"
+          ]
+        },
+        {
+          "uuid": "00002a24-0000-1000-8000-00805f9b34fb",
+          "properties": [
+            "read"
+          ]
+        },
+        {
+          "uuid": "00002a26-0000-1000-8000-00805f9b34fb",
+          "properties": [
+            "read"
+          ]
+        }
+      ]
+    }
+  ],
+  "dis": {
+    "manufacturer": "Estimote F3.3 (reutilizado)",
+    "model": "Estimote F3.3",
+    "firmware": "0.11.0 s132 6.1.1"
+  }
+}

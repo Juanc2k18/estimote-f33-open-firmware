@@ -1,0 +1,16 @@
+{
+  "unix": 1795075744.568167,
+  "owner_report": "E connected to physical pin 7 GP5/RX; E/F voltage not yet reported",
+  "pc": "0x750fe",
+  "p18_cnf": "0x2",
+  "p18_in": 0,
+  "traceportconfig": "0x0",
+  "pselreset": [
+    21,
+    21
+  ],
+  "hashes": [
+    "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+    "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+  ]
+}

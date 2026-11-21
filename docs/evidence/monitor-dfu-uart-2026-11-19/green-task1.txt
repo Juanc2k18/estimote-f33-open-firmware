@@ -1,0 +1,10 @@
+test_bad_frames_and_silence_fail (test_dfu_ping.CLITests) ... ok
+test_echo_is_not_ack (test_dfu_ping.CLITests) ... ok
+test_echo_then_ack (test_dfu_ping.CLITests) ... ok
+test_fragmented_ack (test_dfu_ping.CLITests) ... ok
+test_r15_ack_and_request (test_dfu_ping.CLITests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 12.199s
+
+OK

@@ -1,0 +1,27 @@
+test_ack_remains_confirmed_when_peer_disconnects (test_dfu_ping.ReviewRegressionTests) ... FAIL
+test_zero_baud_rejected_before_port_open (test_dfu_ping.ReviewRegressionTests) ... FAIL
+
+======================================================================
+FAIL: test_ack_remains_confirmed_when_peer_disconnects (test_dfu_ping.ReviewRegressionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 284, in test_ack_remains_confirmed_when_peer_disconnects
+    self.assertEqual(proc.returncode,0,out+err)
+AssertionError: 1 != 0 : TX c0 d1 4e 00 e1 7f 00 00 00 aa a8 c0
+RX c0 10 00 00 f0 c0
++0.000000s seq=1 access_error
+SUMMARY {"access_error": 1, "attempts": 1}
+
+
+======================================================================
+FAIL: test_zero_baud_rejected_before_port_open (test_dfu_ping.ReviewRegressionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_dfu_ping.py", line 271, in test_zero_baud_rejected_before_port_open
+    self.assertEqual(result.returncode,2)
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.160s
+
+FAILED (failures=2)

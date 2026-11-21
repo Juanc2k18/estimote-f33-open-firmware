@@ -1,0 +1,31 @@
+| GPIO | No pull / PD / PU | OD low | Recovers high | Selection for I²C r25 |
+| --- | --- | --- | --- | --- |
+| P0.02 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.03 | 0/0/0 | yes | no | not under this condition |
+| P0.04 | 0/0/0 | yes | no | not under this condition |
+| P0.05 | 1/1/0 | yes | no | not under this condition |
+| P0.06 | 0/0/0 | yes | no | not under this condition |
+| P0.07 | 0/0/0 | yes | no | not under this condition |
+| P0.08 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.09 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.10 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.11 | 0/0/0 | yes | no | not under this condition |
+| P0.12 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.13 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.14 | 0/0/0 | yes | no | not under this condition |
+| P0.15 | 0/0/0 | yes | no | not under this condition |
+| P0.16 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.17 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.18 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.19 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.20 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.22 | 0/0/0 | yes | no | not under this condition |
+| P0.23 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.24 | 1/0/1 | yes | yes | yes, pending pair validity |
+| P0.25 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.26 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.27 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.28 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.29 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.30 | 0/0/1 | yes | yes | yes, pending pair validity |
+| P0.31 | 0/0/1 | yes | yes | yes, pending pair validity |

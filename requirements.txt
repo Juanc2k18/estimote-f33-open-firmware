@@ -1,0 +1,7 @@
+# Python dependencies for the scripts (tested with Python 3 on macOS).
+# Install in a virtual environment:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+bleak==3.0.1                     # BLE: ble_sensors.py, ble_dfu.py, ble_scan_read.py
+adafruit-nrfutil==0.5.3.post16   # DFU packages and upload (uart_dfu.py, make zip)
+pyserial==3.5                    # required by adafruit-nrfutil
+pyocd==0.46.1                    # SWD with a Raspberry Pi Pico (debugprobe)
+pillow                           # only for the diagram/crop scripts

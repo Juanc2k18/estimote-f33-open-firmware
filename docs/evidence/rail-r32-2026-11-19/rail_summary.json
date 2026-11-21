@@ -1,0 +1,496 @@
+{
+  "topology": [
+    {
+      "kind": "rail_topology",
+      "idle_pull_down": {
+        "6": 0,
+        "7": 0,
+        "14": 0,
+        "15": 0
+      },
+      "rows": [
+        {
+          "driven": 6,
+          "others": {
+            "7": 1,
+            "14": 0,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 7,
+          "others": {
+            "6": 1,
+            "14": 0,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 14,
+          "others": {
+            "6": 1,
+            "7": 1,
+            "15": 0
+          },
+          "all_follow": false
+        },
+        {
+          "driven": 15,
+          "others": {
+            "6": 1,
+            "7": 1,
+            "14": 0
+          },
+          "all_follow": false
+        }
+      ],
+      "single_node": false,
+      "interpretation": "not a single node: the full rail is not switched on"
+    }
+  ],
+  "counter_control": [
+    {
+      "kind": "counter_control",
+      "pin": 19,
+      "toggles": 20,
+      "rising_edges": 0,
+      "valid": false
+    },
+    {
+      "kind": "counter_control",
+      "pin": 18,
+      "toggles": 20,
+      "rising_edges": 20,
+      "valid": true
+    }
+  ],
+  "lfclk": [],
+  "active_pins": [
+    {
+      "kind": "frequency",
+      "phase": "rail_off",
+      "pin": 17,
+      "rising_edges": 9,
+      "gate_s": 0.2541,
+      "hz_estimate": 35.4,
+      "level_before": 0
+    },
+    {
+      "kind": "frequency",
+      "phase": "rail_14",
+      "pin": 17,
+      "rising_edges": 9,
+      "gate_s": 0.2535,
+      "hz_estimate": 35.5,
+      "level_before": 0
+    },
+    {
+      "kind": "frequency",
+      "phase": "rail_15",
+      "pin": 10,
+      "rising_edges": 1,
+      "gate_s": 0.2554,
+      "hz_estimate": 3.9,
+      "level_before": 0
+    },
+    {
+      "kind": "frequency",
+      "phase": "rail_15",
+      "pin": 17,
+      "rising_edges": 9,
+      "gate_s": 0.2545,
+      "hz_estimate": 35.4,
+      "level_before": 0
+    },
+    {
+      "kind": "frequency",
+      "phase": "rail_67",
+      "pin": 17,
+      "rising_edges": 9,
+      "gate_s": 0.2545,
+      "hz_estimate": 35.4,
+      "level_before": 0
+    }
+  ],
+  "matrix_diff": [
+    {
+      "kind": "matrix_diff",
+      "phase": "rail_14",
+      "valid_off": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "valid_on": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "new_with_rail": [],
+      "lost_with_rail": [],
+      "pairs": 0
+    },
+    {
+      "kind": "matrix_diff",
+      "phase": "rail_15",
+      "valid_off": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "valid_on": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        17,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "new_with_rail": [
+        17
+      ],
+      "lost_with_rail": [],
+      "pairs": 30
+    },
+    {
+      "kind": "matrix_diff",
+      "phase": "rail_67",
+      "valid_off": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "valid_on": [
+        2,
+        8,
+        9,
+        10,
+        16,
+        18,
+        20,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "new_with_rail": [],
+      "lost_with_rail": [],
+      "pairs": 0
+    }
+  ],
+  "analog": [
+    {
+      "kind": "analog",
+      "phase": "rail_off",
+      "channels": [
+        {
+          "pin": 2,
+          "source": "AIN0",
+          "raw": 107,
+          "mv": 94.0
+        },
+        {
+          "pin": 3,
+          "source": "AIN1",
+          "raw": -5,
+          "mv": -4.4
+        },
+        {
+          "pin": 4,
+          "source": "AIN2",
+          "raw": -3,
+          "mv": -2.6
+        },
+        {
+          "pin": 5,
+          "source": "AIN3",
+          "raw": 536,
+          "mv": 471.1
+        },
+        {
+          "pin": 28,
+          "source": "AIN4",
+          "raw": 275,
+          "mv": 241.7
+        },
+        {
+          "pin": 29,
+          "source": "AIN5",
+          "raw": 138,
+          "mv": 121.3
+        },
+        {
+          "pin": 30,
+          "source": "AIN6",
+          "raw": 141,
+          "mv": 123.9
+        },
+        {
+          "pin": 31,
+          "source": "AIN7",
+          "raw": 226,
+          "mv": 198.6
+        },
+        {
+          "pin": null,
+          "source": "VDD",
+          "raw": 3575,
+          "mv": 3142.1
+        }
+      ]
+    },
+    {
+      "kind": "analog",
+      "phase": "rail_14",
+      "channels": [
+        {
+          "pin": 2,
+          "source": "AIN0",
+          "raw": 273,
+          "mv": 239.9
+        },
+        {
+          "pin": 3,
+          "source": "AIN1",
+          "raw": -5,
+          "mv": -4.4
+        },
+        {
+          "pin": 4,
+          "source": "AIN2",
+          "raw": -3,
+          "mv": -2.6
+        },
+        {
+          "pin": 5,
+          "source": "AIN3",
+          "raw": 539,
+          "mv": 473.7
+        },
+        {
+          "pin": 28,
+          "source": "AIN4",
+          "raw": 291,
+          "mv": 255.8
+        },
+        {
+          "pin": 29,
+          "source": "AIN5",
+          "raw": 120,
+          "mv": 105.5
+        },
+        {
+          "pin": 30,
+          "source": "AIN6",
+          "raw": 207,
+          "mv": 181.9
+        },
+        {
+          "pin": 31,
+          "source": "AIN7",
+          "raw": 187,
+          "mv": 164.4
+        },
+        {
+          "pin": null,
+          "source": "VDD",
+          "raw": 3580,
+          "mv": 3146.5
+        }
+      ]
+    },
+    {
+      "kind": "analog",
+      "phase": "rail_15",
+      "channels": [
+        {
+          "pin": 2,
+          "source": "AIN0",
+          "raw": 278,
+          "mv": 244.3
+        },
+        {
+          "pin": 3,
+          "source": "AIN1",
+          "raw": -5,
+          "mv": -4.4
+        },
+        {
+          "pin": 4,
+          "source": "AIN2",
+          "raw": 3,
+          "mv": 2.6
+        },
+        {
+          "pin": 5,
+          "source": "AIN3",
+          "raw": 536,
+          "mv": 471.1
+        },
+        {
+          "pin": 28,
+          "source": "AIN4",
+          "raw": 272,
+          "mv": 239.1
+        },
+        {
+          "pin": 29,
+          "source": "AIN5",
+          "raw": 138,
+          "mv": 121.3
+        },
+        {
+          "pin": 30,
+          "source": "AIN6",
+          "raw": 146,
+          "mv": 128.3
+        },
+        {
+          "pin": 31,
+          "source": "AIN7",
+          "raw": 211,
+          "mv": 185.4
+        },
+        {
+          "pin": null,
+          "source": "VDD",
+          "raw": 3559,
+          "mv": 3128.0
+        }
+      ]
+    },
+    {
+      "kind": "analog",
+      "phase": "rail_67",
+      "channels": [
+        {
+          "pin": 2,
+          "source": "AIN0",
+          "raw": 269,
+          "mv": 236.4
+        },
+        {
+          "pin": 3,
+          "source": "AIN1",
+          "raw": -5,
+          "mv": -4.4
+        },
+        {
+          "pin": 4,
+          "source": "AIN2",
+          "raw": -6,
+          "mv": -5.3
+        },
+        {
+          "pin": 5,
+          "source": "AIN3",
+          "raw": 534,
+          "mv": 469.3
+        },
+        {
+          "pin": 28,
+          "source": "AIN4",
+          "raw": 277,
+          "mv": 243.5
+        },
+        {
+          "pin": 29,
+          "source": "AIN5",
+          "raw": 99,
+          "mv": 87.0
+        },
+        {
+          "pin": 30,
+          "source": "AIN6",
+          "raw": 180,
+          "mv": 158.2
+        },
+        {
+          "pin": 31,
+          "source": "AIN7",
+          "raw": 168,
+          "mv": 147.7
+        },
+        {
+          "pin": null,
+          "source": "VDD",
+          "raw": 3531,
+          "mv": 3103.4
+        }
+      ]
+    }
+  ],
+  "i2c_ack": [],
+  "candidates": [],
+  "identification": [],
+  "errors": [
+    {
+      "kind": "error",
+      "error": "RuntimeError('I2C incomplete; check the log')"
+    }
+  ]
+}

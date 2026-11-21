@@ -1,0 +1,60 @@
+{
+  "advertisement_events": 106,
+  "unique_payloads": 12,
+  "rssi_range_dbm": [
+    -77,
+    -45
+  ],
+  "connections": [
+    {
+      "session": 1,
+      "seconds_after_services_ready": 8.853,
+      "reads": [
+        "0100"
+      ],
+      "notifications": 0
+    },
+    {
+      "session": 2,
+      "seconds_after_services_ready": 8.975,
+      "reads": [
+        "0100"
+      ],
+      "notifications": 0
+    },
+    {
+      "session": 3,
+      "seconds_after_services_ready": 8.978,
+      "reads": [
+        "0100"
+      ],
+      "notifications": 0
+    }
+  ],
+  "telemetry_ranges": {
+    "temperature_c": [
+      36.125,
+      37.8125
+    ],
+    "pressure_pa": [
+      100411.92578125,
+      100422.0859375
+    ],
+    "light_lux": [
+      322.56,
+      345.59999999999997
+    ],
+    "uptime_value": [
+      679,
+      855
+    ],
+    "battery_mv": [
+      316,
+      316
+    ],
+    "battery_percent": [
+      1,
+      1
+    ]
+  }
+}

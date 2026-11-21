@@ -1,0 +1,54 @@
+{"time": "+0.000000s", "monotonic": 679524.157274125, "session": null, "event": "run_start", "python": "3.12.12", "os": "macOS-27.2.1-arm64-arm-64bit", "bleak": "3.0.1"}
+{"time": "+0.000249s", "monotonic": 679524.157515208, "session": null, "event": "scan_start", "seconds": 5}
+{"time": "+5.065562s", "monotonic": 679529.222862541, "session": null, "event": "scan_end"}
+{"time": "+15.638848s", "monotonic": 679539.796104791, "session": 1, "event": "connect_request", "id": "98864573-BACF-56A9-85C1-88958FA96AC9"}
+{"time": "+18.106027s", "monotonic": 679542.2632725, "session": 1, "event": "connected_services_ready", "mtu": 23, "name": null, "elapsed_since_connect_request": 2.477290541981347}
+{"time": "+18.106492s", "monotonic": 679542.263719875, "session": 1, "event": "service", "uuid": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 12, "description": "Unknown"}
+{"time": "+18.106784s", "monotonic": 679542.264008916, "session": 1, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 13, "properties": ["write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+18.106919s", "monotonic": 679542.264143458, "session": 1, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 15, "properties": ["write", "notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 17, "description": "Client Characteristic Configuration"}]}
+{"time": "+18.107026s", "monotonic": 679542.264250125, "session": 1, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "properties": ["read"], "description": "Unknown", "descriptors": []}
+{"time": "+18.107129s", "monotonic": 679542.264352166, "session": 1, "event": "service", "uuid": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 20, "description": "Unknown"}
+{"time": "+18.107222s", "monotonic": 679542.264445125, "session": 1, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 21, "properties": ["notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 23, "description": "Client Characteristic Configuration"}]}
+{"time": "+18.107413s", "monotonic": 679542.264636416, "session": 1, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 24, "properties": ["write", "write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+18.166830s", "monotonic": 679542.324088541, "session": 1, "event": "read", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "hex": "0100", "length": 2}
+{"time": "+18.226218s", "monotonic": 679542.383461708, "session": 1, "event": "descriptor_read", "uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 17, "hex": "0000"}
+{"time": "+18.286167s", "monotonic": 679542.443420708, "session": 1, "event": "descriptor_read", "uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 23, "hex": "0000"}
+{"time": "+26.959179s", "monotonic": 679551.116394208, "session": 1, "event": "disconnected", "elapsed_since_connect_request": 11.330423792009242}
+{"time": "+26.959453s", "monotonic": 679551.116657083, "session": 1, "event": "session_end"}
+{"time": "+26.959543s", "monotonic": 679551.11674575, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+32.996989s", "monotonic": 679557.1542355, "session": null, "event": "scan_end"}
+{"time": "+41.164950s", "monotonic": 679565.322174333, "session": 2, "event": "connect_request", "id": "98864573-BACF-56A9-85C1-88958FA96AC9"}
+{"time": "+44.836682s", "monotonic": 679568.993882833, "session": 2, "event": "connected_services_ready", "mtu": 23, "name": "estimote", "elapsed_since_connect_request": 3.671818583039567}
+{"time": "+44.837979s", "monotonic": 679568.995165041, "session": 2, "event": "service", "uuid": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 12, "description": "Unknown"}
+{"time": "+44.838290s", "monotonic": 679568.995458708, "session": 2, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 13, "properties": ["write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+44.838448s", "monotonic": 679568.995610416, "session": 2, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 15, "properties": ["write", "notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 17, "description": "Client Characteristic Configuration"}]}
+{"time": "+44.838651s", "monotonic": 679568.995819083, "session": 2, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "properties": ["read"], "description": "Unknown", "descriptors": []}
+{"time": "+44.838796s", "monotonic": 679568.995958833, "session": 2, "event": "service", "uuid": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 20, "description": "Unknown"}
+{"time": "+44.838906s", "monotonic": 679568.9960675, "session": 2, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 21, "properties": ["notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 23, "description": "Client Characteristic Configuration"}]}
+{"time": "+44.839010s", "monotonic": 679568.996171, "session": 2, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 24, "properties": ["write", "write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+44.896605s", "monotonic": 679569.053809041, "session": 2, "event": "read", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "hex": "0100", "length": 2}
+{"time": "+44.956025s", "monotonic": 679569.113222416, "session": 2, "event": "subscribed", "uuid": "6c372002-d2cc-11e4-9a1f-0002a5d5c51b"}
+{"time": "+45.015969s", "monotonic": 679569.173167916, "session": 2, "event": "subscribed", "uuid": "6c371002-d2cc-11e4-9a1f-0002a5d5c51b"}
+{"time": "+53.811830s", "monotonic": 679577.969022875, "session": 2, "event": "disconnected", "elapsed_since_connect_request": 12.646947041037492}
+{"time": "+53.813088s", "monotonic": 679577.970287333, "session": 2, "event": "session_end"}
+{"time": "+53.813614s", "monotonic": 679577.970764125, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+59.862820s", "monotonic": 679584.019960791, "session": null, "event": "scan_end"}
+{"time": "+68.005893s", "monotonic": 679592.163040125, "session": 3, "event": "connect_request", "id": "98864573-BACF-56A9-85C1-88958FA96AC9"}
+{"time": "+70.366755s", "monotonic": 679594.52391025, "session": 3, "event": "connected_services_ready", "mtu": 23, "name": "estimote", "elapsed_since_connect_request": 2.360927416011691}
+{"time": "+70.369552s", "monotonic": 679594.5266725, "session": 3, "event": "service", "uuid": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 12, "description": "Unknown"}
+{"time": "+70.369981s", "monotonic": 679594.527096291, "session": 3, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 13, "properties": ["write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+70.370352s", "monotonic": 679594.527488541, "session": 3, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 15, "properties": ["write", "notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 17, "description": "Client Characteristic Configuration"}]}
+{"time": "+70.370777s", "monotonic": 679594.527895958, "session": 3, "event": "characteristic", "service": "6c372000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "properties": ["read"], "description": "Unknown", "descriptors": []}
+{"time": "+70.371117s", "monotonic": 679594.528232125, "session": 3, "event": "service", "uuid": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 20, "description": "Unknown"}
+{"time": "+70.371378s", "monotonic": 679594.528485791, "session": 3, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371002-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 21, "properties": ["notify"], "description": "Unknown", "descriptors": [{"uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 23, "description": "Client Characteristic Configuration"}]}
+{"time": "+70.371581s", "monotonic": 679594.528687125, "session": 3, "event": "characteristic", "service": "6c371000-d2cc-11e4-9a1f-0002a5d5c51b", "uuid": "6c371001-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 24, "properties": ["write", "write-without-response"], "description": "Unknown", "descriptors": []}
+{"time": "+70.426747s", "monotonic": 679594.583891291, "session": 3, "event": "read", "uuid": "6c372004-d2cc-11e4-9a1f-0002a5d5c51b", "handle": 18, "hex": "0100", "length": 2}
+{"time": "+70.487090s", "monotonic": 679594.644215583, "session": 3, "event": "descriptor_read", "uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 17, "hex": "0000"}
+{"time": "+70.546937s", "monotonic": 679594.704086208, "session": 3, "event": "descriptor_read", "uuid": "00002902-0000-1000-8000-00805f9b34fb", "handle": 23, "hex": "0000"}
+{"time": "+79.344787s", "monotonic": 679603.501916125, "session": 3, "event": "disconnected", "elapsed_since_connect_request": 11.338936249958351}
+{"time": "+79.345890s", "monotonic": 679603.502986083, "session": 3, "event": "session_end"}
+{"time": "+79.346211s", "monotonic": 679603.503302791, "session": null, "event": "scan_start", "seconds": 6}
+{"time": "+85.401268s", "monotonic": 679609.558389958, "session": null, "event": "scan_end"}
+{"time": "+85.402223s", "monotonic": 679609.559303, "session": null, "event": "scan_start", "seconds": 30}
+{"time": "+115.456091s", "monotonic": 679639.613162041, "session": null, "event": "scan_end"}
+{"time": "+115.457329s", "monotonic": 679639.614354833, "session": null, "event": "run_end"}

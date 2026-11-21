@@ -1,0 +1,56 @@
+{
+  "software": {
+    "python_tests": 47,
+    "new_tests": 26,
+    "failures": 0,
+    "c_test_exit": 0
+  },
+  "uart_audit": {
+    "kind": "uart_audit",
+    "path": "docs/evidence/monitor-dfu-uart-2026-11-19/beacon-live.jsonl",
+    "attempts": 349,
+    "counts": {
+      "ack": 344,
+      "resync": 5
+    },
+    "duration_seconds": 1767.905391,
+    "invalid_ack_lines": [],
+    "parse_errors": [],
+    "issues": [],
+    "valid": true
+  },
+  "hardware": {
+    "status": "incomplete",
+    "gpio_probes": 16,
+    "i2c_pairs": 24,
+    "electrical_valid_counts": {
+      "true": 23,
+      "false": 1
+    },
+    "i2c_transaction_results": {
+      "nack": 176,
+      "clock_not_high": 1
+    },
+    "new_devices_identified": 0,
+    "closure": {
+      "kind": "closure",
+      "unchanged": true,
+      "hashes": {
+        "bootloader": "589c61bd3a2cbecdf8aaa765991510c9dca5f1a279c7b8d85877321f049fcedc",
+        "uicr": "82ea7e308fcc09c6dd9dee4d9686e9e261f4848d49d6c540f9b1ea670dbc7ad7"
+      },
+      "bootloader": true,
+      "pc": 479498,
+      "cnf19": 0,
+      "errors": [],
+      "valid": true
+    },
+    "post_uart_ack": true,
+    "spi": "not run: pins untraced"
+  },
+  "review": {
+    "independent": true,
+    "important_findings_addressed": true,
+    "remaining_software_issues": []
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "source": "~/Downloads/IMG_0569.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0569.HEIC",
+    "sha256": "e546ba94a98fc58beb5de2b895181ac9e28f5e265388e4aebe7478e01c1eceb0",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0569.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0570.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0570.HEIC",
+    "sha256": "9001c07394d87e23364d8f7babb74796f4d76a0c369c68cf92b4d2dc09199fa0",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0570.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0571.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0571.HEIC",
+    "sha256": "eb97fdf68c765389f7b48f88f1c6430a8c3ee7253b21173544e6e9098d76c737",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0571.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0572.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0572.HEIC",
+    "sha256": "e2c92c26c86fb786d70273bd363289e29e7226cc9e9dd0e05c891934449caa45",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0572.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0573.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0573.HEIC",
+    "sha256": "b43fa7401c24f3766feaba6a04c2bc83555378975bb421fd6c7c2d6ce1e2da73",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0573.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0574.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0574.HEIC",
+    "sha256": "b697a95691efa063910f88c8fb77d683336c8b6464417238c2b10b9bf1f5a7b2",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0574.png"
+  },
+  {
+    "source": "~/Downloads/IMG_0575.HEIC",
+    "original": "docs/evidence/fotos-unidad-r28-2026-11-19/originales/IMG_0575.HEIC",
+    "sha256": "43630b956eee0c8f23297bfb536c56a48a61f6ee40f6b6b3bbe3df39014777e3",
+    "consultation_png": "docs/evidence/fotos-unidad-r28-2026-11-19/consulta/IMG_0575.png"
+  }
+]

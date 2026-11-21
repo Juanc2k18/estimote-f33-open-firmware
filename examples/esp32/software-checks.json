@@ -1,0 +1,87 @@
+{
+  "validation_year": 2026,
+  "arduino_cli": "1.6.0",
+  "arduino_esp32_core": "3.3.10",
+  "hardware_tested": true,
+  "owner_board_model": "ESP32 DevKit V1 (owner report)",
+  "compilation": [
+    {
+      "fqbn": "esp32:esp32:esp32",
+      "sketch": "f33_uart_reader",
+      "sketch_bytes": 281444,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32",
+      "sketch": "f33_ble_reader",
+      "sketch_bytes": 1099107,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32s3",
+      "sketch": "f33_uart_reader",
+      "sketch_bytes": 285883,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32s3",
+      "sketch": "f33_ble_reader",
+      "sketch_bytes": 592544,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32c3",
+      "sketch": "f33_uart_reader",
+      "sketch_bytes": 274638,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32c3",
+      "sketch": "f33_ble_reader",
+      "sketch_bytes": 615841,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+      "sketch": "f33_uart_reader",
+      "sketch_bytes": 281476,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    },
+    {
+      "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+      "sketch": "f33_ble_reader",
+      "sketch_bytes": 1099139,
+      "maximum_bytes": 1310720,
+      "compile_passed": true
+    }
+  ],
+  "native_decoder_tests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "repository_suite": {
+    "total": 96,
+    "passed": 96,
+    "skipped": 0,
+    "failed": 0
+  },
+  "independent_review": "no important findings",
+  "hardware_validation": {
+    "board": "ESP32 DevKit V1 (owner report)",
+    "observed_ide_profile": "ESP32 Dev Module",
+    "scope": [
+      "UART sensor JSON reception",
+      "BLE discovery, connection and GATT sensor reads"
+    ],
+    "basis": "owner report and screenshots",
+    "record": "../../docs/evidence/esp32-readers-2026/README.md",
+    "s3_c3_hardware_tested": false
+  }
+}
